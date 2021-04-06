@@ -1,0 +1,181 @@
+body{
+    /* background-color:grey; */
+    overflow-x:hidden
+}
+
+.logo-img{
+    position: absolute;
+    width: 196px;
+    height: 46px;
+    left: 223px;
+    top: 82px;
+
+}
+
+.main-page-img{
+    background-image: url('images/main-page.svg');
+    position: absolute;
+    width: 1580px;
+    height: 800px;
+    left: 0px;
+    top: -45px;
+    background-image: url("images/main-page.svg");
+/* background: "linear-gradient(180deg, rgba(255, 255, 255, 0.5) 0%, rgba(255, 255, 255, 0) 100%), url(tom-claes-1M7_12ynKG8-unsplash (1).jpg)"; */
+}
+.printing-info{
+    position: absolute;
+    width: 500px;
+    height: 100px;
+    left: 223px;
+    top: 653px;
+
+    font-family: Century Gothic;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 29px;
+    letter-spacing: 0.065em;
+
+    color: #000000;
+}
+
+.download-profile{
+    position: absolute;
+    width: 300px;
+    height: 30px;
+    left: 20px;
+    /* top: 775px; */
+
+    font-family: Century Gothic;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    /* identical to box height */
+    border-radius: 50px;
+    text-align: center;
+    letter-spacing: 0.065em;
+    background-color: aqua;
+    color: blue;
+}
+
+
+.inner-main{
+    position: absolute;
+    width: 701px;
+    height: 502px;
+    left: 224px;
+    top: 293px;
+    
+    font-family: Impact;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 70px;
+    line-height: 85px;
+    letter-spacing: 0.065em;
+    
+    color: #FFFFFF;
+    
+}
+
+.second-section{
+    position: absolute;
+    width: 586px;
+    height: 78px;
+    left: 550px;
+    top: 900px;
+    
+    font-family: Century Gothic;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 64px;
+    line-height: 78px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.065em;
+    margin:auto;
+    color: #000000;
+}
+
+.sect-1{
+    position: absolute;
+    width: 600px;
+    height: 389px;
+    left: 100px;
+    top: 1464px;
+    right:100px;
+    /* margin:auto; */
+    background: #45619F;
+    border-radius: 30px 0px 0px 0px;
+}
+.sect-2{
+     background-image: url(images/sect-2.svg);   
+    position: absolute;
+    width: 600px;
+    height: 389px;
+    left: 700px;
+    top: 1464px;
+    right:300px;
+    /* margin:auto */
+}
+.sect-3{
+     background-image: url(images/sect-3.svg);   
+    position: absolute;
+    width: 600px;
+    height: 388px;
+    left: 100px;
+    top: 1853px;
+    /* margin:auto; */
+    right:100px
+
+
+}
+.sect-4{
+    position: absolute;
+    width: 600px;
+    height: 388px;
+    left: 700px;
+    top: 1853px;
+    right:100px;
+    background: #242527;
+    border-radius: 0px 0px 30px 0px;
+    /* margin:auto */
+
+        
+}
+.sect-1a{
+    position: absolute;
+    width: 553px;
+    height: 98px;
+    left: 316px;
+    top: 1597px;
+
+    font-family: Century Gothic;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: justify;
+    letter-spacing: 0.065em;
+
+    color: #FFFFFF;
+}
+
+.sect-4a{
+    position: absolute;
+    width: 578px;
+    height: 157px;
+    left: 1041px;
+    top: 1968px;
+
+    font-family: Century Gothic;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: justify;
+    letter-spacing: 0.065em;
+
+    color: #FFFFFF;
+}
