@@ -1,262 +1,126 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     <title>SimpliForge</title>
-    <!-- <style>
-      html, body { margin:0; padding:0; overflow:hidden }
-      svg { position:fixed; top:0; left:0; height:100%; width:100% }
-    </style> -->
-    <link rel="stylesheet" href="index.css" />
-    <!-- <script src="index.js"></script> -->
-</head>
-<body>   
-      <!-- <div class=""> -->
-        <!--NAVBAR-->
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-          <a class="navbar-brand" href="#">Navbar</a>
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-        
-          <div class="collapse navbar-collapse " id="navbarSupportedContent">
-            <ul class="navbar-nav ml-auto">
-              <li class="nav-item active">
-                <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Link</a>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                  Dropdown
-                </a>
-                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <a class="dropdown-item" href="#">Action</a>
-                  <a class="dropdown-item" href="#">Another action</a>
-                  <div class="dropdown-divider"></div>
-                  <a class="dropdown-item" href="#">Something else here</a>
-                </div>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-              </li>
-            </ul>
-          </div>
-        </nav>
-        
-        <div class="container-fluid">
-          <div class="row">
-            <div class=" col-lg-12 col-md-9 col-9 ">
-              <div class="bg-img img-thumbnail">
-                <!-- <div class="row"> -->
-                  <div class="col mt-5 ml-5 mb-5">
-                    <img src="images/logo.svg" />
-                  </div>
-                    <div class="col mt-5 display-4 w-50 ml-5 text-white font-weight-bold">
-                      ONE STOP PROTOTYPING AND MANUFACTURING SOLUTIONS
-                    </div>
-                  <div class="col mt-5 ml-5 mb-5 w-50 ">
-                    <h4>“3D Printing is the future, 
-                      we are just getting started.”</h4>
-                  </div>
-                  <div class="col mt-5 ml-5 mb-5 w-50 btn btn-info">
-                    DOWNLOAD COMPANY PROFILE  
-                  </div>
-                <!-- </div> -->
-              </div>
-            </div>
-          </div>
-        </div>
-        <br />
-        <br />
-        <br />
-        <div class="container">
-          <div class="col mt-5 display-3  text-center">
-              WHO WE ARE
-          </div>
-          <div class="row mt-5">
-            <div class="col">
-              <div class="row">
-                <div class="bg-info col col-8 col-sm-10 col-md-10 col-lg-6 col-xl-6">
-                  Simpliforge solutions takes pride in its services as a one stop, end-to-end low volume prototyping and manufacturing solution for products spanning over the FMCG sector to niche domains such as dentistry, prosthetics, jewelry, construction and so on.
-                </div>
-                <div class="col col-8 col-sm-10 col-md-10 col-lg-6 col-xl-6">
-                  <img src="images/sect-2.svg" class="img-thumbnail"/>
-                </div>
-              </div>
-              <div class="row">
-                <div class="col col-8 col-sm-10 col-md-10 col-lg-6 col-xl-6">
-                <img src="images/sect-3.svg" class="img-thumbnail" />
-                </div>
-                <div class="col col-8 col-sm-10 col-md-10 col-lg-6 col-xl-6 bg-secondary">
-                  Powered by partnerships with manufacturing domain experts, localized production facilities and international design experts, Simpliforge delivers services to the best-of-the-market quality within the domain. Employing principles of concurrent engineering, Simpliforge works with the client in real-time to ensure accuracy and transparency in the production.
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
+    <link rel="stylesheet" href="main-page.css" />
+  </head>
+  <body>
+    <!--NAVBAR-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <img class="img-fluid" src="/images/logo.svg" />
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
 
-        <div class="container mt-5">
-          <div class="text-center mt-5 display-3">
-            WHAT DO WE DO
-          </div>
-          <div class="row">
-              <div class="col">
-                <div class="row">
-                  <div class="col">              
-                    <img src="images/sect-3.1.svg" />
-                  </div>
-                  <div class="col">           
-                    <img src="images/sect-3.2.svg" />
-                  </div>
-                  <div class="col">
-                    <img src="images/sect-3.3.svg" />
-                  </div>
-                </div>
-                <div class="row">
-                  <div class="col">
-                    <img src="images/sect-3.4.svg" />
-                  </div>
-                  <div class="col">
-                    <img src="images/sect-3.5.svg" />
-                  </div>
-                  <div class="col">
-                    <img src="images/sect-3.6.svg" />
-                  </div>
-                </div>
-                <div class="row">
-                  <div class="col">
-                    <img src="images/sect-3.7.svg" />
-                  </div>
-                  <div class="col">   
-                    <img src="images/sect-3.8.svg" />
-                  </div>
-                  <div class="col">
-                    <img src="images/sect-3.9.svg" />
-                  </div>
-                </div>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#"
+              >Home <span class="sr-only">(current)</span></a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Link</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a
+              class="nav-link dropdown-toggle"
+              href="#"
+              id="navbarDropdown"
+              role="button"
+              data-toggle="dropdown"
+              aria-haspopup="true"
+              aria-expanded="false"
+            >
+              Dropdown
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#">Action</a>
+              <a class="dropdown-item" href="#">Another action</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">Something else here</a>
             </div>
-            <div class="col">
-              <div class="col">
-                <div class="btn btn-info">SERVICES</div>
-              </div>  
-              <div class="col">
-                  <div class="btn btn-info">DOMAINS</div>
-              </div>
-              <div class="col">
-                  <div class="btn btn-info">BUILD</div>
-              </div>
+          </li>
+          <li class="nav-item">
+            <a
+              class="nav-link disabled"
+              href="#"
+              tabindex="-1"
+              aria-disabled="true"
+              >Disabled</a
+            >
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <div class="container-fluid">
+      <img class="img-fluid" src="/images/main-page.svg" />
+    </div>
+
+    <div class="container">
+      <div class="col mt-5 display-4 mb-4 text-center">WHO WE ARE</div>
+      <div class="row h-100">
+        <div class="col-lg-6 col-12 p-5 bg-blue-color text-white d-flex align-items-center justify-content-center">Simpliforge solutions takes pride in its services as a one stop, end-to-end low volume prototyping and manufacturing solution for products spanning over the FMCG sector to niche domains such as dentistry, prosthetics, jewelry, construction and so on.</div>
+        <div class="col-lg-6 col-12  bg-secondary"><img src="images/sect-2.svg" class="img-fluid" /></div>
+        <div class="col-lg-6 col-12 bg-secondary"><img src="images/sect-3.svg" class="img-fluid" /></div>
+        <div class="col-lg-6 col-12 p-5 bg-dark text-white d-flex align-items-center justify-content-center">Powered by partnerships with manufacturing domain experts, localized production facilities and international design experts, Simpliforge delivers services to the best-of-the-market quality within the domain. Employing principles of concurrent engineering, Simpliforge works with the client in real-time to ensure accuracy and transparency in the production.</div>
+      </div>
+    </div>
+
+    <div class="container mt-5">
+      <div class="text-center mt-5 h2">WHAT DO WE DO</div>
+      <div class="row">
+        <div class="col-lg-8 col-12">
+          <img src="images/what_we_do.svg" class="img-fluid" />
+        </div>
+        <div class="col-lg-4 col-12 text-center">
+          <div class="row">
+            <div class="col-lg-12 col-4 p-5">
+              <a type="button" class="btn btn-primary shadow">Services</a>
+            </div>
+            <div class="col-lg-12 col-4 p-5">
+              <a type="button" class="btn btn-primary shadow">Domains</a>
+            </div>
+            <div class="col-lg-12 col-4 p-5">
+              <a type="button" class="btn btn-primary shadow-lg">Build</a>
             </div>
           </div>
         </div>
-        <div class="container mt-5 mb-3 p-3">
-          <div class="text-center mt-5 display-3 mb-3">
-            OUR CLIENTELE
-          </div>
-          <div class="container">
-            <div class="row">
-              <div class="row">
-                <div class="col-lg-6 col-xl-6 col-md-6 col-sm-12  col-12 font-weight-bold">GOVERNMNET AND DEFENCE</div>
-                <div class="col-lg-6 col-xl-6 col-md-6 col-sm-12  col-12 font-weight-bold">MARKETING AND BRANDING</div>
-              </div>
-              <div class="row">
-                <div class="col-lg-6 col-xl-6 col-md-6 col-sm-12  col-12 font-weight-bold">PRODUCT DEVELOPMENT, PROTOTYPING AND DIE DESIGN</div> 
-              </div>
-              <div class="row">
-                <div class="col-lg-6 col-xl-6 col-md-6 col-sm-12  col-12 font-weight-bold">ACADEMIC INSTITUTIONS</div>
-                <div class="col-lg-6 col-xl-6 col-md-6 col-sm-12  col-12 font-weight-bold">ANIMATION, FILMMAKING AND DIGITAL MEDIA</div>
-                <div class="col-lg-6 col-xl-6 col-md-6 col-sm-12  col-12 font-weight-bold">JEWELRY DESIGN AND CASTING</div>
-              </div>
-              <div class="row">
-                <div class="col-lg-6 col-xl-6 col-md-6 col-sm-12  col-12 font-weight-bold">ASSOCIATIONS</div>
-              </div>
-            </div>
-          </div>
-        
+      </div>
+    </div>
+    <div class="container-fluid mt-4">
+      <img src="images/clientele.svg" class="img-fluid" />      
+    </div>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-lg-6 col-12">
+          Email us at : contact@simpliforge.com
+          Phone: +91 8369175977
+          Mumbai:
+          #7021, 1 Aerocity Near MTNL Office,
+          Saki Naka, Andheri East, Mumbai – 400 072
         </div>
-        <div class="footer container"> 
-          <div class="row">
-            <div class="col">
-              <div class="row"> 
-                <div class="col">
-                  <img src="images/logo.svg" />
-                </div>
-                <div class="col">
-                  Email us at : <a href="mailto:contact@simpliforge.com" ></a>
-                </div>
-                <div class="col">
-                  Phone: +91 8369175977
-                </div>
-                <div class="col">
-                  <pre>
-                    <address>
-                        Mumbai:
-                          #7021, 1 Aerocity Near MTNL Office,
-                          Saki Naka, Andheri East, Mumbai – 400 072
-                    </address>
-                  </pre>
-                </div>
-              </div>
-            </div>
-            <div class="col">
-              <div class="row">
-                <div class="col">
-                  <div class="row">
-                    <div class="col">HOME</div>
-                    <div class="col">SERVICES</div>
-                    <div class="col">DOMAINS</div>
-                    <div class="col">BUILD</div>
-                    <div class="col">SUSTAINABILITY</div>
-                    <div class="col">CONTACT US</div>
-                  </div>
-                </div>
-                <div class="col">
-                  <div class="col">
-                    FOLLOW US ON
-                  </div>
-                  <div class="row">
-                    <div class="col">
-                      <img src="images/insta.svg" />
-                    </div>
-                    <div class="col">
-                      <img src="images/twitter.svg" />
-                    </div>
-                    <div class="col">
-                      <img src="images/facebook.svg" />
-                    </div>
-                    <div class="col">
-                      <img src="images/linkedin.svg" />
-                    </div>
-                    <div class="col">
-                      <img src="images/youtube.svg" />
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="container">
-          <div class="row">
-            <div class="col"></div>
-            <div class="col"></div>
-            <div class="col"></div>
-            <div class="col"></div>
-          </div>
-          <div class="row">
-            <div class="col"></div>
-            <div class="col"></div>
-            <div class="col"></div>
-            <div class="col"></div>
-          </div>
-        </div>
-      
-</body>
+      </div>
+    </div>
+
+  </body>
 </html>
