@@ -9,8 +9,21 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     <title>Services</title>
+    <style>
+        .custom-img{
+            height: 130vh;
+            background-image: url("images/service.svg");
+          }
+          
+          @media only screen and (max-width: 990px){
+            .custom-img{
+              height: 400vh;
+              background-image: url("images/contact.svg");
+            }
+          }
+    </style>
 </head>
-<body>
+<div>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <img class="img-fluid" src="images/logo.svg" />
         <button
@@ -50,7 +63,12 @@
           </ul>
         </div>
       </nav>
-      <div class="container">
+
+      <div class="container-fluid" >
+        <img src="images/services.svg" class="img-fluid custom-img"/>
+      </div>
+      <div class="container-fluid card-img-overlay"  >
+      <div class="container ">
           <div class="col mt-5 display-4 mb-4 ">
               SERVICES
           </div>
@@ -58,7 +76,7 @@
                 Powered by partnerships with manufacturing domain experts, localized production facilities and international design experts, Simpliforge delivers services to the best-of-the-market quality within the domain. Employing principles of concurrent engineering, Simpliforge works with the client in real-time to ensure accuracy and transparency in the production.
           </div>     
       </div>
-      <div class="container-fluid  mt-5">
+      <div class="container-fluid  mt-5 ">
         <div class="row mt-5 ">
             <div class="col-xl-3 col-lg-2 col-md-6 col-sm-6 col-xs-12 col-12 mt-5 mb-5">
                 <div class="container">
@@ -141,6 +159,7 @@
             <br />
             <br />
         </div>
+      </div>
       </div>
       <div class="container-fluid">
         
