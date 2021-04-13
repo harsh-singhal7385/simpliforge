@@ -12,7 +12,38 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     <title>SimpliForge</title>
-    <link rel="stylesheet" href="main-page.css" />
+    <style>
+      body{
+        overflow-x:hidden
+    }
+    
+    .bg-blue-color {
+        background: #45619F;
+    }
+    .custom-button{
+      padding-top: 550px;
+      padding-left: 50px;
+    }
+    
+    @media only screen and (max-width: 930px){
+      .custom-button{
+        padding-top: 200px;
+        padding-left: 10px;
+      }
+    }
+    @media only screen and (max-width: 990px){
+      .custom-button{
+        padding-top: 350px;
+        padding-left: 20px;
+      }
+    }
+    @media only screen and (max-width: 900px){
+      .custom-button{
+        display: none;
+      }
+    }
+    
+    </style>
   </head>
   <body>
     <!--NAVBAR-->
@@ -75,6 +106,13 @@
     <div class="container-fluid">
       <img class="img-fluid override" src="images/main-page.svg" />
     </div>
+    <div class="container-fluid card-img-overlay"  >
+      <div class="container mt-5 mb-5 custom-button">
+        <button type="button" class="btn btn-primary ">
+          DOWNLOAD COMPANY PROFILE
+        </button>
+      </div>
+    </div>
 
     <div class="container">
       <div class="col mt-5 display-4 mb-4 text-center">WHO WE ARE</div>
@@ -101,7 +139,7 @@
               <a type="button" class="btn btn-primary shadow">Domains</a>
             </div>
             <div class="col-lg-12 col-4 p-5">
-              <a type="button" class="btn btn-primary shadow-lg">Build</a>
+              <a type="button" class="btn btn-primary shadow">Build</a>
             </div>
           </div>
         </div>
