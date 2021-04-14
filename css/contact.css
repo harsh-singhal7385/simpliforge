@@ -1,0 +1,11 @@
+.custom-img{
+    height: 130vh;
+    background-image: url("../images/contact.svg");
+  }
+  
+  @media only screen and (max-width: 990px){
+    .custom-img{
+      height: 200vh;
+      background-image: url("../images/contact.svg");
+    }
+  }
