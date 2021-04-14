@@ -1,0 +1,75 @@
+body{
+    overflow-x:hidden
+}
+
+.bg-blue-color {
+    background: #45619F;
+}
+.custom-button{
+ /*  padding-top: 550px;
+ padding-left: 50px;*/
+  position: absolute;
+  top:80vh;
+  left:10vw;
+}
+
+@media only screen and (max-width: 1000px){
+  .custom-button{
+  position: absolute;
+  top: 24rem;;
+  left:5vw;
+  }
+}
+@media only screen and (max-width: 900px){
+  .custom-button{
+  position: absolute;
+  top: 22rem;;
+  left:5vw;
+  }
+} 
+
+@media only screen and (max-width: 800px){
+  .custom-button{
+  position: absolute;
+  top: 20rem;;
+  left:5vw;
+  }
+}
+@media only screen and (max-width: 700px){
+  .custom-button{
+  position: absolute;
+  top: 17rem;;
+  left:3vw;
+  }
+}
+@media only screen and (max-width: 600px){
+  .custom-button{
+  position: absolute;
+  top:14rem;
+  left:1vw;
+  }
+}
+
+@media only screen and (max-width: 500px){
+  .custom-button{
+  position: absolute;
+  top:12rem;
+  left:1vw;
+  }
+}
+@media only screen and (max-width: 400px){
+  .custom-button{
+  position: absolute;
+  top:10rem;
+  left:1vw;
+
+  }
+  
+}
+@media only screen and (max-width: 300px){
+  .custom-button{
+  position: absolute;
+  top:8rem;
+  left:1vw;
+  }
+}

@@ -1,0 +1,17 @@
+.custom-img{
+    height: 220vh;
+    background-image: url("../images/domain.svg");
+  }
+  
+  @media only screen and (max-width: 990px){
+    .custom-img{
+      height: 450vh;
+      background-image: url("../images/contact.svg");
+    }
+  }
+ 
+  @media only screen and (max-width: 990px){
+    .custom-img-sides{
+        display: none;
+    }
+  }
