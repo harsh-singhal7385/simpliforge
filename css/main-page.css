@@ -5,13 +5,26 @@ body{
 .bg-blue-color {
     background: #45619F;
 }
-.custom-button{
- /*  padding-top: 550px;
- padding-left: 50px;*/
-  position: absolute;
-  top:80vh;
-  left:10vw;
+
+  .custom-btn{
+
+  font-family: 'Nunito', sans-serif;
+  font-weight:bold;
+  font-size:14px;
+  line-height: 25px;
+   letter-spacing: 0.125em;
+   position: absolute;
+ width: 300px;
+ height: 46px;
+ margin-left: 17em;
+top: 85vh;
+ background: #45619F;
+ border-radius: 20px;
 }
+
+
+
+
 
 @media only screen and (max-width: 1000px){
   .custom-button{
@@ -26,7 +39,7 @@ body{
   top: 22rem;;
   left:5vw;
   }
-} 
+}
 
 @media only screen and (max-width: 800px){
   .custom-button{
@@ -64,7 +77,7 @@ body{
   left:1vw;
 
   }
-  
+
 }
 @media only screen and (max-width: 300px){
   .custom-button{
@@ -77,4 +90,34 @@ body{
 .custom-arrow{
   color:  #9B8257;
   ;
+}
+
+.navbar li{
+  margin-left : 0.5em;
+  margin-right : 0.5em;
+  font-family: 'Nunito', sans-serif;
+  font-weight:bold;
+  font-size:14px;
+  line-height: 25px;
+   letter-spacing: 0.125em;
+}
+
+#first{
+  font-family:'Avenir LT Pro 45 Book';
+  font-size:14px;
+  line-height: 25px;
+  letter-spacing: 0.125em;
+}
+#second{
+  font-family:'Avenir LT Pro 45 Book';
+  font-size:14px;
+  line-height: 25px;
+  letter-spacing: 0.125em;
+}
+#third{
+  background-color:#4D4D4D;
+  font-family:'Avenir LT Pro 45 Book';
+  font-weight:normal;
+  font-size:14px;
+  line-height: 17px;
 }

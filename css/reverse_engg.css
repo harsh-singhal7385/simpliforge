@@ -9,3 +9,33 @@
     background-image: url("../images/prototyping0.svg");
   }
 }
+
+.navbar li{
+  margin-left : 0.5em;
+  margin-right : 0.5em;
+  font-family: 'Nunito', sans-serif;
+  font-weight:bold;
+  font-size:14px;
+  line-height: 25px;
+   letter-spacing: 0.125em;
+}
+
+#first{
+  font-family:'Avenir LT Pro 45 Book';
+  font-size:14px;
+  line-height: 25px;
+  letter-spacing: 0.125em;
+}
+#second{
+  font-family:'Avenir LT Pro 45 Book';
+  font-size:14px;
+  line-height: 25px;
+  letter-spacing: 0.125em;
+}
+#third{
+  background-color:#4D4D4D;
+  font-family:'Avenir LT Pro 45 Book';
+  font-weight:normal;
+  font-size:14px;
+  line-height: 17px;
+}

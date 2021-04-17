@@ -2,16 +2,45 @@
     height: 220vh;
     background-image: url("../images/domain.svg");
   }
-  
+
   @media only screen and (max-width: 990px){
     .custom-img{
       height: 450vh;
       background-image: url("../images/contact.svg");
     }
   }
- 
+
   @media only screen and (max-width: 990px){
     .custom-img-sides{
         display: none;
     }
+  }
+  .navbar li{
+    margin-left : 0.5em;
+    margin-right : 0.5em;
+    font-family: 'Nunito', sans-serif;
+    font-weight:bold;
+    font-size:14px;
+    line-height: 25px;
+     letter-spacing: 0.125em;
+  }
+
+  #first{
+    font-family:'Avenir LT Pro 45 Book';
+    font-size:14px;
+    line-height: 25px;
+    letter-spacing: 0.125em;
+  }
+  #second{
+    font-family:'Avenir LT Pro 45 Book';
+    font-size:14px;
+    line-height: 25px;
+    letter-spacing: 0.125em;
+  }
+  #third{
+    background-color:#4D4D4D;
+    font-family:'Avenir LT Pro 45 Book';
+    font-weight:normal;
+    font-size:14px;
+    line-height: 17px;
   }

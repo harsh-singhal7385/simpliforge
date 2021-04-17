@@ -4,15 +4,14 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      rel="stylesheet"
-      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
-    />
+    <link  rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"/>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     <title>SimpliForge</title>
-    <link href="../css/main-page.css" rel="stylesheet" />
+    <link rel="stylesheet" href="../css/main-page.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet">
   </head>
   <body>
     <!--NAVBAR-->
@@ -30,60 +29,39 @@
         <span class="navbar-toggler-icon"></span>
       </button>
 
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav ml-auto">
-          <li class="nav-item active">
-            <a class="nav-link" href="#"
-              >Home <span class="sr-only">(current)</span></a
-            >
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Link</a>
-          </li>
-          <li class="nav-item dropdown">
-            <a
-              class="nav-link dropdown-toggle"
-              href="#"
-              id="navbarDropdown"
-              role="button"
-              data-toggle="dropdown"
-              aria-haspopup="true"
-              aria-expanded="false"
-            >
-              Dropdown
-            </a>
-            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <a class="dropdown-item" href="#">Action</a>
-              <a class="dropdown-item" href="#">Another action</a>
-              <div class="dropdown-divider"></div>
-              <a class="dropdown-item" href="#">Something else here</a>
-            </div>
-          </li>
-          <li class="nav-item">
-            <a
-              class="nav-link disabled"
-              href="#"
-              tabindex="-1"
-              aria-disabled="true"
-              >Disabled</a
-            >
-          </li>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent" >
+        <ul class="navbar-nav ml-auto" >
+          <li class="nav-item active" >
+             <a class="nav-link" href="#">HOME <span class="sr-only">(current)</span></a>
+         </li>
+           <li class="nav-item active">
+            <a class="nav-link" href="services.html">SERVICES<span class="sr-only">(current)</span></a>
+           </li>
+            <li class="nav-item active" >
+            <a class="nav-link" href="domain.html">DOMAINS <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item active">
+            <a class="nav-link" href="build.html">BUILD <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item active">
+            <a class="nav-link" href="sustainability.html">SUSTAINABILITY <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item active">
+            <a class="nav-link" href="contact.html">CONTACT <span class="sr-only">(current)</span></a>
+            </li>
         </ul>
       </div>
     </nav>
 
-    <div class="container-fluid">
+    <div class="container-fluid mt-4">
       <img class="img-fluid override" src="../images/main-page.svg" />
-    </div>
-    <div class="container-fluid card-img-overlay"  >
-      <div class="container mt-5 mb-5 custom-button">
-        <button type="button" class="btn btn-primary custom-btn">
-          DOWNLOAD COMPANY PROFILE
-        </button>
-      </div>
-    </div>
+        </div>
 
-    <div class="container">
+      <button type="button" class="btn btn-primary custom-btn rounded-pill btn-block" >
+      DOWNLOAD COMPANY PROFILE
+        </button>
+
+      <div class="container">
       <div class="col mt-5 display-4 mb-4 text-center">WHO WE ARE</div>
       <div class="row h-100">
         <div class="col-lg-6 col-12 p-5 bg-blue-color text-white d-flex align-items-center justify-content-center">Simpliforge solutions takes pride in its services as a one stop, end-to-end low volume prototyping and manufacturing solution for products spanning over the FMCG sector to niche domains such as dentistry, prosthetics, jewelry, construction and so on.</div>
@@ -92,11 +70,11 @@
         <div class="col-lg-6 col-12 p-5 bg-dark text-white d-flex align-items-center justify-content-center">Powered by partnerships with manufacturing domain experts, localized production facilities and international design experts, Simpliforge delivers services to the best-of-the-market quality within the domain. Employing principles of concurrent engineering, Simpliforge works with the client in real-time to ensure accuracy and transparency in the production.</div>
       </div>
     </div>
-    
+
     <div class="container mt-5">
       <div class="text-center mt-5 h2">WHAT DO WE DO</div>
       <div class="row text-center">
-        <div class="col-lg-8 col-12">
+        <div class="col-lg-8 col-12 pt-4">
           <img src="../images/what_we_do.svg" class="img-fluid" />
         </div>
         <div class="col-lg-4 col-12 text-center">
@@ -145,13 +123,128 @@
       </div>
     </div>
     <div class="container-fluid mt-4">
-      <img src="../images/clientele.svg" class="img-fluid" />      
+      <img src="../images/clientele.svg" class="img-fluid" />
+    </div>
+    <!--footer-->
+<section id="first">
+    <div class="container-fluid "  >
+      <div class="row">
+        <div class="col-lg-6 col-md-12 col-sm-12" style="background-color:#EDEDEB ">
+          <img class=" pt-5 img-fluid d-flex mx-auto" src="../images/logo.svg" alt=""><br>
+                 <b class=" p-4 text-black d-flex align-items-center justify-content-center ">
+                   Email us at : contact@simpliforge.com <br>
+                   Phone: +91 8369175977 <br><br>
+                   Mumbai: <br>
+                   #7021, | Aerocity Near MTNL Office, <br>
+                   Saki Naka ,Andheri East, Mumbai-400 072 <br>
+                 </b>
+        </div>
+
+          <div class="col-lg-3 col-md-12 col-sm-12"  style="background-color:#4D4D4D ">
+           <p class="  pt-5 text-white" style="line-height: 29px;"  ><br>HOME <br> SERVICES <br> DOMAIN <br> BUILD <br> SUSTAINABILITY <br>CONTACT US</p>
+          </div>
+
+          <div class="col-lg-3 col-md-12 col-sm-12 margin-center "  style="background-color:#4D4D4D;line-height: 29px; ">
+            <br><p class=" pt-5 pl-5 text-white"><br>FOLLOW US ON</p>
+
+                <img class=" img-fluid " src="../images/insta.svg" alt="">
+                <img  class=" img-fluid "src="../images/facebook.svg" alt="">
+                <img   class=" img-fluid" src="../images/twitter.svg" alt="">
+                <img  class=" img-fluid " src="../images/linkedin.svg" alt="">
+                <img  class=" img-fluid" src="../images/youtube.svg" alt="">
+                <br><br><br><br>
+              </div>
+
+
+          </div>
+        </div>
+        </div>
+    </div>
+</section>
+
+    <section id="second">
+
+    <div class="container text-center  p-4 "  >
+      <div class="row">
+        <div class="col-lg-3 col-sm-12 col-md-12">
+          <div class="container">
+            <div class="row">
+              <div class=" col-sm-12 col-md-12">
+                <p class=" text-black text-center" >TERMS AND CONDITIONS</p>
+              </div>
+          </div>
+        </div>
+        </div>
+
+      <div class="col-lg-3 col-sm-12 col-md-12">
+        <div class="container">
+          <div class="row">
+            <div class=" col-sm-12 col-md-12">
+              <p class=" text-black text-center">PRIVACY POLICY</p>
+            </div>
+        </div>
+      </div>
+      </div>
+
+    <div class="col-lg-3 col-sm-12 col-md-12">
+      <div class="container">
+        <div class="row">
+          <div class=" col-sm-12 col-md-12">
+            <p class=" text-black text-center">EMAIL PREFERENCES</p>
+          </div>
+      </div>
+    </div>
     </div>
 
-    <!--FOOTER-->
-    <div class="container-fluid">
-    
+    <div class="col-lg-3 col-sm-12 col-md-12">
+      <div class="container">
+        <div class="row">
+          <div class=" col-sm-12 col-md-12">
+            <p class=" text-black text-center">COOKIES PREFERENCES</p>
+          </div>
+      </div>
+    </div>
+    </div>
+</div>
+</div>
+</section>
+
+  <section id="third">
+    <div class="container-fluid   p-4" >
+      <div class="row "  >
+        <div class="col-lg-4 col-sm-12 col-md-12">
+          <div class="container">
+            <div class="row">
+              <div class=" col-sm-12 col-md-12">
+                <p class=" text-white  text-center">All Rights Reserved</p>
+              </div>
+          </div>
+        </div>
+        </div>
+
+      <div class=" col-lg-4 col-sm-12 col-md-12">
+        <div class="container  ">
+          <div class="row">
+            <div class=" col-sm-12 col-md-12">
+              <p class=" text-white text-center ">Copyright © 2021 Simpliforge 3D Creations</p>
+            </div>
+        </div>
+      </div>
+      </div>
+
+    <div class="col-lg-4 col-sm-12 col-md-12 ">
+      <div class="container  ">
+        <div class="row">
+          <div class="col-sm-12 col-md-12">
+            <p class=" text-white text-center">Made in India</p>
+          </div>
+      </div>
+    </div>
     </div>
 
-  </body>
+</div>
+</div>
+
+</section>
+</body>
 </html>

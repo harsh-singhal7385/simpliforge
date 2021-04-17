@@ -5,7 +5,16 @@
     overflow: hidden;
     padding-bottom: 56.25%;
   }
-  
+  .navbar li{
+    margin-left : 0.5em;
+    margin-right : 0.5em;
+    font-family: 'Nunito', sans-serif;
+    font-weight:bold;
+    font-size:14px;
+    line-height: 25px;
+     letter-spacing: 0.125em;
+  }
+
   .iframe-container iframe{
     position: absolute;
     height: 100%;
@@ -14,4 +23,23 @@
     left: 0;
     bottom: 0;
     right: 0;
+  }
+  #first{
+    font-family:'Avenir LT Pro 45 Book';
+    font-size:14px;
+    line-height: 25px;
+    letter-spacing: 0.125em;
+  }
+  #second{
+    font-family:'Avenir LT Pro 45 Book';
+    font-size:14px;
+    line-height: 25px;
+    letter-spacing: 0.125em;
+  }
+  #third{
+    background-color:#4D4D4D;
+    font-family:'Avenir LT Pro 45 Book';
+    font-weight:normal;
+    font-size:14px;
+    line-height: 17px;
   }
