@@ -6,23 +6,23 @@ body{
 .bg-blue-color {
 background: #45619F;
 }
-
+.mainpageimg{
+  padding: 0 !important;
+}
 .custom-btn{
   font-family: 'Nunito', sans-serif;
   font-weight:bold;
-  font-size:14px;
+  font-size:16px;
   line-height: 25px;
   letter-spacing: 0.125em;
   position: absolute;
-  width: 300px;
-  height: 46px;
-  margin-left: 17em;
-  top: 85vh;
+  top: 87vh;
+  left: 12vw;
   background: #45619F;
   border-radius: 20px;
 }
 
-@media only screen and (max-width: 1000px){
+/*@media only screen and (max-width: 1000px){
     .custom-btn{
     position: absolute;
     top: 24rem;;
@@ -55,30 +55,34 @@ background: #45619F;
 @media only screen and (max-width: 600px){
   .custom-btn{
   position: absolute;
-  top:14rem;
+  top:rem;
   left:1vw;
+
   }
-}
+}*/
 
 @media only screen and (max-width: 500px){
 .custom-btn{
 position: absolute;
-top: 15rem;
-left: 1vw;
+top: 32vh;
+left: 11vw;
+font-size: 7px;
   }
 }
 @media only screen and (max-width: 400px){
   .custom-btn{
   position: absolute;
-  top: 13rem;
+  top: 36vh;
   left: 8vw;
+  font-size: 7px;
       }
 }
 @media only screen and (max-width: 300px){
   .custom-btn{
   position: absolute;
-  top:8rem;
+  top:34vh;
   left:1vw;
+  font-size: 7px;
   }
 }
 
