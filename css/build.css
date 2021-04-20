@@ -1,3 +1,6 @@
+body{
+  font-family:'Avenir LT Pro 45 Book';
+}
 .iframe-container{
     position: relative;
     height: 0px;
@@ -9,10 +12,10 @@
     margin-left : 0.5em;
     margin-right : 0.5em;
     font-family: 'Nunito', sans-serif;
-    font-weight:bold;
+    font-weight: bold;
     font-size:14px;
     line-height: 25px;
-     letter-spacing: 0.125em;
+    letter-spacing: 0.125em;
   }
 
   .iframe-container iframe{

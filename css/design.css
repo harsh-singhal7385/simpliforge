@@ -1,3 +1,6 @@
+body{
+  font-family:'Avenir LT Pro 45 Book';
+}
 .custom-img{
     height: 900vh;
     background-image: url("../images/prototyping-background.svg");
@@ -36,4 +39,25 @@
   font-weight:normal;
   font-size:14px;
   line-height: 17px;
+}
+
+.abc{
+    position: absolute;
+    top: 2vh;
+    left: 2vw;
+    border-radius: 20px;
+}
+@media only screen and (max-width: 900px){
+  .abc{
+    position: absolute;
+    top: 3vh;
+    left: 7vw;
+    border-radius: 20px;
+  }
+}
+.abc1{
+    position: absolute;
+    top: 2vh;
+    left: 7vw;
+    border-radius: 20px;
 }

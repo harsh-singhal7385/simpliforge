@@ -1,3 +1,6 @@
+body{
+  font-family:'Avenir LT Pro 45 Book';
+}
 .custom-img{
     height: 130vh;
     background-image: url("../images/contact.svg");

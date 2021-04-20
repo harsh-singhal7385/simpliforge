@@ -1,8 +1,6 @@
-.custom-img{
-    height: 220vh;
-    background-image: url("../images/domain.svg");
-  }
-
+body{
+  font-family:'Avenir LT Pro 45 Book';
+}
   @media only screen and (max-width: 990px){
     .custom-img{
       height: 450vh;

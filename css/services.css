@@ -1,5 +1,8 @@
+body{
+  font-family:'Avenir LT Pro 45 Book';
+}
 .custom-img{
-    height: 130vh;
+    height: 132vh;
     background-image: url("../images/service.svg");
   }
 
@@ -16,7 +19,7 @@
     font-weight:bold;
     font-size:14px;
     line-height: 25px;
-     letter-spacing: 0.125em;
+    letter-spacing: 0.125em;
   }
 
   #first{
