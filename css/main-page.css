@@ -1,13 +1,26 @@
 body{
-    overflow-x:hidden;
+  overflow-x:hidden;
+  background: #E5E5E5;
+}
+
+.container-fluid {
+  padding: 0 !important;
+  /* margin: 0 !important; */
 }
 
 .bg-blue-color {
-background: #45619F;
+  background: #45619F;
 }
+
 .mainpageimg{
   padding: 0 !important;
 }
+
+.row {
+  padding: 0 !important;
+  margin: 0;
+}
+
 .custom-btn{
   font-family: 'Nunito', sans-serif;
   font-weight:bold;
@@ -21,34 +34,26 @@ background: #45619F;
   border-radius: 20px;
 }
 
-@media only screen and (max-width: 500px){
-.custom-btn{
-position: absolute;
-top: 32vh;
-left: 11vw;
-font-size: 7px;
-  }
-}
-@media only screen and (max-width: 400px){
-  .custom-btn{
-  position: absolute;
-  top: 36vh;
-  left: 8vw;
-  font-size: 7px;
-      }
-}
-@media only screen and (max-width: 300px){
-  .custom-btn{
-  position: absolute;
-  top:34vh;
-  left:1vw;
-  font-size: 7px;
-  }
+.shadow {
+  box-shadow: 10px 10px 10px #ccc !important;
 }
 
-.custom-arrow{
+.color1 {
+  color: #338CAD !important;
+}
+
+.color2 {
+  color: #9B8257 !important;
+}
+
+.color3 {
+  color: #373737 !important;
+}
+
+.custom-arrow > button{
+  width: 15vw !important;
   color:  #9B8257;
-  }
+}
 
 .navbar li{
   margin-left : 0.5em;
@@ -65,12 +70,14 @@ font-size: 7px;
   font-size:14px;
   line-height: 25px;
   letter-spacing: 0.125em;
+  background-color: #EDEDEB;
 }
 #second{
   font-family: 'Nunito', sans-serif;
   font-size:14px;
   line-height: 25px;
   letter-spacing: 0.125em;
+  background-color: white;
 }
 #third{
   background-color:#4D4D4D;
@@ -78,4 +85,47 @@ font-size: 7px;
   font-weight:normal;
   font-size:14px;
   line-height: 17px;
+  background: #4D4D4D;
+}
+
+.text-align-center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+@media only screen and (max-width: 500px){
+  .custom-btn{
+    position: absolute;
+    top: 32vh;
+    left: 11vw;
+    font-size: 7px;
+  }
+
+  .custom-arrow > button{
+    width: 25vw !important;
+    color:  #9B8257;
+  }
+}
+@media only screen and (max-width: 400px){
+  .custom-btn{
+    position: absolute;
+    top: 36vh;
+    left: 8vw;
+    font-size: 7px;
+  }
+
+  .custom-arrow > button{
+    width: 25vw !important;
+    color:  #9B8257;
+  }
+}
+@media only screen and (max-width: 300px){
+  .custom-btn{
+  position: absolute;
+  top:34vh;
+  left:1vw;
+  font-size: 7px;
+  }
 }
