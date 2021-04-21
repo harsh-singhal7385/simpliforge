@@ -21,21 +21,32 @@
   }
 
   #first{
-    font-family:'Avenir LT Pro 45 Book';
+    font-family: 'Nunito', sans-serif;
     font-size:14px;
     line-height: 25px;
     letter-spacing: 0.125em;
   }
   #second{
-    font-family:'Avenir LT Pro 45 Book';
+    font-family: 'Nunito', sans-serif;
     font-size:14px;
     line-height: 25px;
     letter-spacing: 0.125em;
   }
   #third{
     background-color:#4D4D4D;
-    font-family:'Avenir LT Pro 45 Book';
+    font-family: 'Nunito', sans-serif;
     font-weight:normal;
     font-size:14px;
     line-height: 17px;
+  }
+  .ft1{
+    background-color:#EDEDEB;
+  }
+  .f2{
+    background-color:#4D4D4D ;
+    line-height: 29px;
+  }
+  .f3{
+    background-color:#4D4D4D;
+    line-height: 29px;
   }

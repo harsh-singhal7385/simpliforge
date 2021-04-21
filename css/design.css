@@ -19,21 +19,42 @@
    letter-spacing: 0.125em;
 }
 #first{
-  font-family:'Avenir LT Pro 45 Book';
+  font-family: 'Nunito', sans-serif;
   font-size:14px;
   line-height: 25px;
   letter-spacing: 0.125em;
 }
 #second{
-  font-family:'Avenir LT Pro 45 Book';
+  font-family: 'Nunito', sans-serif;
   font-size:14px;
   line-height: 25px;
   letter-spacing: 0.125em;
 }
 #third{
   background-color:#4D4D4D;
-  font-family:'Avenir LT Pro 45 Book';
+  font-family: 'Nunito', sans-serif;
   font-weight:normal;
   font-size:14px;
   line-height: 17px;
+}
+
+.abc{
+    position: absolute;
+    top: 2vh;
+    left: 2vw;
+    border-radius: 20px;
+}
+@media only screen and (max-width: 900px){
+  .abc{
+    position: absolute;
+    top: 3vh;
+    left: 7vw;
+    border-radius: 20px;
+  }
+}
+.abc1{
+    position: absolute;
+    top: 2vh;
+    left: 7vw;
+    border-radius: 20px;
 }

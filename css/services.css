@@ -1,5 +1,5 @@
 .custom-img{
-    height: 130vh;
+    height: 132vh;
     background-image: url("../images/service.svg");
   }
 
@@ -16,25 +16,36 @@
     font-weight:bold;
     font-size:14px;
     line-height: 25px;
-     letter-spacing: 0.125em;
+    letter-spacing: 0.125em;
   }
 
   #first{
-    font-family:'Avenir LT Pro 45 Book';
+    font-family: 'Nunito', sans-serif;
     font-size:14px;
     line-height: 25px;
     letter-spacing: 0.125em;
   }
   #second{
-    font-family:'Avenir LT Pro 45 Book';
+    font-family: 'Nunito', sans-serif;
     font-size:14px;
     line-height: 25px;
     letter-spacing: 0.125em;
   }
   #third{
     background-color:#4D4D4D;
-    font-family:'Avenir LT Pro 45 Book';
+  font-family: 'Nunito', sans-serif;
     font-weight:normal;
     font-size:14px;
     line-height: 17px;
+  }
+  .ft1{
+    background-color:#EDEDEB;
+  }
+  .f2{
+    background-color:#4D4D4D ;
+    line-height: 29px;
+  }
+  .f3{
+    background-color:#4D4D4D;
+    line-height: 29px;
   }

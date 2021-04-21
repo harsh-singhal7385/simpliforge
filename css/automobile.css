@@ -1,6 +1,3 @@
-.mainimg{
-  border-radius: 20px;
-}
 .custom-img{
     height: 900vh;
     background-image: url("../images/prototyping-background.svg");
@@ -12,10 +9,15 @@
     background-image: url("../images/prototyping0.svg");
   }
 }
+.mainimg{
+  border-radius: 20px;
+}
+
 .note{
   text-align:justify;
 }
-.navbar-nav  li{
+
+.navbar li{
   margin-left : 0.5em;
   margin-right : 0.5em;
   font-family: 'Nunito', sans-serif;
@@ -32,19 +34,19 @@
   letter-spacing: 0.125em;
 }
 #second{
-  font-family:'Nunito', sans-serif;
+  font-family: 'Nunito', sans-serif;
   font-size:14px;
   line-height: 25px;
   letter-spacing: 0.125em;
 }
 #third{
   background-color:#4D4D4D;
-  font-family:'Nunito', sans-serif;
+  font-family: 'Nunito', sans-serif;
   font-weight:normal;
   font-size:14px;
   line-height: 17px;
 }
-.ft1{
+.f1{
   background-color:#EDEDEB;
 }
 .f2{

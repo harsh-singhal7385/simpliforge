@@ -1,96 +1,54 @@
 body{
-    overflow-x:hidden
+    overflow-x:hidden;
 }
 
 .bg-blue-color {
-    background: #45619F;
+background: #45619F;
 }
-
-  .custom-btn{
-
+.mainpageimg{
+  padding: 0 !important;
+}
+.custom-btn{
   font-family: 'Nunito', sans-serif;
   font-weight:bold;
-  font-size:14px;
+  font-size:16px;
   line-height: 25px;
-   letter-spacing: 0.125em;
-   position: absolute;
- width: 300px;
- height: 46px;
- margin-left: 17em;
-top: 85vh;
- background: #45619F;
- border-radius: 20px;
-}
-
-
-
-
-
-@media only screen and (max-width: 1000px){
-  .custom-button{
+  letter-spacing: 0.125em;
   position: absolute;
-  top: 24rem;;
-  left:5vw;
-  }
-}
-@media only screen and (max-width: 900px){
-  .custom-button{
-  position: absolute;
-  top: 22rem;;
-  left:5vw;
-  }
-}
-
-@media only screen and (max-width: 800px){
-  .custom-button{
-  position: absolute;
-  top: 20rem;;
-  left:5vw;
-  }
-}
-@media only screen and (max-width: 700px){
-  .custom-button{
-  position: absolute;
-  top: 17rem;;
-  left:3vw;
-  }
-}
-@media only screen and (max-width: 600px){
-  .custom-button{
-  position: absolute;
-  top:14rem;
-  left:1vw;
-  }
+  top: 87vh;
+  left: 12vw;
+  background: #45619F;
+  border-radius: 20px;
 }
 
 @media only screen and (max-width: 500px){
-  .custom-button{
-  position: absolute;
-  top:12rem;
-  left:1vw;
+.custom-btn{
+position: absolute;
+top: 32vh;
+left: 11vw;
+font-size: 7px;
   }
 }
 @media only screen and (max-width: 400px){
-  .custom-button{
+  .custom-btn{
   position: absolute;
-  top:10rem;
-  left:1vw;
-
-  }
-
+  top: 36vh;
+  left: 8vw;
+  font-size: 7px;
+      }
 }
 @media only screen and (max-width: 300px){
-  .custom-button{
+  .custom-btn{
   position: absolute;
-  top:8rem;
+  top:34vh;
   left:1vw;
+  font-size: 7px;
   }
 }
 
 .custom-arrow{
   color:  #9B8257;
-  ;
-}
+  }
 
 .navbar li{
   margin-left : 0.5em;
@@ -99,24 +57,24 @@ top: 85vh;
   font-weight:bold;
   font-size:14px;
   line-height: 25px;
-   letter-spacing: 0.125em;
+  letter-spacing: 0.125em;
 }
 
 #first{
-  font-family:'Avenir LT Pro 45 Book';
+  font-family: 'Nunito', sans-serif;
   font-size:14px;
   line-height: 25px;
   letter-spacing: 0.125em;
 }
 #second{
-  font-family:'Avenir LT Pro 45 Book';
+  font-family: 'Nunito', sans-serif;
   font-size:14px;
   line-height: 25px;
   letter-spacing: 0.125em;
 }
 #third{
   background-color:#4D4D4D;
-  font-family:'Avenir LT Pro 45 Book';
+  font-family: 'Nunito', sans-serif;
   font-weight:normal;
   font-size:14px;
   line-height: 17px;
