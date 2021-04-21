@@ -1,1 +1,1 @@
-<?php include_once("main-page.html") ?>
+<?php include_once("routes/main-page.html") ?>
