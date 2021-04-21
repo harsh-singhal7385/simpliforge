@@ -1,7 +1,6 @@
 body{
     overflow-x:hidden;
-    font-family:'Avenir LT Pro 45 Book';
-    }
+}
 
 .bg-blue-color {
 background: #45619F;
@@ -21,45 +20,6 @@ background: #45619F;
   background: #45619F;
   border-radius: 20px;
 }
-
-/*@media only screen and (max-width: 1000px){
-    .custom-btn{
-    position: absolute;
-    top: 24rem;;
-    left:5vw;
-  }
-}
-@media only screen and (max-width: 900px){
-  .custom-btn{
-  position: absolute;
-  top: 22rem;;
-  left:5vw;
-  margin-left: 5px;
-  }
-}
-
-@media only screen and (max-width: 800px){
-  .custom-btn{
-  position: absolute;
-  top: 20rem;;
-  left:5vw;
-  }
-}
-@media only screen and (max-width: 700px){
-  .custom-btn{
-  position: absolute;
-  top: 17rem;;
-  left:3vw;
-  }
-}
-@media only screen and (max-width: 600px){
-  .custom-btn{
-  position: absolute;
-  top:rem;
-  left:1vw;
-
-  }
-}*/
 
 @media only screen and (max-width: 500px){
 .custom-btn{
@@ -101,20 +61,20 @@ font-size: 7px;
 }
 
 #first{
-  font-family:'Avenir LT Pro 45 Book';
+  font-family: 'Nunito', sans-serif;
   font-size:14px;
   line-height: 25px;
   letter-spacing: 0.125em;
 }
 #second{
-  font-family:'Avenir LT Pro 45 Book';
+  font-family: 'Nunito', sans-serif;
   font-size:14px;
   line-height: 25px;
   letter-spacing: 0.125em;
 }
 #third{
   background-color:#4D4D4D;
-  font-family:'Avenir LT Pro 45 Book';
+  font-family: 'Nunito', sans-serif;
   font-weight:normal;
   font-size:14px;
   line-height: 17px;

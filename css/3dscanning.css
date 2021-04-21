@@ -1,5 +1,5 @@
-body{
-  font-family:'Avenir LT Pro 45 Book';
+.mainimg{
+  border-radius: 20px;
 }
 .custom-img{
     height: 900vh;
@@ -12,7 +12,9 @@ body{
     background-image: url("../images/prototyping0.svg");
   }
 }
-
+.note{
+  text-align:justify;
+}
 .navbar-nav  li{
   margin-left : 0.5em;
   margin-right : 0.5em;
@@ -24,23 +26,34 @@ body{
 }
 
 #first{
-  font-family:'Avenir LT Pro 45 Book';
+  font-family: 'Nunito', sans-serif;
   font-size:14px;
   line-height: 25px;
   letter-spacing: 0.125em;
 }
 #second{
-  font-family:'Avenir LT Pro 45 Book';
+  font-family:'Nunito', sans-serif;
   font-size:14px;
   line-height: 25px;
   letter-spacing: 0.125em;
 }
 #third{
   background-color:#4D4D4D;
-  font-family:'Avenir LT Pro 45 Book';
+  font-family:'Nunito', sans-serif;
   font-weight:normal;
   font-size:14px;
   line-height: 17px;
+}
+.ft1{
+  background-color:#EDEDEB;
+}
+.f2{
+  background-color:#4D4D4D ;
+  line-height: 29px;
+}
+.f3{
+  background-color:#4D4D4D;
+  line-height: 29px;
 }
 .abc{
     position: absolute;
