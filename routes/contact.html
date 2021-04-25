@@ -15,64 +15,66 @@
 </head>
 <body>
 
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <img class="img-fluid" src="../images/logo.svg" />
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-toggle="collapse"
-          data-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-          <span class="navbar-toggler-icon"></span>
-        </button>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container">
+      <img class="img-fluid" src="../images/logo.svg" />
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
 
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav ml-auto" >
+      <div class="collapse navbar-collapse" id="navbarSupportedContent" >
+        <ul class="navbar-nav ml-auto" >
             <li class="nav-item active" >
-               <a class="nav-link" href="main-page.html">HOME <span class="sr-only">(current)</span></a>
-           </li>
-             <li class="nav-item active">
-              <a class="nav-link" href="./routes/services.html">SERVICES<span class="sr-only">(current)</span></a>
-             </li>
-              <li class="nav-item active" >
-              <a class="nav-link" href="domain.html">DOMAINS <span class="sr-only">(current)</span></a>
-              </li>
-              <li class="nav-item active">
-              <a class="nav-link" href="build.html">BUILD <span class="sr-only">(current)</span></a>
-              </li>
-              <li class="nav-item active">
-              <a class="nav-link" href="sustainability.html">SUSTAINABILITY <span class="sr-only">(current)</span></a>
-              </li>
-              <li class="nav-item active">
-              <a class="nav-link" href="contact.html">CONTACT <span class="sr-only">(current)</span></a>
-              </li>
-          </ul>
-        </div>
-      </nav>
+            <a class="nav-link" href="#">HOME <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item active">
+            <a class="nav-link" href="services.html">SERVICES<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item active" >
+            <a class="nav-link" href="domain.html">DOMAINS <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item active">
+            <a class="nav-link" href="build.html">BUILD <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item active">
+            <a class="nav-link" href="sustainability.html">SUSTAINABILITY <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item active">
+            <a class="nav-link" href="contact.html">CONTACT <span class="sr-only">(current)</span></a>
+            </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
 
       <div class="container-fluid" >
         <img src="../images/contact.svg" class="img-fluid custom-img"/>
       </div>
-      <div class="container-fluid card-img-overlay mt-5">
+
+      <div class="container card-img-overlay mt-5">
         <div class="row mt-5">
             <div class="col-xl-7 col-lg-7 col-md-12 col-sm-12 col-xs-12 col-12 mb-5">
                 <div class="col mt-5 display-4">
-                    We’d love to hear from you.
+                    <h1>We’d love to hear from you.</h1
+                      >
                 </div>
                 <div class="col mt-5">
-                    Your questions & comments are important to us. Whether you have any enqueries about our services, pricing, need a sample or anything else,
-                    our team is always ready to answer all your questions.
+                    <em>Your questions & comments are important to us. Whether you have any enqueries about our services, pricing, need a sample or anything else,
+                    our team is always ready to answer all your questions.</em>
                 </div>
                 <div class="col mt-5">
                     Email us at : <a href="mailto:contact@simpliforge.com">contact@simpliforge.com</a>
                 </div>
-                <div class="col mt-5">
+                <div class="col mt-3">
                     Phone: <a href="#" >+91 8369175977</a>
                 </div>
                 <div class="col mt-5">
-                    <h4>We are located at:</h4>
+                    <h4>We are located at:</h4><br>
 
                     #7021, 1 Aerocity Near MTNL Office,<br/>
                     Saki Naka, Andheri East, Mumbai – 400 072
@@ -82,35 +84,35 @@
  <!--  PLEASE CREATE ACCOUNT ON FORMSPREE WEBSITE AND CHANGE ACTION FIELS OF FORM WITH YOUR VERIFIED ACCOUNT ONLY FOR SECURITY PURPOSES, CURRENT ONE IS DEMO ACCOUNT MAY NOT BE SECURE  -->
             <div class="col-xl-5 col-lg-5 col-md-12 col-sm-12 col-xs-12 col-12">
                 <div class="container mb-5">
-                    <form action="https://formspree.io/f/mwkakrzy" method="POST" class="shadow shadow-lg p-3 mb-5 bg-white rounded bg-white p-5" enctype="multipart/form-data">
+                    <form action="https://formspree.io/f/mwkakrzy" method="POST" class="abc shadow-lg p-3 mb-5 bg-white bg-white p-5" enctype="multipart/form-data">
                         <div class="form-group">
                             <div class="form-group">
-                                <label for="name">NAME</label>
-                                <input type="text" class="form-control" name="name" id="name" placeholder="Enter Name" required/>
+                                <label for="name">NAME <b>*</b></label>
+                                <input type="text" class="abc form-control" name="name" id="name" placeholder="" required/>
                             </div>
                             <div class="form-group">
-                                <label for="email">EMAIL ADDRESS</label>
-                                <input type="email" class="form-control" name="email" id="email" placeholder="Enter Email Address" required/>
+                                <label for="email">EMAIL ADDRESS<b>*</b></label>
+                                <input type="email" class="abc form-control" name="email" id="email" placeholder="" required/>
                             </div>
                             <div class="form-group">
                                 <label for="phone">PHONE</label>
-                                <input type="tel" class="form-control" name="phone" id="phone" placeholder="Enter Phone Number" required/>
+                                <input type="tel" class="abc form-control" name="phone" id="phone" placeholder="" required/>
                             </div>
                             <div class="form-group">
                                 <label for="company_name">COMPANY NAME</label>
-                                <input type="text" class="form-control" name="company_name" id="company_name" placeholder="Enter Company Name" required/>
+                                <input type="text" class="abc form-control" name="company_name" id="company_name" placeholder="" required/>
                             </div>
                             <div class="form-group">
                                 <label for="industry">INDUSTRY / DOMAIN</label>
-                                <input type="text" class="form-control" name="industry" id="industry" placeholder="Enter Industry /Domain" required/>
+                                <input type="text" class="abc form-control" name="industry" id="industry" placeholder="" required/>
                             </div>
                             <div class="form-group">
                                 <label for="region">REGION / PLACE</label>
-                                <input type="text" class="form-control" name="region" id="region" placeholder="Enter Region / Place" required/>
+                                <input type="text" class="abc form-control" name="region" id="region" placeholder=""required/>
                             </div>
                             <div class="form-group">
-                                <label for="purpose">PURPOSE *</label>
-                                <textarea class="form-control form-textarea" name="purpose" id="purpose" placeholder="Enter Purpose" required></textarea>
+                                <label for="purpose">PURPOSE<b>*</b></label>
+                                <textarea class="abc form-control form-textarea" name="purpose" id="purpose" placeholder="" required></textarea>
                             </div>
                             <div class="form-group text-center">
                                 <input type="submit" class="btn btn-primary" />
@@ -124,120 +126,57 @@
       <!-- </div> -->
       <!--FOOTER-->
       <section id="first">
-          <div class="container-fluid "  >
-            <div class="row">
-              <div class="f1 col-lg-6 col-md-12 col-sm-12" style="background-color:#EDEDEB ">
-                <img class=" pt-5 img-fluid d-flex mx-auto" src="../images/logo.svg" alt=""><br>
-                       <b class=" p-4 text-black d-flex align-items-center justify-content-center ">
-                         Email us at : contact@simpliforge.com <br>
-                         Phone: +91 8369175977 <br><br>
-                         Mumbai: <br>
-                         #7021, | Aerocity Near MTNL Office, <br>
-                         Saki Naka ,Andheri East, Mumbai-400 072 <br>
-                       </b>
+        <div class="container-fluid">
+          <div class="row">
+            <div class="f1 col-lg-6 col-md-12 col-sm-12">
+              <img class=" pt-5 img-fluid d-flex mx-auto" src="../images/logo.svg" alt=""><br>
+                     <b class=" p-4 text-black d-flex align-items-center justify-content-center ">
+                       Email us at : contact@simpliforge.com <br>
+                       Phone: +91 8369175977 <br><br>
+                       Mumbai: <br>
+                       #7021, | Aerocity Near MTNL Office, <br>
+                       Saki Naka ,Andheri East, Mumbai-400 072 <br>
+                     </b>
+            </div>
+
+              <div class="f2 col-lg-3 col-md-12 col-sm-12">
+               <p class="pt-5 text-white"><br>HOME <br> SERVICES <br> DOMAIN <br> BUILD <br> SUSTAINABILITY <br>CONTACT US</p>
               </div>
 
-                <div class="f2 col-lg-3 col-md-12 col-sm-12">
-                 <p class="  pt-5 text-white"><br>HOME <br> SERVICES <br> DOMAIN <br> BUILD <br> SUSTAINABILITY <br>CONTACT US</p>
-                </div>
+              <div class="f3 col-lg-3 col-md-12 col-sm-12 margin-center">
+                    <br><p class=" pt-5 pl-5 text-white"><br>FOLLOW US ON</p>
 
-                <div class="f3 col-lg-3 col-md-12 col-sm-12 margin-center ">
-                  <br><p class=" pt-5 pl-5 text-white"><br>FOLLOW US ON</p>
-
-                      <img class=" img-fluid " src="../images/insta.svg" alt="">
-                      <img  class=" img-fluid "src="../images/facebook.svg" alt="">
-                      <img   class=" img-fluid" src="../images/twitter.svg" alt="">
-                      <img  class=" img-fluid " src="../images/linkedin.svg" alt="">
-                      <img  class=" img-fluid" src="../images/youtube.svg" alt="">
-                      <br><br><br><br>
-                    </div>
-                </div>
-              </div>
-              </div>
+              <img class=" img-fluid " src="../images/insta.svg" alt="">
+              <img  class=" img-fluid "src="../images/facebook.svg" alt="">
+              <img   class=" img-fluid" src="../images/twitter.svg" alt="">
+              <img  class=" img-fluid " src="../images/linkedin.svg" alt="">
+              <img  class=" img-fluid" src="../images/youtube.svg" alt="">
+              <br><br><br><br>
+            </div>
           </div>
+        </div>
       </section>
 
-          <section id="second">
-
-          <div class="container text-center  p-4 "  >
-            <div class="row">
-              <div class="col-lg-3 col-sm-12 col-md-12">
-                <div class="container">
-                  <div class="row">
-                    <div class=" col-sm-12 col-md-12">
-                      <p class=" text-black text-center" >TERMS AND CONDITIONS</p>
-                    </div>
-                </div>
-              </div>
-              </div>
-
-            <div class="col-lg-3 col-sm-12 col-md-12">
-              <div class="container">
-                <div class="row">
-                  <div class=" col-sm-12 col-md-12">
-                    <p class=" text-black text-center">PRIVACY POLICY</p>
-                  </div>
-              </div>
-            </div>
-            </div>
-
-          <div class="col-lg-3 col-sm-12 col-md-12">
-            <div class="container">
-              <div class="row">
-                <div class=" col-sm-12 col-md-12">
-                  <p class=" text-black text-center">EMAIL PREFERENCES</p>
-                </div>
-            </div>
+      <section id="second">
+        <div class="container p-4">
+          <div class="row">
+            <div class="col-lg-3 text-center">TERMS AND CONDITIONS</div>
+            <div class="col-lg-3 text-center">PRIVACY POLICY</div>
+            <div class="col-lg-3 text-center">EMAIL PREFERENCES</div>
+            <div class="col-lg-3 text-center">COOKIES PREFERENCES</div>
           </div>
-          </div>
-
-          <div class="col-lg-3 col-sm-12 col-md-12">
-            <div class="container">
-              <div class="row">
-                <div class=" col-sm-12 col-md-12">
-                  <p class=" text-black text-center">COOKIES PREFERENCES</p>
-                </div>
-            </div>
-          </div>
-          </div>
-      </div>
-      </div>
+        </div>
       </section>
 
-        <section id="third">
-          <div class="container-fluid   p-4" >
-            <div class="row "  >
-              <div class="col-lg-4 col-sm-12 col-md-12">
-                <div class="container">
-                  <div class="row">
-                    <div class=" col-sm-12 col-md-12">
-                      <p class=" text-white  text-center">All Rights Reserved</p>
-                    </div>
-                </div>
-              </div>
-              </div>
-
-            <div class=" col-lg-4 col-sm-12 col-md-12">
-              <div class="container  ">
-                <div class="row">
-                  <div class=" col-sm-12 col-md-12">
-                    <p class=" text-white text-center ">Copyright © 2021 Simpliforge 3D Creations</p>
-                  </div>
-              </div>
-            </div>
-            </div>
-
-          <div class="col-lg-4 col-sm-12 col-md-12 ">
-            <div class="container  ">
-              <div class="row">
-                <div class="col-sm-12 col-md-12">
-                  <p class=" text-white text-center">Made in India</p>
-                </div>
-            </div>
+      <section id="third">
+        <div class="container-fluid p-4">
+          <div class="row">
+            <div class="col-lg-4 text-center text-white">All Rights Reserved</div>
+            <div class="col-lg-4 text-center text-white">Copyright © 2021 Simpliforge 3D Creations</div>
+            <div class="col-lg-4 text-center text-white">Made in India</div>
           </div>
-          </div>
-      </div>
+        </div>
       </div>
       </section>
-</body>
-</html>
+    </body>
+    </html>

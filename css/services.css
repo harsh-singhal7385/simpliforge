@@ -1,13 +1,17 @@
 .custom-img{
-    height: 132vh;
+    height: 126vh;
     background-image: url("../images/service.svg");
   }
 
   @media only screen and (max-width: 990px){
     .custom-img{
-      height: 400vh;
+      height: 500vh;
       background-image: url("../images/contact.svg");
     }
+  }
+
+  .note{
+    text-align:justify;
   }
   .navbar li{
     margin-left : 0.5em;
@@ -18,34 +22,43 @@
     line-height: 25px;
     letter-spacing: 0.125em;
   }
-
-  #first{
-    font-family: 'Nunito', sans-serif;
-    font-size:14px;
-    line-height: 25px;
-    letter-spacing: 0.125em;
-  }
-  #second{
-    font-family: 'Nunito', sans-serif;
-    font-size:14px;
-    line-height: 25px;
-    letter-spacing: 0.125em;
-  }
-  #third{
-    background-color:#4D4D4D;
+.btn1{
+  margin-right: 8vw;
+    margin-left: 1vw;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    border-radius: 20px;
+}
+.card{
+text-align: justify;
+}
+#first{
   font-family: 'Nunito', sans-serif;
-    font-weight:normal;
-    font-size:14px;
-    line-height: 17px;
-  }
-  .ft1{
-    background-color:#EDEDEB;
-  }
-  .f2{
-    background-color:#4D4D4D ;
-    line-height: 29px;
-  }
-  .f3{
-    background-color:#4D4D4D;
-    line-height: 29px;
-  }
+  font-size:14px;
+  line-height: 25px;
+  letter-spacing: 0.125em;
+}
+#second{
+  font-family:'Nunito', sans-serif;
+  font-size:14px;
+  line-height: 25px;
+  letter-spacing: 0.125em;
+}
+#third{
+  background-color:#4D4D4D;
+  font-family:'Nunito', sans-serif;
+  font-weight:normal;
+  font-size:14px;
+  line-height: 17px;
+}
+.f1{
+  background-color:#EDEDEB;
+}
+.f2{
+  background-color:#4D4D4D ;
+  line-height: 29px;
+}
+.f3{
+  background-color:#4D4D4D;
+  line-height: 29px;
+}

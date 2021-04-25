@@ -7,7 +7,6 @@ body{
   padding: 0 !important;
   /* margin: 0 !important; */
 }
-
 .bg-blue-color {
   background: #45619F;
 }
@@ -73,7 +72,7 @@ body{
   background-color: #EDEDEB;
 }
 #second{
-  font-family: 'Nunito', sans-serif;
+  font-family:'Nunito', sans-serif;
   font-size:14px;
   line-height: 25px;
   letter-spacing: 0.125em;
@@ -81,7 +80,7 @@ body{
 }
 #third{
   background-color:#4D4D4D;
-  font-family: 'Nunito', sans-serif;
+  font-family:'Nunito', sans-serif;
   font-weight:normal;
   font-size:14px;
   line-height: 17px;
@@ -128,4 +127,15 @@ body{
   left:1vw;
   font-size: 7px;
   }
+}
+.f1{
+  background-color:#EDEDEB;
+}
+.f2{
+  background-color:#4D4D4D ;
+  line-height: 29px;
+}
+.f3{
+  background-color:#4D4D4D;
+  line-height: 29px;
 }

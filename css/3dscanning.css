@@ -2,16 +2,14 @@
   border-radius: 20px;
 }
 .custom-img{
-    height: 900vh;
-    background-image: url("../images/prototyping-background.svg");
+    height: 100%;
+    /* background-image: url("../images/prototyping-background.svg"); */
   }
-
-@media only screen and (max-width: 990px){
+/* @media only screen and (max-width: 990px){
   .custom-img{
-    height: 800vh;
-    background-image: url("../images/prototyping0.svg");
+    height: 600vh;
   }
-}
+} */
 .note{
   text-align:justify;
 }
@@ -44,7 +42,7 @@
   font-size:14px;
   line-height: 17px;
 }
-.ft1{
+.f1{
   background-color:#EDEDEB;
 }
 .f2{
@@ -54,24 +52,4 @@
 .f3{
   background-color:#4D4D4D;
   line-height: 29px;
-}
-.abc{
-    position: absolute;
-    top: 2vh;
-    left: 2vw;
-    border-radius: 20px;
-}
-@media only screen and (max-width: 900px){
-  .abc{
-    position: absolute;
-    top: 3vh;
-    left: 7vw;
-    border-radius: 20px;
-  }
-}
-.abc1{
-    position: absolute;
-    top: 2vh;
-    left: 7vw;
-    border-radius: 20px;
 }
