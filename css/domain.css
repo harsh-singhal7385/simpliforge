@@ -1,41 +1,71 @@
-  @media only screen and (max-width: 990px){
-    .custom-img{
-      height: 450vh;
-      background-image: url("../images/contact.svg");
-    }
+.custom-img{
+    height: 169vh;
+    background-image: url("../images/domain.svg");
   }
 
-  @media only screen and (max-width: 990px){
-    .custom-img-sides{
-        display: none;
-    }
+@media only screen and (max-width: 990px){
+  .custom-img{
+    height: 755vh;
+    background-image: url("../images/domain.svg");
   }
-  .navbar li{
-    margin-left : 0.5em;
-    margin-right : 0.5em;
-    font-family: 'Nunito', sans-serif;
-    font-weight:bold;
-    font-size:14px;
-    line-height: 25px;
-     letter-spacing: 0.125em;
+}
+@media only screen and (max-width: 500px){
+  .custom-img{
+    height: 634vh;
+    background-image: url("../images/domain.svg");
   }
+}
 
-  #first{
-    font-family: 'Nunito', sans-serif;
-    font-size:14px;
-    line-height: 25px;
-    letter-spacing: 0.125em;
-  }
-  #second{
-    font-family: 'Nunito', sans-serif;
-    font-size:14px;
-    line-height: 25px;
-    letter-spacing: 0.125em;
-  }
-  #third{
-    background-color:#4D4D4D;
-    font-family: 'Nunito', sans-serif;
-    font-weight:normal;
-    font-size:14px;
-    line-height: 17px;
-  }
+.btn1{
+  margin-right: 8vw;
+    margin-left: 1vw;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    border-radius: 20px;
+}
+.card{
+text-align: justify;
+}
+.note{
+  text-align:justify;
+}
+.navbar li{
+  margin-left : 0.5em;
+  margin-right : 0.5em;
+  font-family: 'Nunito', sans-serif;
+  font-weight:bold;
+  font-size:14px;
+  line-height: 25px;
+  letter-spacing: 0.125em;
+}
+
+#first{
+  font-family: 'Nunito', sans-serif;
+  font-size:14px;
+  line-height: 25px;
+  letter-spacing: 0.125em;
+}
+#second{
+  font-family:'Nunito', sans-serif;
+  font-size:14px;
+  line-height: 25px;
+  letter-spacing: 0.125em;
+}
+#third{
+  background-color:#4D4D4D;
+  font-family:'Nunito', sans-serif;
+  font-weight:normal;
+  font-size:14px;
+  line-height: 17px;
+}
+.f1{
+  background-color:#EDEDEB;
+}
+.f2{
+  background-color:#4D4D4D ;
+  line-height: 29px;
+}
+.f3{
+  background-color:#4D4D4D;
+  line-height: 29px;
+}

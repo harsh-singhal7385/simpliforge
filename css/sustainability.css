@@ -1,8 +1,44 @@
-@media only screen and (max-width: 990px){
+.container-fluid{
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+.custom-img{
+  height: 340vh;
+  width: 100vw;
+  background-image: url("../images/sustain.svg");
+}
+@media only screen and (max-width: 990px)and (max-height: 750px){
     .custom-img{
-      height: 400vh;
-      background-image: url("../images/sustain.svg");
+      height: 600vh;
     }
+  }
+  @media only screen and (max-width: 990px)and (max-height: 650px){
+      .custom-img{
+        height: 700vh;
+      }
+    }
+  .one{
+    border-radius: 30px;
+  }
+.two{
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+.three{
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+.four{
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  }
+  .five{
+    border-radius: 30px;
+  }
+  .trp{
+    opacity: 80%;
   }
   .navbar li{
     margin-left : 0.5em;
@@ -13,6 +49,9 @@
     line-height: 25px;
      letter-spacing: 0.125em;
   }
+.xyz{
+  padding-top: 11% !important;
+}
 
   #first{
     font-family: 'Nunito', sans-serif;
@@ -21,15 +60,43 @@
     letter-spacing: 0.125em;
   }
   #second{
-    font-family: 'Nunito', sans-serif;
+    font-family:'Nunito', sans-serif;
     font-size:14px;
     line-height: 25px;
     letter-spacing: 0.125em;
   }
   #third{
     background-color:#4D4D4D;
-    font-family: 'Nunito', sans-serif;
+    font-family:'Nunito', sans-serif;
     font-weight:normal;
     font-size:14px;
     line-height: 17px;
   }
+  .f1{
+    background-color:#EDEDEB;
+  }
+  .f2{
+    background-color:#4D4D4D ;
+    line-height: 29px;
+  }
+  .f3{
+    background-color:#4D4D4D;
+    line-height: 29px;
+  }
+  .opd{
+  width: 50% !important;
+  }
+  @media only screen and (max-width: 1300px){
+      .xyz{
+          padding-top: 8% !important;
+
+      }
+      .opd{
+      width: 50% !important;
+      }
+    }
+  @media only screen and (max-width: 600px){
+        .opd{
+        width: 100% !important;
+        }
+      }

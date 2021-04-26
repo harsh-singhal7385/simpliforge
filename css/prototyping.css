@@ -1,5 +1,11 @@
+.mainimg{
+  border-radius: 20px;
+}
+.note{
+  text-align:justify;
+}
 .custom-img{
-    height: 900vh;
+    height: 400vh;
     background-image: url("../images/prototyping-background.svg");
   }
 
@@ -26,35 +32,26 @@
   letter-spacing: 0.125em;
 }
 #second{
-  font-family: 'Nunito', sans-serif;
+  font-family:'Nunito', sans-serif;
   font-size:14px;
   line-height: 25px;
   letter-spacing: 0.125em;
 }
 #third{
   background-color:#4D4D4D;
-  font-family: 'Nunito', sans-serif;
+  font-family:'Nunito', sans-serif;
   font-weight:normal;
   font-size:14px;
   line-height: 17px;
 }
-.abc{
-    position: absolute;
-    top: 2vh;
-    left: 2vw;
-    border-radius: 20px;
+.f1{
+  background-color:#EDEDEB;
 }
-@media only screen and (max-width: 900px){
-  .abc{
-    position: absolute;
-    top: 3vh;
-    left: 7vw;
-    border-radius: 20px;
-  }
+.f2{
+  background-color:#4D4D4D ;
+  line-height: 29px;
 }
-.abc1{
-    position: absolute;
-    top: 2vh;
-    left: 7vw;
-    border-radius: 20px;
+.f3{
+  background-color:#4D4D4D;
+  line-height: 29px;
 }
