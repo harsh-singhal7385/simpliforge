@@ -1,3 +1,6 @@
+*{
+  overflow-x: hidden;
+}
 .container-fluid{
   margin-left: 0 !important;
   margin-right: 0 !important;
@@ -14,14 +17,19 @@
       height: 600vh;
     }
   }
-  @media only screen and (max-width: 990px)and (max-height: 650px){
+@media only screen and (max-width: 990px)and (max-height: 650px){
       .custom-img{
         height: 700vh;
       }
     }
-  .one{
-    border-radius: 30px;
+.one{
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
   }
+.one1{
+  border-bottom-right-radius: 30px;
+  border-bottom-left-radius: 30px;
+}
 .two{
     border-top-right-radius: 20px;
     border-bottom-right-radius: 20px;
@@ -38,7 +46,7 @@
     border-radius: 30px;
   }
   .trp{
-    opacity: 80%;
+    opacity: 70%;
   }
   .navbar li{
     margin-left : 0.5em;
@@ -88,7 +96,7 @@
   }
   @media only screen and (max-width: 1300px){
       .xyz{
-          padding-top: 8% !important;
+          padding-top: 10% !important;
 
       }
       .opd{
@@ -98,5 +106,10 @@
   @media only screen and (max-width: 600px){
         .opd{
         width: 100% !important;
+        text-align: justify;
+        }
+        .xyz{
+            padding-top: 0% !important;
+
         }
       }
