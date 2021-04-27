@@ -1,11 +1,8 @@
-.custom-img{
-    height: 300vh;
-    background-image: url("../images/prototyping-background.svg");
-  }
-@media only screen and (max-width: 990px){
-  .custom-img{
-    height: 600vh;
-  }
+body {
+  background-image: url('../images/med_health.svg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  opacity: 1;
 }
 .mainimg{
   border-radius: 20px;

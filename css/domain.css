@@ -1,19 +1,7 @@
-.custom-img{
-    height: 169vh;
-    background-image: url("../images/domain.svg");
-  }
-
-@media only screen and (max-width: 990px){
-  .custom-img{
-    height: 755vh;
-    background-image: url("../images/domain.svg");
-  }
-}
-@media only screen and (max-width: 500px){
-  .custom-img{
-    height: 634vh;
-    background-image: url("../images/domain.svg");
-  }
+body {
+  background-image: url('../images/prototyping-background.svg');
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .btn1{

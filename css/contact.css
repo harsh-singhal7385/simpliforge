@@ -1,12 +1,9 @@
-.custom-img{
-    height: 110vh;
-    /* background-image: url("../images/contact.svg"); */
-  }
-  @media only screen and (max-width: 990px){
-    .custom-img{
-      height: 300vh;
-      }
-  }
+body {
+  background-image: url('../images/med_health.svg');
+  background-size: contain contain;
+  background-position: top, bottom;
+  background-repeat: no-repeat;
+}
   .navbar li{
     margin-left : 0.5em;
     margin-right : 0.5em;
@@ -58,4 +55,18 @@
   }
   .abc{
     border-radius: 28px;
+  }
+
+  label {
+    font-size: 14px;
+  }
+
+  @media only screen and (max-width: 600px){
+    body {
+      background-image: url('../images/contactPhone.svg');
+      background-size: contain contain;
+      background-position: top, bottom;
+      background-repeat: no-repeat;
+      opacity: 1.5;
+    }
   }
