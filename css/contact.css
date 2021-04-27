@@ -55,6 +55,7 @@ body {
   }
   .abc{
     border-radius: 28px;
+    height: 32px;
   }
 
   label {
