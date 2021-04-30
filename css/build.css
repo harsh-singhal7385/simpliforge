@@ -5,6 +5,18 @@
     overflow: hidden;
     padding-bottom: 56.25%;
   }
+  @font-face {
+    font-family: myFirstFont;
+    src: url('../fonts/Font\ Avenir\ Next\ LT\ Pro\ \(1\).ttf');
+  }
+  .btn:focus,.btn:active {
+    outline: none !important;
+    box-shadow: none;
+  }
+  *{
+    font-family: myFirstFont;
+  }
+  
   .navbar li{
     margin-left : 0.5em;
     margin-right : 0.5em;
