@@ -4,6 +4,18 @@ body {
   background-repeat: no-repeat;
   opacity: 1;
 }
+@font-face {
+  font-family: myFirstFont;
+  src: url('../fonts/Font\ Avenir\ Next\ LT\ Pro\ \(1\).ttf');
+}
+.btn:focus,.btn:active {
+  outline: none !important;
+  box-shadow: none;
+}
+*{
+  font-family: myFirstFont;
+}
+
 .mainimg{
   border-radius: 20px;
 }
