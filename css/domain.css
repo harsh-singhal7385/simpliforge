@@ -5,14 +5,17 @@ body {
 }
 
 .btn1{
-  margin-right: 8vw;
+    margin-right: 8vw;
     margin-left: 1vw;
     border: 1px solid #000000;
     box-sizing: border-box;
     border-radius: 20px;
+    width: 87px;
+    height: 36px;
 }
 .card{
 text-align: justify;
+height: 456px;
 }
 .note{
   text-align:justify;

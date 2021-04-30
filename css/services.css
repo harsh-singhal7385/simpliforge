@@ -1,5 +1,5 @@
 body {
-  background-image: url('../images/services.svg');
+  background-image: url('../images/prototyping-background.svg');
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -17,14 +17,17 @@ body {
   letter-spacing: 0.125em;
 }
 .btn1{
-  margin-right: 8vw;
-    margin-left: 1vw;
+  /* margin-right: 8vw;
+    margin-left: 1vw; */
     border: 1px solid #000000;
     box-sizing: border-box;
     border-radius: 20px;
+    height: 36px;
+    width: 87px;
 }
 .card{
 text-align: justify;
+height: 456px;
 }
 #first{
   font-family: 'Nunito', sans-serif;

@@ -61,6 +61,16 @@ body {
   label {
     font-size: 14px;
   }
+  .bcd{
+  border-radius: 20px;
+}
+  @media only screen and (max-width: 600px){
+    body {
+      background-image: url('../images/contactPhone.svg');
+      background-size: cover;
+      background-repeat: no-repeat;
+    }
+  }
 
   @media only screen and (max-width: 600px){
     body {
