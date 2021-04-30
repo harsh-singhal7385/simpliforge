@@ -1,36 +1,33 @@
-.custom-img{
-    height: 126vh;
-    background-image: url("../images/service.svg");
-  }
+body {
+  background-image: url('../images/prototyping-background.svg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
 
-  @media only screen and (max-width: 990px){
-    .custom-img{
-      height: 500vh;
-      background-image: url("../images/contact.svg");
-    }
-  }
-
-  .note{
-    text-align:justify;
-  }
-  .navbar li{
-    margin-left : 0.5em;
-    margin-right : 0.5em;
-    font-family: 'Nunito', sans-serif;
-    font-weight:bold;
-    font-size:14px;
-    line-height: 25px;
-    letter-spacing: 0.125em;
-  }
+.note{
+  text-align:justify;
+}
+.navbar li{
+  margin-left : 0.5em;
+  margin-right : 0.5em;
+  font-family: 'Nunito', sans-serif;
+  font-weight:bold;
+  font-size:14px;
+  line-height: 25px;
+  letter-spacing: 0.125em;
+}
 .btn1{
-  margin-right: 8vw;
-    margin-left: 1vw;
+  /* margin-right: 8vw;
+    margin-left: 1vw; */
     border: 1px solid #000000;
     box-sizing: border-box;
     border-radius: 20px;
+    height: 36px;
+    width: 87px;
 }
 .card{
 text-align: justify;
+height: 456px;
 }
 #first{
   font-family: 'Nunito', sans-serif;
