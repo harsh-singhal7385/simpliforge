@@ -4,6 +4,28 @@ body {
   background-repeat: no-repeat;
 }
 
+@font-face {
+  font-family: myFirstFont;
+  src: url('../fonts/FontAvenirNextLTPro.ttf');
+}
+
+*{
+  font-family: myFirstFont;
+}
+.btn:focus,.btn:active {
+  outline: none !important;
+  box-shadow: none;
+}
+
+.removePadding {
+  padding: 0 !important;
+}
+
+.increasePadding {
+  padding-left: 15px !important;
+  padding-right: 15px !important;
+}
+
 .btn1{
     margin-right: 8vw;
     margin-left: 1vw;

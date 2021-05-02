@@ -4,6 +4,19 @@ body {
   background-repeat: no-repeat;
 }
 
+@font-face {
+  font-family: myFirstFont;
+  src: url('../fonts/FontAvenirNextLTPro.ttf');
+}
+
+*{
+  font-family: myFirstFont;
+}
+.btn:focus,.btn:active {
+  outline: none !important;
+  box-shadow: none;
+}
+
 .mainimg{
   border-radius: 20px;
 }

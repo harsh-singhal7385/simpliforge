@@ -3,6 +3,21 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
 }
+
+@font-face {
+  font-family: myFirstFont;
+  src: url('../fonts/FontAvenirNextLTPro.ttf');
+}
+
+*{
+  font-family: myFirstFont;
+}
+
+.btn:focus,.btn:active {
+  outline: none !important;
+  box-shadow: none;
+}
+
 .container-fluid{
   margin-left: 0 !important;
   margin-right: 0 !important;
@@ -115,3 +130,4 @@ body {
       .down{
           padding: 6% !important;
         }
+      }
