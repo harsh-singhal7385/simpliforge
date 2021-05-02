@@ -31,3 +31,8 @@ document.addEventListener("DOMContentLoaded", function(){
     }
     // end if innerWidth
     }); 
+
+    function myFunction() {
+        var element = document.getElementById("myBox");
+        element.classList.toggle("mystyle");
+     }

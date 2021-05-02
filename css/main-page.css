@@ -15,15 +15,9 @@ body{
 .avenir_font{
   font-family: myFirstFont;
 }
-@media only screen and (max-width: 1000px){
-  .myBox{
-  /* padding-top: 150px; */
-  margin-top: 180px;
-  }
-  .myBox1{
-    background-color: white;
-    width: 50%;
-  }
+
+.mystyle {
+margin-top: 170px;
 }
 .btn:focus,.btn:active {
   outline: none !important;
