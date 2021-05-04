@@ -6,7 +6,7 @@ body {
 }
 @font-face {
   font-family: myFirstFont;
-  src: url('../fonts/Font\ Avenir\ Next\ LT\ Pro\ \(1\).ttf');
+  src: url('../fonts/FontAvenirNextLTPro.ttf');
 }
 .btn:focus,.btn:active {
   outline: none !important;
@@ -22,7 +22,11 @@ body {
   outline: none !important;
   box-shadow: none;
 }
+<<<<<<< HEAD
+* {
+=======
 *{
+>>>>>>> 88c1636250ba1a1e00ef22fc60dc63990896df04
   font-family: myFirstFont;
 }
 

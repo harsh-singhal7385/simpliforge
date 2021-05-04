@@ -29,6 +29,30 @@ margin-top: 170px;
   box-shadow: none;
 }
 
+@font-face {
+  font-family: myFirstFont;
+  src: url('../fonts/FontAvenirNextLTPro.ttf');
+}
+
+.avenir_font{
+  font-family: myFirstFont;
+}
+
+.btn:focus,.btn:active {
+  outline: none !important;
+  box-shadow: none;
+}
+
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+  filter: invert(1);
+}
+
+.fcfcfc {
+  background: #FCFCFC !important;
+  font-size: 48px !important;
+}
+
 .bgimg {
   padding-left: 0 !important;
   padding-right: 0 !important;
@@ -63,7 +87,7 @@ margin-top: 170px;
 
 .card-img-overlay {
   height: 50vh !important;
-  top: 20vh !important;
+  top: 30vh !important;
 }
 
 .shadow {
@@ -135,6 +159,18 @@ margin-top: 170px;
   border-radius: 0px 0px 30px 0px;
 }
 
+.f1{
+  background-color:#EDEDEB;
+}
+.f2{
+  background-color:#4D4D4D ;
+  line-height: 29px;
+}
+.f3{
+  background-color:#4D4D4D;
+  line-height: 29px;
+}
+
 @media only screen and (max-width: 500px){
   .md-none {
     display: none !important;
@@ -165,6 +201,13 @@ margin-top: 170px;
     color:  #9B8257;
   }
 }
+
+@media only screen and (max-width: 365px){
+  .header {
+    font-size: 30px;
+  }
+}
+
 @media only screen and (max-width: 300px){
   .custom-btn{
   position: absolute;
@@ -172,15 +215,4 @@ margin-top: 170px;
   left:1vw;
   font-size: 7px;
   }
-}
-.f1{
-  background-color:#EDEDEB;
-}
-.f2{
-  background-color:#4D4D4D ;
-  line-height: 29px;
-}
-.f3{
-  background-color:#4D4D4D;
-  line-height: 29px;
 }

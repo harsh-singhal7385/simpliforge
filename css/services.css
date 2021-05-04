@@ -11,7 +11,7 @@ body {
 
 @font-face {
   font-family: myFirstFont;
-  src: url('../fonts/Font\ Avenir\ Next\ LT\ Pro\ \(1\).ttf');
+  src: url('../fonts/FontAvenirNextLTPro.ttf');
 }
 @media all and (min-width: 992px) {
 	.navbar .nav-item .dropdown-menu{ display: none; }
@@ -27,6 +27,16 @@ body {
   outline: none !important;
   box-shadow: none;
 }
+
+.removePadding {
+  padding: 0 !important;
+}
+
+.increasePadding {
+  padding-left: 15px !important;
+  padding-right: 15px !important;
+}
+
 .note{
   text-align:justify;
 }
