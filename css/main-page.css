@@ -6,11 +6,24 @@ body{
   font-family: myFirstFont;
   src: url('../fonts/Font\ Avenir\ Next\ LT\ Pro\ \(1\).ttf');
 }
-
+@media all and (min-width: 992px) {
+	.navbar .nav-item .dropdown-menu{ display: none; }
+	.navbar .nav-item:hover .nav-link{  color: black; }
+	.navbar .nav-item:hover .dropdown-menu{ display: block; }
+	.navbar .nav-item .dropdown-menu{ margin-top:0; }
+}
 .avenir_font{
   font-family: myFirstFont;
 }
-
+.myFont{
+  font-size: 64px;
+}
+.myFont-btn{
+  font-size: 20px;
+}
+.mystyle {
+margin-top: 170px;
+}
 .btn:focus,.btn:active {
   outline: none !important;
   box-shadow: none;

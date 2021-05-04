@@ -15,9 +15,9 @@
   </head>
   <body>
     <!--NAVBAR-->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light avenir_font sticky-top">
       <div class="container">
-        <img class="img-fluid ml-3" src="../images/logo.svg" />
+        <img class="img-fluid" src="../images/logo.svg" />
         <button
           class="navbar-toggler"
           type="button"
@@ -25,43 +25,34 @@
           data-target="#navbarSupportedContent"
           aria-controls="navbarSupportedContent"
           aria-expanded="false"
-          aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+          aria-label="Toggle navigation"
+          onclick="myFunction()"><span class="navbar-toggler-icon"></span></button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent" >
           <ul class="navbar-nav ml-auto" >
             <li class="nav-item active" >
               <a class="nav-link" href="main-page.html">HOME <span class="sr-only">(current)</span></a>
             </li>
-            <li class="nav-item active">
-              <div class="dropdown">
-                <button type="button" class="btn dropdown-toggle font-weight-bold" data-toggle="dropdown">
-                  SERVICES
-                  <span class="sr-only">(current)</span>
-                </button>
-                <div class="dropdown-menu">
-                  <a class="dropdown-item" href="prototyping.html">Prototyping</a>
-                  <a class="dropdown-item" href="3dscanning.html">3D Scanning</a>
-                  <a class="dropdown-item" href="design.html">Design</a>
-                  <a class="dropdown-item" href="reverse_engg.html">Reverse Engineering</a>
-                </div>
-              </div>
-            </li>
-            <li class="nav-item active" >
-              <div class="dropdown">
-                <button type="button" class="btn dropdown-toggle font-weight-bold " data-toggle="dropdown">
-                  DOMAINS
-                  <span class="sr-only">(current)</span>
-                </button>
-                <div class="dropdown-menu">
-                  <a class="dropdown-item" href="med_health.html">Medical and HealthCare</a>
-                  <a class="dropdown-item" href="automobile.html">Automobile</a>
-                  <a class="dropdown-item" href="construction.html">Construction</a>
-                  <a class="dropdown-item" href="arts_restore.html">Arts and Restoration</a>
-                  <a class="dropdown-item" href="consumer_goods.html">Consumer Goods</a>
-                  <a class="dropdown-item" href="manufacturing.html">Manufacturing</a>
-                  <a class="dropdown-item" href="package_design.html">Package Design</a>
-                </div>
-              </div>
-            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link text-dark dropdown-toggle" href="services.html" data-bs-toggle="dropdown"> SERVICES </a>
+               <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="prototyping.html">Prototyping</a></li>
+                <li><a class="dropdown-item" href="3dscanning.html">3D Scanning</a></li>
+                <li><a class="dropdown-item" href="design.html">Design</a></li>
+                <li><a class="dropdown-item" href="reverse_engg.html">Reverse Engineering</a></li>
+               </ul>
+           </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link text-dark dropdown-toggle" href="domain.html" data-bs-toggle="dropdown"> DOMAINS </a>
+               <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="med_health.html">Medical and HealthCare</a></li>
+                <li><a class="dropdown-item" href="automobile.html">Automobile</a></li>
+                <li><a class="dropdown-item" href="construction.html">Construction</a></li>
+                <li><a class="dropdown-item" href="arts_restore.html">Arts and Restoration</a></li>
+                <li><a class="dropdown-item" href="consumer_goods.html">Consumer Goods</a></li>
+                <li><a class="dropdown-item" href="manufacturing.html">Manufacturing</a></li>
+                <li><a class="dropdown-item" href="package_design.html">Package Design</a></li>
+               </ul>
+           </li>
             <li class="nav-item active">
               <a class="nav-link" href="build.html">BUILD <span class="sr-only">(current)</span></a>
             </li>
@@ -75,12 +66,13 @@
         </div>
       </div>
     </nav>
+    
     <div class="container-fluid mt-5">
       <div class="container ">
         <div class="col mt-5 display-4 mb-5">
         DOMAINS
         </div>
-        <div class="note col">
+        <div class="note col ">
           Domain Paragraph Powered by partnerships with manufacturing domain experts, localized production facilities and international design experts, Simpliforge delivers services to the best-of-the-market quality within the domain. Employing principles of concurrent engineering, Simpliforge works with the client in real-time to ensure accuracy and transparency in the production.
         </div>
       </div>
@@ -97,8 +89,9 @@
                         HEALTHCARE
                       </h6>
                     </div>
-                    <div class="card-body pt-0">
-                      Lorem ipsum dolor sit amet
+                    <div class="card-body text-justify pt-0">
+                      With in-house medical doctor consultants and FDA compliance experience Simpliforge is capable of prototyping and manufacturing 
+                      Class I & II devices
                     </div>
                     <button class="btn1 btn-light card-button mt-2 mb-3 text-center ml-3 " onclick="javascript:window.location.href='med_health.html'">
                       <img src="../images/right-arr.svg" alt="">
@@ -113,14 +106,13 @@
               <div class="row">
                 <div class=" col-sm-12 col-md-12">
                   <div class="card mb-4">
-                    <img src="../images/domain1.svg" class="card-img-top p-3"/>
+                    <img src="../images/domain2.svg" class="card-img-top p-3"/>
                     <div class="card-title text-left ml-3">
                       <h6>AUTOMOBILE
                       </h6>
                     </div>
-                    <div class="card-body pt-0">
-                      someone say I am the reverse. abcdef sadf askdflsd asdf asdf asdf sdf asdf sdf asd fas df asdf asdf asdf asdf ad f
-                    </div>
+                    <div class="card-body text-justify pt-0">
+                      Be it Pre-production stage, Production or component manufacturing, Simpliforge has been addressing the prototyping, reverse engineering and metrology needs for the automobile sector                    </div>
                     <button class="btn1 btn-light card-button mt-2 mb-3 text-center ml-3 " onclick="javascript:window.location.href='automobile.html'">
                       <img src="../images/right-arr.svg" alt="">
                     </button>
@@ -134,14 +126,13 @@
               <div class="row">
                 <div class=" col-sm-12 col-md-12">
                   <div class="card mb-4">
-                    <img src="../images/domain1.svg" class="card-img-top p-3"/>
+                    <img src="../images/domain3.svg" class="card-img-top p-3"/>
                     <div class="card-title text-left ml-3">
                       <h6>CONSTRUCTION
                       </h6>
                     </div>
-                    <div class="card-body pt-0">
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                    </div>
+                    <div class="card-body text-justify pt-0">
+                      From visualization and marketing scale models to actual scale concrete construction, Simpliforge caters to the architecture, civil engineering & temporary structure installations seamlessly.                    </div>
                     <button class="btn1 btn-light card-button mt-2 mb-3 text-center ml-3 " onclick="javascript:window.location.href='construction.html'">
                       <img src="../images/right-arr.svg" alt="">
                     </button>
@@ -155,13 +146,13 @@
               <div class="row">
                 <div class=" col-sm-12 col-md-12">
                   <div class="card mb-2">
-                    <img src="../images/domain1.svg" class="card-img-top p-3"/>
+                    <img src="../images/domain4.svg" class="card-img-top p-3"/>
                     <div class="card-title text-left ml-3">
                       <h6>ARTS AND RESTORATION
                       </h6>
                     </div>
-                    <div class="card-body pt-0">
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                    <div class="card-body text-justify pt-0">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea 
                     </div>
                     <button class="btn1 btn-light card-button mt-2 mb-3 text-center ml-3 " onclick="javascript:window.location.href='med_health.html'">
                       <img src="../images/right-arr.svg" alt="">
@@ -180,13 +171,13 @@
               <div class="row">
                 <div class=" col-sm-12 col-md-12">
                   <div class="card abd mb-4">
-                    <img src="../images/domain1.svg" class="card-img-top p-3"/>
+                    <img src="../images/domain5.svg" class="card-img-top p-3"/>
                     <div class="card-title text-left ml-3">
                       <h6>CONSUMER GOODS
                       </h6>
                     </div>
-                    <div class="card-body pt-0">
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                    <div class="card-body text-justify pt-0">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea 
                     </div>
                     <button class="btn1 btn-light card-button mt-2 mb-3 text-center ml-3 " onclick="javascript:window.location.href='consumer_goods.html'">
                       <img src="../images/right-arr.svg" alt="">
@@ -201,13 +192,13 @@
               <div class="row">
                 <div class=" col-sm-12 col-md-12">
                   <div class="card abd mb-4">
-                    <img src="../images/domain1.svg" class="card-img-top p-3"/>
+                    <img src="../images/domain6.svg" class="card-img-top p-3"/>
                     <div class="card-title text-left ml-3">
                       <h6>MANUFACTURING
                       </h6>
                     </div>
-                    <div class="card-body pt-0">
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                    <div class="card-body text-justify pt-0">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea 
                     </div>
                     <button class="btn1 btn-light card-button mt-2 mb-3 text-center ml-3 " onclick="javascript:window.location.href='manufacturing.html'">
                       <img src="../images/right-arr.svg" alt="">
@@ -222,14 +213,13 @@
               <div class="row">
                 <div class=" col-sm-12 col-md-12">
                   <div class="card abd mb-4">
-                    <img src="../images/domain1.svg" class="card-img-top p-3"/>
+                    <img src="../images/domain7.svg" class="card-img-top p-3"/>
                     <div class="card-title text-left ml-3">
                       <h6>PACKAGE DESIGN
                       </h6>
                     </div>
-                    <div class="card-body pt-0">
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                    </div>
+                    <div class="card-body text-justify pt-0">
+                      Leveraging vast material library, 3D printing, vacuum-forming and thermo-forming technologies Simpliforge also caters to the packaging industry right from cologne bottles, jewelry packaging to sterile packaging.                    </div>
                     <button class="btn1 btn-light card-button mt-2 mb-3 text-center ml-3 " onclick="javascript:window.location.href='package_design.html'">
                       <img src="../images/right-arr.svg" alt="">
                     </button>
