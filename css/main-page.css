@@ -15,7 +15,12 @@ body{
 .avenir_font{
   font-family: myFirstFont;
 }
-
+.myFont{
+  font-size: 64px;
+}
+.myFont-btn{
+  font-size: 20px;
+}
 .mystyle {
 margin-top: 170px;
 }
