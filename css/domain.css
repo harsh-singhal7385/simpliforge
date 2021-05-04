@@ -3,6 +3,24 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
 }
+@font-face {
+  font-family: myFirstFont;
+  src: url('../fonts/Font\ Avenir\ Next\ LT\ Pro\ \(1\).ttf');
+}
+
+*{
+  font-family: myFirstFont;
+}
+@media all and (min-width: 992px) {
+	.navbar .nav-item .dropdown-menu{ display: none; }
+	.navbar .nav-item:hover .nav-link{  color: black; }
+	.navbar .nav-item:hover .dropdown-menu{ display: block; }
+	.navbar .nav-item .dropdown-menu{ margin-top:0; }
+}
+.btn:focus,.btn:active {
+  outline: none !important;
+  box-shadow: none;
+}
 
 @font-face {
   font-family: myFirstFont;
@@ -37,7 +55,7 @@ body {
 }
 .card{
 text-align: justify;
-height: 456px;
+height: 490px;
 }
 .note{
   text-align:justify;

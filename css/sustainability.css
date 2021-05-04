@@ -3,7 +3,6 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
 }
-
 @font-face {
   font-family: myFirstFont;
   src: url('../fonts/FontAvenirNextLTPro.ttf');
@@ -13,11 +12,17 @@ body {
   font-family: myFirstFont;
 }
 
+@media all and (min-width: 992px) {
+	.navbar .nav-item .dropdown-menu{ display: none; }
+	.navbar .nav-item:hover .nav-link{  color: black; }
+	.navbar .nav-item:hover .dropdown-menu{ display: block; }
+	.navbar .nav-item .dropdown-menu{ margin-top:0; }
+}
+
 .btn:focus,.btn:active {
   outline: none !important;
   box-shadow: none;
 }
-
 .container-fluid{
   margin-left: 0 !important;
   margin-right: 0 !important;
@@ -45,7 +50,9 @@ body {
   border-bottom-left-radius: 20px;
   }
   .five{
-    border-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    font-size: 22px;
   }
   .trp{
     background: rgba(255, 255, 255, 0.7);
@@ -54,6 +61,37 @@ body {
 .trm{
   background: rgba(45, 45, 45, 0.55);
 }
+.line1{
+  background: rgba(255, 255, 255, 0.55);
+  font-size: 14px;
+}
+a{
+  color: black;
+}
+.goal{
+  background: rgba(0, 0, 0, 0.47);
+  border-radius: 90px 0px 0px 90px;
+  font-size: 30px;
+  line-height: 36px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.065em;
+}
+.phn1{
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+  font-size: 30px;
+}
+.phn2{
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  font-size: 22px;
+}
+ .phone{
+  display: none;
+}
+
   .navbar li{
     margin-left : 0.5em;
     margin-right : 0.5em;
@@ -124,6 +162,12 @@ body {
         .xyz{
             padding-top: 0% !important;
 
+        }
+        .desk{
+          display: none;
+        }
+        .phone{
+          display: block;
         }
       }
 @media only screen and (max-width: 2000px){

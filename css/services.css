@@ -1,12 +1,23 @@
 body {
-  background-image: url('../images/prototyping-background.svg');
+  background-image: url('../images/service0.svg');
   background-size: cover;
   background-repeat: no-repeat;
+}
+@media only screen and (max-width: 992px) {
+	.myImg{
+    height: 100vh;
+  }
 }
 
 @font-face {
   font-family: myFirstFont;
   src: url('../fonts/FontAvenirNextLTPro.ttf');
+}
+@media all and (min-width: 992px) {
+	.navbar .nav-item .dropdown-menu{ display: none; }
+	.navbar .nav-item:hover .nav-link{  color: black; }
+	.navbar .nav-item:hover .dropdown-menu{ display: block; }
+	.navbar .nav-item .dropdown-menu{ margin-top:0; }
 }
 
 *{
@@ -49,7 +60,7 @@ body {
 }
 .card{
 text-align: justify;
-height: 456px;
+height: 500px;
 }
 #first{
   font-family: 'Nunito', sans-serif;

@@ -1,10 +1,9 @@
 body {
-  background-image: url('../images/med_health.svg');
+  background-image: url('../contact.svg');
   background-size: contain contain;
   background-position: top, bottom;
   background-repeat: no-repeat;
 }
-
 @font-face {
   font-family: myFirstFont;
   src: url('../fonts/FontAvenirNextLTPro.ttf');
@@ -13,18 +12,46 @@ body {
 *{
   font-family: myFirstFont;
 }
+@media all and (min-width: 992px) {
+	.navbar .nav-item .dropdown-menu{ display: none; }
+	.navbar .nav-item:hover .nav-link{  color: black; }
+	.navbar .nav-item:hover .dropdown-menu{ display: block; }
+	.navbar .nav-item .dropdown-menu{ margin-top:0; }
+}
+
 .btn:focus,.btn:active {
   outline: none !important;
   box-shadow: none;
 }
-
-.navbar li{
-  margin-left : 0.5em;
-  margin-right : 0.5em;
-  font-family: 'Nunito', sans-serif;
-  font-weight:bold;
-  font-size:14px;
-  line-height: 25px;
+  .navbar li{
+    margin-left : 0.5em;
+    margin-right : 0.5em;
+    font-family: 'Nunito', sans-serif;
+    font-weight:bold;
+    font-size:14px;
+    line-height: 25px;
+     letter-spacing: 0.125em;
+  }
+  .btn{
+    font-family: 'Nunito', sans-serif;
+    font-size:11px;
+    line-height: 25px;
+    letter-spacing: 0.125em;
+    background: #45619F;
+    border-radius: 20px;
+    padding-left: 2vw;
+    padding-right: 2vw;
+  }
+  #first{
+    font-family: 'Nunito', sans-serif;
+    font-size:14px;
+    line-height: 25px;
+    letter-spacing: 0.125em;
+  }
+  #second{
+    font-family: 'Nunito', sans-serif;
+    font-size:14px;
+    line-height: 25px;
     letter-spacing: 0.125em;
 }
 .btn{

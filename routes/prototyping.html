@@ -15,7 +15,7 @@
   </head>
   <body>
     <!--NAVBAR-->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light avenir_font sticky-top">
       <div class="container">
         <img class="img-fluid" src="../images/logo.svg" />
         <button
@@ -25,28 +25,43 @@
           data-target="#navbarSupportedContent"
           aria-controls="navbarSupportedContent"
           aria-expanded="false"
-          aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
-
+          aria-label="Toggle navigation"
+          onclick="myFunction()"><span class="navbar-toggler-icon"></span></button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent" >
           <ul class="navbar-nav ml-auto" >
-              <li class="nav-item active" >
+            <li class="nav-item active" >
               <a class="nav-link" href="main-page.html">HOME <span class="sr-only">(current)</span></a>
-              </li>
-              <li class="nav-item active">
-              <a class="nav-link" href="services.html">SERVICES<span class="sr-only">(current)</span></a>
-              </li>
-              <li class="nav-item active" >
-              <a class="nav-link" href="domain.html">DOMAINS <span class="sr-only">(current)</span></a>
-              </li>
-              <li class="nav-item active">
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link text-dark dropdown-toggle" href="services.html" data-bs-toggle="dropdown"> SERVICES </a>
+               <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="prototyping.html">Prototyping</a></li>
+                <li><a class="dropdown-item" href="3dscanning.html">3D Scanning</a></li>
+                <li><a class="dropdown-item" href="design.html">Design</a></li>
+                <li><a class="dropdown-item" href="reverse_engg.html">Reverse Engineering</a></li>
+               </ul>
+           </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link text-dark dropdown-toggle" href="domain.html" data-bs-toggle="dropdown"> DOMAINS </a>
+               <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="med_health.html">Medical and HealthCare</a></li>
+                <li><a class="dropdown-item" href="automobile.html">Automobile</a></li>
+                <li><a class="dropdown-item" href="construction.html">Construction</a></li>
+                <li><a class="dropdown-item" href="arts_restore.html">Arts and Restoration</a></li>
+                <li><a class="dropdown-item" href="consumer_goods.html">Consumer Goods</a></li>
+                <li><a class="dropdown-item" href="manufacturing.html">Manufacturing</a></li>
+                <li><a class="dropdown-item" href="package_design.html">Package Design</a></li>
+               </ul>
+           </li>
+            <li class="nav-item active">
               <a class="nav-link" href="build.html">BUILD <span class="sr-only">(current)</span></a>
-              </li>
-              <li class="nav-item active">
+            </li>
+            <li class="nav-item active">
               <a class="nav-link" href="sustainability.html">SUSTAINABILITY <span class="sr-only">(current)</span></a>
-              </li>
-              <li class="nav-item active">
+            </li>
+            <li class="nav-item active">
               <a class="nav-link" href="contact.html">CONTACT <span class="sr-only">(current)</span></a>
-              </li>
+            </li>
           </ul>
         </div>
       </div>
@@ -61,7 +76,7 @@
           <div class="col display-4 text-center mt-5 ">
             PROTOTYPING
           </div>
-            <div class="note mt-4">
+            <div class="note mt-4 ">
                 Empowered by our professional design team and extensive resources, Simpliforge provides prompt low-fidelity to high-fidelity prototyping services to our clients with the minimum turnaround time. We have successfully served major sectors such as the entertainment, transportation, FMCG and Food & Beverages with our prototyping services and aim to be the end-to-end product development solution providers for our client.
             </div>
 
@@ -72,7 +87,7 @@
                   <div class="container">
                     <div class="row">
                       <div class=" col-sm-12 col-md-12">
-                        <img  class="mainimg img-fluid mb-4" src="../images/prototyping3.svg" alt="">
+                        <img  class="mainimg img-fluid mb-4" src="../images/prototyping1.svg" alt="">
                       </div>
                   </div>
                 </div>
@@ -82,7 +97,7 @@
                 <div class="container">
                   <div class="row">
                     <div class=" col-sm-12 col-md-12">
-                        <img class="mainimg img-fluid mb-4" src="../images/prototyping3.svg" alt="">
+                        <img class="mainimg img-fluid mb-4" src="../images/prototyping2.svg" alt="">
                     </div>
                 </div>
               </div>
@@ -106,12 +121,12 @@
           <div class="row">
             <div class="col-lg-4 offset-lg-2 col-sm-12 col-md-12 ">
                   <div class=" col-sm-12 col-md-12">
-                      <img class="mainimg img-fluid mb-4" src="../images/prototyping3.svg" alt="">
+                      <img class="mainimg img-fluid mb-4" src="../images/prototyping4.svg" alt="">
                   </div>
               </div>
               <div class="col-lg-4 col-sm-12 col-md-12">
                     <div class=" col-sm-12 col-md-12">
-                        <img class="mainimg img-fluid " src="../images/prototyping3.svg" alt="">
+                        <img class="mainimg img-fluid " src="../images/prototyping5.svg" alt="">
                     </div>
                 </div>
             </div>
@@ -148,13 +163,13 @@
   <div class="container-fluid">
     <div class="row">
       <div class="f1 col-lg-6 col-md-12 col-sm-12">
-        <img class=" pt-5 img-fluid d-flex mx-auto" src="../images/logo.svg" alt=""><br>
-               <b class=" p-4 text-black d-flex align-items-center justify-content-center ">
+        <img class=" pt-5 img-fluid d-flex mx-auto" src="../images/logo.svg" alt="">
+               <b class=" p-4 text-black d-flex align-items-center justify-content-center text-center">
                  Email us at : contact@simpliforge.com <br>
                  Phone: +91 8369175977 <br><br>
-                 Mumbai: <br>
-                 #7021, | Aerocity Near MTNL Office, <br>
-                 Saki Naka ,Andheri East, Mumbai-400 072 <br>
+                 623, Swastik Disa Corporate Park,<br>
+                Opposite Shreyas Cinemas, LBS marg,<br>
+                Ghatkopar - West, Mumbai, Maharashtra 400086<br>
                </b>
       </div>
 
