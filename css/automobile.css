@@ -22,14 +22,20 @@ body {
   outline: none !important;
   box-shadow: none;
 }
-<<<<<<< HEAD
-* {
-=======
+
 *{
->>>>>>> 88c1636250ba1a1e00ef22fc60dc63990896df04
   font-family: myFirstFont;
 }
-
+.myNav{
+  background-color:rgb(76.5, 76.1, 74.1);
+  color:white
+}
+#myNav1{
+  color: white;
+}
+.myShadow{
+  color: white;
+}
 .mainimg{
   border-radius: 20px;
 }

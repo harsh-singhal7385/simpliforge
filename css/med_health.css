@@ -7,7 +7,16 @@ body {
   font-family: myFirstFont;
   src: url('../fonts/FontAvenirNextLTPro.ttf');
 }
-
+.myNav{
+  background-color:rgb(76.5, 76.1, 74.1);
+  color:white
+}
+#myNav1{
+  color: white;
+}
+.myShadow{
+  color: white;
+}
 *{
   font-family: myFirstFont;
 }

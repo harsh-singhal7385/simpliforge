@@ -43,7 +43,16 @@ body {
   padding-left: 15px !important;
   padding-right: 15px !important;
 }
-
+.myNav{
+  background-color:rgb(76.5, 76.1, 74.1);
+  color:white
+}
+#myNav1{
+  color: white;
+}
+.myShadow{
+  color: white;
+}
 .btn1{
     margin-right: 8vw;
     margin-left: 1vw;

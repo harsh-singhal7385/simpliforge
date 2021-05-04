@@ -12,12 +12,38 @@
     <link rel="stylesheet" href="../css/contact.css" />
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet">
-</head>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBIwzALxUPNbatRBj3Xi1Uhp0fFzwWNBkE&callback=initMap&libraries=&v=weekly" async ></script>
+    <script>
+      // Initialize and add the map
+function initMap() {
+  // The location of Uluru
+  const uluru = { lat: 19.093071102068482, lng: 72.91368516179351 };
+  // The map, centered at Uluru
+  const map = new google.maps.Map(document.getElementById("map"), {
+    zoom: 4,
+    center: uluru,
+  });
+  // The marker, positioned at Uluru
+  const marker = new google.maps.Marker({
+    position: uluru,
+    map: map,
+  });
+}
+    </script>
+    <style>
+      #map {
+        height: 20%;
+        /* The height is 400 pixels */
+        width: 100%;
+        /* The width is the width of the web page */
+      }
+    </style>
+  </head>
 <body>
 
-  <nav class="navbar navbar-expand-lg navbar-light bg-light avenir_font sticky-top">
+  <nav class="navbar navbar-expand-lg navbar-light  avenir_font sticky-top myNav">
     <div class="container">
-      <img class="img-fluid" src="../images/logo.svg" />
+      <a href="main-page.html"><img class="img-fluid" src="../images/logo.svg" /></a>
       <button
         class="navbar-toggler"
         type="button"
@@ -28,51 +54,54 @@
         aria-label="Toggle navigation"
         onclick="myFunction()"><span class="navbar-toggler-icon"></span></button>
       <div class="collapse navbar-collapse" id="navbarSupportedContent" >
-        <ul class="navbar-nav ml-auto" >
-          <li class="nav-item active" >
-            <a class="nav-link" href="main-page.html">HOME <span class="sr-only">(current)</span></a>
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item active" >
+            <a class="nav-link text-white" href="main-page.html">HOME <span class="sr-only">(current)</span></a>
           </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link text-dark dropdown-toggle" href="services.html" data-bs-toggle="dropdown"> SERVICES </a>
+          <li class="nav-item dropdown myNav">
+            <a class="nav-link text-dark dropdown-toggle text-white"  href="services.html" data-bs-toggle="dropdown"> <span class="text-white">SERVICES</span> <span class="sr-only">(current)</span> </a>
              <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="prototyping.html">Prototyping</a></li>
-              <li><a class="dropdown-item" href="3dscanning.html">3D Scanning</a></li>
-              <li><a class="dropdown-item" href="design.html">Design</a></li>
-              <li><a class="dropdown-item" href="reverse_engg.html">Reverse Engineering</a></li>
+              <li><a class="dropdown-item font-weight-bold" href="prototyping.html">Prototyping</a></li>
+              <li><a class="dropdown-item font-weight-bold" href="3dscanning.html">3D Scanning</a></li>
+              <li><a class="dropdown-item font-weight-bold" href="design.html">Design</a></li>
+              <li><a class="dropdown-item font-weight-bold" href="reverse_engg.html">Reverse Engineering</a></li>
              </ul>
          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link text-dark dropdown-toggle" href="domain.html" data-bs-toggle="dropdown"> DOMAINS </a>
+          <li class="nav-item dropdown text-white">
+            <a class="nav-link text-dark dropdown-toggle text-white" href="domain.html" data-bs-toggle="dropdown"><span class="text-white">DOMAINS</span>  <span class="sr-only">(current)</span></a>
              <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="med_health.html">Medical and HealthCare</a></li>
-              <li><a class="dropdown-item" href="automobile.html">Automobile</a></li>
-              <li><a class="dropdown-item" href="construction.html">Construction</a></li>
-              <li><a class="dropdown-item" href="arts_restore.html">Arts and Restoration</a></li>
-              <li><a class="dropdown-item" href="consumer_goods.html">Consumer Goods</a></li>
-              <li><a class="dropdown-item" href="manufacturing.html">Manufacturing</a></li>
-              <li><a class="dropdown-item" href="package_design.html">Package Design</a></li>
+              <li><a class="dropdown-item font-weight-bold" href="med_health.html">Medical and HealthCare</a></li>
+              <li><a class="dropdown-item font-weight-bold" href="automobile.html">Automobile</a></li>
+              <li><a class="dropdown-item font-weight-bold " href="construction.html">Construction</a></li>
+              <li><a class="dropdown-item font-weight-bold" href="arts_restore.html">Arts and Restoration</a></li>
+              <li><a class="dropdown-item font-weight-bold" href="consumer_goods.html">Consumer Goods</a></li>
+              <li><a class="dropdown-item font-weight-bold" href="manufacturing.html">Manufacturing</a></li>
+              <li><a class="dropdown-item font-weight-bold" href="package_design.html">Package Design</a></li>
              </ul>
          </li>
           <li class="nav-item active">
-            <a class="nav-link" href="build.html">BUILD <span class="sr-only">(current)</span></a>
+            <a class="nav-link text-white" href="build.html">BUILD <span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item active">
-            <a class="nav-link" href="sustainability.html">SUSTAINABILITY <span class="sr-only">(current)</span></a>
+            <a class="nav-link text-white" href="sustainability.html">SUSTAINABILITY <span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item active">
-            <a class="nav-link" href="contact.html">CONTACT <span class="sr-only">(current)</span></a>
+            <a class="nav-link text-white" href="contact.html">CONTACT <span class="sr-only">(current)</span></a>
           </li>
         </ul>
       </div>
     </div>
   </nav>
-
-      <div class="container mt-5">
+  <div class="container-fluid mainpageimg">
+    <img class="img-fluid md-none" src="../images/contact.svg" />
+    <img class="img-fluid d-lg-none" src="../images/contactPhone.svg" />
+  </div>
+      <div class="container-fluid card-img-overlay mt-5">
+        <div class="container">
         <div class="row mt-5">
             <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-xs-12 col-12 mb-5">
                 <div class="col display-4">
-                    <h1>We’d love to hear from you.</h1
-                      >
+                    <h1>We’d love to hear from you.</h1>
                 </div>
                 <div class="col mt-5">
                     <em>Your questions & comments are important to us. Whether you have any enqueries about our services, pricing, need a sample or anything else,
@@ -88,14 +117,26 @@
                     <h4>We are located at:</h4><br>
                     <div>623, Swastik Disa Corporate Park,<br />
                       Opposite Shreyas Cinemas, LBS marg, Ghatkopar <br /> West, Mumbai, Maharashtra 400086<br />
-                      Google Maps : <a href="https://goo.gl/maps/QoKaLDWg8iazEMcX9">https://goo.gl/maps/QoKaLDWg8iazEMcX9</a>
+                      <!-- Google Maps : <a href="https://goo.gl/maps/QoKaLDWg8iazEMcX9">https://goo.gl/maps/QoKaLDWg8iazEMcX9</a> -->
                     </div>
                 </div>
+                <div class="col" id="map"></div>
+                <br/>
+                <br/>
+            
+                <br/>
+                <br/>
+                <br/>
+                <br/>
+                <br/>
+            
             </div>
+    
+          
  <!--  PLEASE CREATE ACCOUNT ON FORMSPREE WEBSITE AND CHANGE ACTION FIELS OF FORM WITH YOUR VERIFIED ACCOUNT ONLY FOR SECURITY PURPOSES, CURRENT ONE IS DEMO ACCOUNT MAY NOT BE SECURE  -->
             <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-xs-12 col-12 ">
                 <div class="container mb-5">
-                    <form action="https://formspree.io/f/mwkakrzy" method="POST" class="bcd shadow bg-white bg-white pt-3 pb-1 pl-5 pr-5" enctype="multipart/form-data">
+                    <form action="https://formspree.io/f/mwkakrzy" method="POST" class="bcd shadow-lg bg-white bg-white pt-3 pb-1 pl-5 pr-5" enctype="multipart/form-data">
                         <div class="form-group ">
                             <div class="form-group">
                                 <label for="name">NAME <b>*</b></label>
@@ -112,10 +153,6 @@
                             <div class="form-group">
                                 <label for="company_name">COMPANY NAME</label>
                                 <input type="text" class="abc form-control" name="company_name" id="company_name" placeholder="" required/>
-                            </div>
-                            <div class="form-group">
-                                <label for="industry">INDUSTRY / DOMAIN</label>
-                                <input type="text" class="abc form-control" name="industry" id="industry" placeholder="" required/>
                             </div>
                             <div class="form-group">
                                 <label for="region">REGION / PLACE</label>
@@ -168,7 +205,7 @@
         </div>
       </section>
 
-      <section id="third">
+      <div id="third">
         <div class="container-fluid p-4">
           <div class="row">
             <div class="col-lg-4 text-center text-white">All Rights Reserved</div>
@@ -176,6 +213,7 @@
             <div class="col-lg-4 text-center text-white">Made in India</div>
           </div>
         </div>
+      </div>
       </div>
       </section>
     </body>
