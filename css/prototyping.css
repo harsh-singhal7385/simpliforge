@@ -49,6 +49,16 @@ body {
   line-height: 25px;
   letter-spacing: 0.125em;
 }
+.myNav{
+  background-color:rgb(76.5, 76.1, 74.1);
+  color:white
+}
+#myNav1{
+  color: white;
+}
+.myShadow{
+  color: white;
+}
 #third{
   background-color:#4D4D4D;
   font-family:'Nunito', sans-serif;

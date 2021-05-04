@@ -14,6 +14,16 @@ body {
 	.navbar .nav-item:hover .dropdown-menu{ display: block; }
 	.navbar .nav-item .dropdown-menu{ margin-top:0; }
 }
+.myNav{
+  background-color:rgb(76.5, 76.1, 74.1);
+  color:white
+}
+#myNav1{
+  color: white;
+}
+.myShadow{
+  color: white;
+}
 .btn:focus,.btn:active {
   outline: none !important;
   box-shadow: none;
