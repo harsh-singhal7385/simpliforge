@@ -18,10 +18,7 @@ body {
 	.navbar .nav-item:hover .dropdown-menu{ display: block; }
 	.navbar .nav-item .dropdown-menu{ margin-top:0; }
 }
-.myNav{
-  background-color:rgb(76.5, 76.1, 74.1);
-  color:white
-}
+
 #myNav1{
   color: white;
 }
@@ -39,7 +36,7 @@ body {
     font-weight:bold;
     font-size:14px;
     line-height: 25px;
-     letter-spacing: 0.125em;
+    letter-spacing: 0.125em;
   }
   .btn{
     font-family: 'Nunito', sans-serif;
