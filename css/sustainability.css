@@ -18,10 +18,7 @@ body {
 	.navbar .nav-item:hover .dropdown-menu{ display: block; }
 	.navbar .nav-item .dropdown-menu{ margin-top:0; }
 }
-.myNav{
-  background-color:rgb(76.5, 76.1, 74.1);
-  color:white
-}
+
 #myNav1{
   color: white;
 }
@@ -72,7 +69,7 @@ body {
 }
 .line1{
   background: rgba(255, 255, 255, 0.55);
-  font-size: 14px;
+  font-size: 26px;
 }
 a{
   color: black;
@@ -100,7 +97,10 @@ a{
  .phone{
   display: none;
 }
-
+.card-header{
+  background-color: black;
+  opacity: 50%;
+}
   .navbar li{
     margin-left : 0.5em;
     margin-right : 0.5em;
@@ -111,7 +111,7 @@ a{
      letter-spacing: 0.125em;
   }
 .xyz{
-  padding-top: 5% !important;
+  padding-top: 3% !important;
 }
 
 .container-fluid {
@@ -153,6 +153,7 @@ a{
   }
   .opd{
   width: 50% !important;
+  font-size: 22px;
   }
 @media only screen and (max-width: 1300px){
       .xyz{

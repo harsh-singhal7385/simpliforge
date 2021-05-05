@@ -19,10 +19,7 @@ body {
 	.navbar .nav-item:hover .dropdown-menu{ display: block; }
 	.navbar .nav-item .dropdown-menu{ margin-top:0; }
 }
-.myNav{
-  background-color:rgb(76.5, 76.1, 74.1);
-  color:white
-}
+
 #myNav1{
   color: white;
 }
@@ -68,8 +65,10 @@ body {
     width: 87px;
 }
 .card{
-text-align: justify;
-height: 500px;
+/* text-align: justify; */
+text-align: left;
+height: 400px;
+line-height: 20px;
 }
 #first{
   font-family: 'Nunito', sans-serif;

@@ -43,10 +43,7 @@ body {
   padding-left: 15px !important;
   padding-right: 15px !important;
 }
-.myNav{
-  background-color:rgb(76.5, 76.1, 74.1);
-  color:white
-}
+
 #myNav1{
   color: white;
 }
@@ -63,8 +60,9 @@ body {
     height: 36px;
 }
 .card{
-text-align: justify;
-height: 490px;
+text-align: left;
+height: 460px;
+line-height: 20px;
 }
 .note{
   text-align:justify;
