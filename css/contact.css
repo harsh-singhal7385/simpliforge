@@ -1,9 +1,15 @@
 body {
-  background-image: url('../contact.svg');
+  background-image: url('../images/contact.svg');
   background-size: contain contain;
-  background-position: top, bottom;
-  background-repeat: no-repeat;
+  background-position: top, bottom ,left ,right;
+  background-repeat: repeat;
+  
 }
+.myImg{
+  opacity: 0.1;
+}
+
+
 @font-face {
   font-family: myFirstFont;
   src: url('../fonts/FontAvenirNextLTPro.ttf');
@@ -17,6 +23,22 @@ body {
 	.navbar .nav-item:hover .nav-link{  color: black; }
 	.navbar .nav-item:hover .dropdown-menu{ display: block; }
 	.navbar .nav-item .dropdown-menu{ margin-top:0; }
+}
+.mapouter{
+  position:relative;
+  text-align:right;
+  height:63%;
+  width:100%;
+}
+.gmap_canvas {
+  overflow:hidden;
+  background:none!important;
+  height:63%;
+  width:100%;
+}
+.myFrame{
+  height:63%;
+  width:100%;
 }
 
 #myNav1{
@@ -48,46 +70,28 @@ body {
     padding-left: 2vw;
     padding-right: 2vw;
   }
-  #first{
-    font-family: 'Nunito', sans-serif;
-    font-size:14px;
-    line-height: 25px;
-    letter-spacing: 0.125em;
-  }
-  #second{
-    font-family: 'Nunito', sans-serif;
-    font-size:14px;
-    line-height: 25px;
-    letter-spacing: 0.125em;
-}
-.btn{
-  font-family: 'Nunito', sans-serif;
-  font-size:11px;
-  line-height: 25px;
-  letter-spacing: 0.125em;
-  background: #45619F;
-  border-radius: 20px;
-  padding-left: 2vw;
-  padding-right: 2vw;
-}
+ 
 #first{
   font-family: 'Nunito', sans-serif;
   font-size:14px;
   line-height: 25px;
   letter-spacing: 0.125em;
+  background-color: #EDEDEB;
 }
 #second{
-  font-family: 'Nunito', sans-serif;
+  font-family:'Nunito', sans-serif;
   font-size:14px;
   line-height: 25px;
   letter-spacing: 0.125em;
+  background-color: white;
 }
 #third{
   background-color:#4D4D4D;
-  font-family: 'Nunito', sans-serif;
+  font-family:'Nunito', sans-serif;
   font-weight:normal;
   font-size:14px;
   line-height: 17px;
+  background: #4D4D4D;
 }
 .f1{
   background-color:#EDEDEB;
