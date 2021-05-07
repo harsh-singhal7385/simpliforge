@@ -1,20 +1,14 @@
 body {
   background-image: url('../images/contact.svg');
-  background-size: contain contain;
-  background-position: top, bottom ,left ,right;
-  background-repeat: repeat;
-  
 }
 .myImg{
   opacity: 0.1;
 }
 
-
 @font-face {
   font-family: myFirstFont;
   src: url('../fonts/FontAvenirNextLTPro.ttf');
 }
-
 *{
   font-family: myFirstFont;
 }
@@ -70,7 +64,7 @@ body {
     padding-left: 2vw;
     padding-right: 2vw;
   }
- 
+
 #first{
   font-family: 'Nunito', sans-serif;
   font-size:14px;

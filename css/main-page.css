@@ -1,6 +1,6 @@
 body{
   overflow-x:hidden;
-  background: #E5E5E5;
+  background: #EDEDEB;
 }
 @font-face {
   font-family: myFirstFont;
@@ -8,7 +8,6 @@ body{
 }
 @media all and (min-width: 992px) {
 	.navbar .nav-item .dropdown-menu{ display: none;color: white; }
-	.navbar .nav-item:hover .nav-link{  color: white; }
 	.navbar .nav-item:hover .dropdown-menu{ display: block;color: white; }
 	.navbar .nav-item .dropdown-menu{ margin-top:0;color: white; }
 }
@@ -114,7 +113,7 @@ margin-top: 170px;
   color: #373737 !important;
 }
 
-.custom-arrow > button{
+.custom-arrow > a{
   width: 15vw !important;
   color:  #9B8257;
 }
