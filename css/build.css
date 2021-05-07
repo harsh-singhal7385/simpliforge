@@ -15,7 +15,14 @@
     .navbar .nav-item:hover .dropdown-menu{ display: block; }
     .navbar .nav-item .dropdown-menu{ margin-top:0; }
   }
-  
+.centered {
+text-align: center;
+position: absolute;
+top: 40%;
+left: 50%;
+transform: translate(-50%, -50%);
+}
+
   #myNav1{
     color: white;
   }
