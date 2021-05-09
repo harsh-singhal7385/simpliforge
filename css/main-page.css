@@ -137,7 +137,7 @@ margin-top: 170px;
 }
 #second{
   font-family:'Nunito', sans-serif;
-  font-size:14px;
+  font-size:18px;
   line-height: 25px;
   letter-spacing: 0.125em;
   background-color: white;
@@ -168,6 +168,10 @@ margin-top: 170px;
 
 .f1{
   background-color:#EDEDEB;
+    font-size:18px;
+}
+.hyper{
+  color: black;
 }
 .f2{
   background-color:#4D4D4D ;
