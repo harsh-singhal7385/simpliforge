@@ -9,25 +9,38 @@ let region;
 let purpose;
 
 let obj = {}
-
-function FormSubmit(){
-    name_user = document.getElementById('name')
-    email = document.getElementById('email')
-    phone = document.getElementById('phone')
-    company_name = document.getElementById('company_name')
-    region = document.getElementById('region')
-    purpose = document.getElementById('purpose')
     
-    obj = {
-        name:name_user,
-        email:email,
-        phone:phone,
-        company_name:company_name,
-        region:region,
-        purpose:purpose
-    }
-    
-    // fetch(url,obj)
-    // window.location.href = "http://www.w3schools.com";
+    var form = document.getElementById("my-form");
 
-}
+    async function handleSubmit(event) {
+
+        var form = document.getElementById("my-form");
+
+        event.preventDefault();
+       
+        var data = new FormData(event.target);
+        fetch('https://formspree.io/f/moqyjola', {
+          method: 'post',
+          body: data,
+          headers: {
+              'Accept': 'application/json'
+          }
+        }).then(response => {
+       
+            form.reset()
+          return response.json()
+        }).then(response => {
+            
+            
+          }).catch(error => {
+        
+        });
+
+        document.getElementById('myShown').style.display = "none"
+        document.getElementById('myHidden').style.display = "block"
+      
+    
+      }
+    //   https://formspree.io/f/moqyjola
+    
+
