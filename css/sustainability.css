@@ -14,6 +14,8 @@ body {
   border-radius: 20px;
   font-size: 20px;
   margin: 0 auto; 
+  height: 340px;
+  width: 248px;
   /* float: none;  */
   /* margin-bottom: 10px;  */
 }
@@ -203,3 +205,20 @@ a{
           padding: 6% !important;
         }
       }
+.resiz{
+  width: 268px;
+  height: 200px;
+  border-bottom-left-radius:20px ;
+  border-bottom-Right-radius:20px ;
+}
+.resiz2{
+  width: 226px;
+  height: 146px;
+}
+.card-title{
+  font-size: 13px;
+}
+.plz-1{
+  height: 46px;
+  width: 156px;
+}
