@@ -207,7 +207,7 @@ a{
       }
 .resiz{
   width: 268px;
-  height: 200px;
+  height: 222px;
   border-bottom-left-radius:20px ;
   border-bottom-Right-radius:20px ;
 }
@@ -221,4 +221,7 @@ a{
 .plz-1{
   height: 46px;
   width: 156px;
+}
+.res{
+  width:87vw;
 }
