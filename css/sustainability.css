@@ -13,7 +13,7 @@ body {
 .myCard{
   border-radius: 20px;
   font-size: 20px;
-  margin: 0 auto; 
+  margin: 0 auto;
   height: 340px;
   width: 248px;
   /* float: none;  */
@@ -142,6 +142,12 @@ a{
   margin: 0;
   overflow-x: hidden;
 }
+.ourgoal1{
+  padding-right: 24%;
+}
+.ourgoal2{
+  padding-left: 24%;
+}
 
   #first{
     font-family: 'Nunito', sans-serif;
@@ -221,4 +227,12 @@ a{
 .plz-1{
   height: 46px;
   width: 156px;
+}
+@media all and (max-width: 992px) {
+  .ourgoal1{
+    padding-right: 2%  !important;
+  }
+  .ourgoal2{
+    padding-left: 3%  !important;
+  }
 }

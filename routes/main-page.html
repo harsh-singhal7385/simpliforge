@@ -68,10 +68,22 @@
         </div>
       </div>
     </nav>
-    <div class="container-fluid mainpageimg">
+    <!-- fordesktop -->
+    <section id="desk">
+      <div class="container-fluid mainpageimg">
+        <img class="img-fluid md-none" src="../images/main-page.svg" />
+        <img class="img-fluid d-lg-none" src="../images/contactPhone.svg" />
+      </div>
+    </section>
+
+    <!-- for phones -->
+    <section id="phone">
+      <div class="container-fluid mainpageimg">
       <img class="img-fluid md-none" src="../images/main-page.svg" />
-      <img class="img-fluid d-lg-none" src="../images/contactPhone.svg" />
+      <img class="img-fluid d-lg-none" src="../images/mainphn.svg" />
     </div>
+  </section>
+
     <div class="container-fluid card-img-overlay" id="myBox">
       <div class="container">
         <div class="h1 text-white  ">ONE STOP <br> PROTOTYPING AND <br> MANUFACTURING <br> SOLUTIONS</div><br>
@@ -79,11 +91,12 @@
       <a href="simpliforge.pdf" target="_blank"><button type="submit" class="btn btn-primary rounded-pill p-2 pl-3 pr-3 mt-4" onclick="DownloadFile()">DOWNLOAD COMPANY PROFILE</button></a>
       </div>
     </div>
-    <h1>&nbsp;</h1>
-
+    <h1 class="mobilebreak">&nbsp;</h1>
+<!-- for desktop -->
+<section id="desk">
     <div class="container avenir_font mb-5 mt-5">
       <div class="col mt-5 h2 mb-4 text-center myFont">WHO WE ARE</div>
-      <h1>&nbsp;</h1>
+      <h1 >&nbsp;</h1>
       <div class="row nopadding mb-5">
         <div class="col-lg-6 col-12 p-5 bg-blue-color text-white d-flex align-items-center justify-content-center text-justify tlbr">Simpliforge solutions takes pride in its services as a one stop, end-to-end low volume prototyping and manufacturing solution for products spanning over the FMCG sector to niche domains such as dentistry, prosthetics, jewelry, construction and so on.</div>
         <div class="col-lg-6 col-12 bg-secondary bgimg"><img src="../images/sect-2.svg" class="img-fluid" /></div>
@@ -92,6 +105,21 @@
       </div>
     </div>
     <p>&nbsp;</p>
+    </section>
+    <!-- for phones -->
+    <section id="phone">
+    <div class="container avenir_font mb-3 mt-3 p-4">
+      <div class="col mt-5 h2 text-center myFont">WHO WE ARE</div>
+      <div class="row nopadding mt-4 mb-3">
+        <div class="col-lg-6 col-12 p-5 bg-blue-color text-white d-flex align-items-center justify-content-center text-justify tlbr">Simpliforge solutions takes pride in its services as a one stop, end-to-end low volume prototyping and manufacturing solution for products spanning over the FMCG sector to niche domains such as dentistry, prosthetics, jewelry, construction and so on.</div>
+        <div class="col-lg-6 col-12 bgimg"><img src="../images/sect-2.svg" class="img-fluid" /></div>
+          <div class="col-lg-6 col-12 p-5 bg-dark text-white d-flex align-items-center justify-content-center  text-justify brbr">Powered by partnerships with manufacturing domain experts, localized production facilities and international design experts, Simpliforge delivers services to the best-of-the-market quality within the domain. Employing principles of concurrent engineering, Simpliforge works with the client in real-time to ensure accuracy and transparency in the production.</div>
+        <div class="col-lg-6 col-12  bgimg "><img src="../images/sect-3.svg" class="img-fluid go" /></div>
+      </div>
+    </div>
+    </section>
+    <!-- for desktop -->
+    <section id="desk">
     <div class="container mt-5 avenir_font">
       <div class="text-center mt-5 h2 myFont">WHAT WE DO</div>
       <div class="row text-center mt-5">
@@ -115,59 +143,37 @@
     </div>
     <h1>&nbsp;</h1>
     <h1>&nbsp;</h1>
-    <!-- <div class="container-fluid">
-      <div class="display-4 mt-4 mb-0 pt-2 pb-0 text-center fcfcfc">OUR CLIENTELE</div>
-    </div>
-    <div class="container-fluid mt-0 mb-4">
-      <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-        <ol class="carousel-indicators">
-          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-          <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
-          <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
-          <li data-target="#carouselExampleIndicators" data-slide-to="5"></li>
-          <li data-target="#carouselExampleIndicators" data-slide-to="6"></li>
-          <li data-target="#carouselExampleIndicators" data-slide-to="7"></li>
-        </ol>
-        <div class="carousel-inner bg-dark">
-          <div class="carousel-item active">
-            <img class="d-block w-100" src="../images/carousel1.svg" alt="Second slide">
+    </section>
+    <!-- for phones -->
+    <section id="phone">
+      <div class="container mt-2 avenir_font">
+      <div class="text-center h2 myFont">WHAT WE DO</div>
+      <div class="row text-center">
+        <div class="col-lg-8 col-12 pt-2 pl-2">
+          <img src="../images/whatwedo.svg" class="img-fluid what" />
+        </div>
+        <div class="col-lg-4 col-12 text-center my-auto pl-3 btnphn">
+          <div class="row mt-3">
+            <div class="col-lg-12 col-sm-12 myShadow  col-4 custom-arrow">
+            <a href="../routes/services.html" class="one btn mb-5 p-3 bg-white shadow-lg rounded-pill font-weight-bold color1 myFont-btn" role="button" aria-disabled="true">Services</a>
           </div>
-          <div class="carousel-item">
-            <img class="d-block w-100" src="../images/carousel2.svg" alt="Third slide">
+            <div class="col-lg-12 col-sm-12 myShadow  col-4 custom-arrow">
+            <a href="../routes/domain.html" class="btn mb-5 p-3 bg-white shadow-lg rounded-pill font-weight-bold color2 myFont-btn"  role="button" aria-disabled="true">Domains</a>
           </div>
-          <div class="carousel-item">
-            <img class="d-block w-100" src="../images/carousel3.svg" alt="Fourth slide">
-          </div>
-          <div class="carousel-item">
-            <img class="d-block w-100" src="../images/carousel4.svg" alt="Fifth slide">
-          </div>
-          <div class="carousel-item">
-            <img class="d-block w-100" src="../images/carousel5.svg" alt="sixth slide">
-          </div>
-          <div class="carousel-item">
-            <img class="d-block w-100" src="../images/carousel6.svg" alt="Seventh slide">
-          </div>
-          <div class="carousel-item">
-            <img class="d-block w-100" src="../images/carousel7.svg" alt="Eighth slide">
-          </div>
-          <div class="carousel-item">
-            <img class="d-block w-100" src="../images/carousel8.svg" alt="Ninth slide">
+            <div class="col-lg-12 col-sm-12 myShadow  col-4 custom-arrow">
+            <a href="../routes/build.html" class="btn mb-5 p-3 bg-white shadow-lg rounded-pill font-weight-bold color3 myFont-btn"  role="button" aria-disabled="true">Build</a>
+            </div>
           </div>
         </div>
-        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="sr-only">Previous</span>
-        </a>
-        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="sr-only">Next</span>
-        </a>
       </div>
-    </div> -->
+    </div>
+    <h1 class="mobilebreak">&nbsp;</h1>
+    <h1 class="mobilebreak">&nbsp;</h1>
+  </section>
+<!-- for desktop -->
+    <section id="desk">
     <div class="container-fluid  p-5 bg-white">
-      <div class="container-fluid text-center p-5 display-4 mt-3">
+      <div class="container-fluid text-center p-5 display-4 slidesection">
         OUR CLIENTELE
       </div>
       <div class="container-fluid text-center ">
@@ -311,17 +317,94 @@
         </div>
       </div>
     </div>
+    </section>
+
+    <section id="phone">
+      <div class="container-fluid  p-5 bg-white">
+        <div class="container-fluid text-center p-5 display-4 slidesection">
+          OUR CLIENTELE
+        </div><br>
+        <div class="container-fluid text-center ">
+          <div id="carouselExampleIndicators" class="carousel slide  " data-ride="carousel">
+            <ol class="carousel-indicators">
+              <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="5"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="6"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="7"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="8"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="9"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="10"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="11"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="12"></li>
+              </ol>
+            <div class="carousel-inner w-100   ">
+              <div class="carousel-item active ">
+                <img class="d-block w-100 bg-white" src="../images/clientphn1.svg" alt="First slide">
+              </div>
+              <div class="carousel-item">
+                <img class="d-block w-100 " src="../images/clientphn2.svg" alt="Second slide">
+              </div>
+              <div class="carousel-item">
+                <img class="d-block w-100 " src="../images/clientele3.svg" alt="Third slide">
+              </div>
+              <div class="carousel-item">
+                <img class="d-block w-100 " src="../images/clientele4.svg" alt="Fourth slide">
+              </div>
+              <div class="carousel-item">
+                <img class="d-block w-100 " src="../images/clientele5.svg" alt="Fifth slide">
+              </div>
+              <div class="carousel-item">
+                <img class="d-block w-100 " src="../images/clientele6.svg" alt="Sixth slide">
+              </div>
+              <div class="carousel-item">
+                <img class="d-block w-100 " src="../images/clientele7.svg" alt="Seventh slide">
+              </div>
+              <div class="carousel-item">
+                <img class="d-block w-100 " src="../images/clientele8.svg" alt="Eighth slide">
+              </div>
+              <div class="carousel-item">
+                <img class="d-block w-100 " src="../images/clientele9.svg" alt="Ninth slide">
+              </div>
+              <div class="carousel-item">
+                <img class="d-block w-100 " src="../images/clientele10.svg" alt="Tenth slide">
+              </div>
+              <div class="carousel-item">
+                <img class="d-block w-100 " src="../images/clientele11.svg" alt="Eleventh slide">
+              </div>
+              <div class="carousel-item">
+                <img class="d-block w-100 " src="../images/clientele12.svg" alt="Twelfth slide">
+              </div>
+              <div class="carousel-item">
+                <img class="d-block w-100 " src="../images/clientele13.svg" alt="Thirteen slide">
+              </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
     <!--footer-->
     <section id="first">
       <div class="container-fluid avenir_font mt-5">
         <div class="row">
           <div class="f1 col-lg-6 col-md-12 col-sm-12">
-            <a href="main-page.html"><img class=" pt-5 img-fluid d-flex mx-auto" src="../images/logo.svg" alt=""></a><br>
-                   <b class=" p-2 text-black d-flex align-items-center justify-content-center text-center mt-2 ">
+            <a href="main-page.html"><img class=" pt-5 img-fluid d-flex mx-auto logo" src="../images/logo.svg" alt=""></a><br>
+                   <b class=" p-2 text-black d-flex align-items-center justify-content-center text-center mt-2 logo1">
                      Email us at : contact@simpliforge.com <br>
-                     Phone: +91 8369175977 <br><br>
+                     Phone: +91 8369175977 <br class="mobilebreak"><br>
                    </b>
-                    <b class="text-black d-flex align-items-center justify-content-center text-center">
+                    <b class="text-black d-flex align-items-center justify-content-center text-center add">
                     <a href="contact.html" class="hyper p-1 text-decoration-none" target="_blank"> Mumbai  </a>
                     <a href="contact.html" class="hyper p-1 text-decoration-none" target="_blank"> &nbsp;&nbsp;&nbsp;| &nbsp;Pune &nbsp;</a>
                     <a href="contact.html" class="hyper p-1 text-decoration-none" target="_blank">  | &nbsp;Hyderabad</a>
@@ -329,8 +412,9 @@
 
           </div>
           <div class="f2 col-xl-2 col-lg-2 col-md-12 col-sm-12">
-            <p class="mt-5 text-white"><br><a href="main-page.html" class="text-white">HOME</a>
-              <br>
+            <p class="mt-5 text-white logo1"><br>
+              <a href="main-page.html" class="text-white">HOME</a>
+              <br >
               <a href="main-page.html" class="text-white">SERVICES</a>
                <br>
                <a href="main-page.html" class="text-white">DOMAINS</a>
@@ -343,14 +427,16 @@
             </p>
           </div>
           <div class="f3 col-xl-4 col-lg-4 col-md-12 col-sm-12 margin-center">
-            <br>
-            <p class="pl-5 ml-4 mt-2 text-white avenir_font"><br>FOLLOW US ON</p>
+            <br  class="mobilebreak">
+            <p class="pl-5 ml-4 mt-2 text-white avenir_font follow"><br>FOLLOW US ON</p>
+          <p  class="social">
             <a href="https://www.linkedin.com/company/simpliforge" target="_blank"><img  class="img-fluid ml-5" src="../images/linkedin.svg" alt=""></a>
-            <a href="https://www.instagram.com/simpliforge/" target="_blank"><img class=" img-fluid ml-3" src="../images/insta.svg" alt=""></a>
-            <a href="https://www.crunchbase.com/organization/simpliforge-creations" target="_blank"><img  class=" img-fluid ml-3" src="../images/crunchbase.svg" alt=""></a><br><br>
-            <a href="https://www.makeinindia.com/" target="_blank"><img  class=" img-fluids ml-1" src="../images/makeinindia.svg" alt=""></a>
-            <a href="https://www.startupindia.gov.in/" target="_blank"><img  class=" img-fluid" src="../images/startupindia.svg" alt=""></a>
-            <br><br><br><br>
+            <a href="https://www.instagram.com/simpliforge/" target="_blank"><img class=" img-fluid ml-3 " src="../images/insta.svg" alt=""></a>
+            <a href="https://www.crunchbase.com/organization/simpliforge-creations" target="_blank"><img  class=" img-fluid ml-3 " src="../images/crunchbase.svg" alt=""></a><br  class="mobilebreak"><br>
+          </p><p class="social1">
+         <a href="https://www.makeinindia.com/" target="_blank"><img  class=" img-fluids ml-1" src="../images/makeinindia.svg" alt=""></a>
+            <a href="https://www.startupindia.gov.in/" target="_blank"><img  class=" img-fluid" src="../images/startupindia.svg" alt=""></a></p>
+            <br class="mobilebreak"><br class="mobilebreak"><br class="mobilebreak"><br class="mobilebreak">
           </div>
         </div>
       </div>
