@@ -72,7 +72,7 @@
       </div>
     </div>
   </nav>
-
+  
   <div class="container-fluid text-left">
     <div class="container-fluid  mycontact text-left">
       <div class="row mt-5 text-left">
@@ -80,7 +80,7 @@
               <div class="col display-4">
                   <h1>We’d love to hear from you.</h1>
               </div>
-              <div class="col mt-4">
+              <div class="col mt-4 text-justify">
                 Your questions & comments are important to us. Whether you have any enqueries about our services, pricing, need a sample or want to explore career opportunities at Simpliforge, our team is always ready to answer all your questions.
               </div>
               <div class="row container">
@@ -91,8 +91,8 @@
                 <span class="myspan"> | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>  Phone: <a href="#" >+91 8369175977</a>
               </div>
               </div>
-
-              <div class="col mt-3">
+              
+              <div class="col mt-3 myAddress_laptop">
                 <h4 >We are located at:</h4>
                 <div class="row mt-3">
                   <div class="col-xl-2 col-lg-2 col-md-2 col-sm-2 col-2">
@@ -128,31 +128,47 @@
                   </div>
                 </div>
               </div>
-              <br/>
-              <br/>
-              <br/>
-              <br/>
-              <br/>
-              <br/>
-              <br/>
-
+              <div class="col mt-3 myAddress_mobile" >
+                <h4 >We are located at:</h4>
+                <div class="row mt-3">
+                  <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+                    <h6 class="font-weight-bold">Mumbai </h6>
+                    <div>623, Swastik Disa Corporate Park,<br />
+                      Opposite Shreyas Cinemas, LBS marg, Ghatkopar <br /> West, Mumbai, Maharashtra 400 086<br /><br />
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+                    <h6 class="font-weight-bold"> Pune </h6>
+                    <div>PLOT NO. 241, Sector Number 7 Rd,<br />
+                      MIDC Sector 2 Industrial Area,<br />  Bhosari, Maharashtra - 411 026<br /><br />
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+                    <h6 class="font-weight-bold"> Hyderabad</h6>
+                    <div>SBH Officers Colony, Mega Hills, Madhapur,<br />
+                      Telangana 500 081<br /><br />
+                    </div>
+                  </div>
+                </div>
+              </div>
           </div>
 
 <!--  PLEASE CREATE ACCOUNT ON FORMSPREE WEBSITE AND CHANGE ACTION FIELS OF FORM WITH YOUR VERIFIED ACCOUNT ONLY FOR SECURITY PURPOSES, CURRENT ONE IS DEMO ACCOUNT MAY NOT BE SECURE  -->
           <div class="col-xl-5 col-lg-5 col-md-12 col-sm-12 col-xs-12 col-12" id="myShown">
               <div class="container">
                   <form action="https://formspree.io/f/moqyjola" method="POST" onSubmit="handleSubmit(event)" class="bcd shadow-lg bg-white bg-white pt-2 pb-2 pl-4 pr-4" enctype="multipart/form-data">
-                      <div class="form-group "> <!--belinid823@cnxingye.com-->
-                        <div class="form-group">
-                          <input type="hidden" name="_append" value="false" />
-                        </div>
+                      <div class="form-group ">
                           <div class="form-group">
                               <label for="name">NAME <b>*</b></label>
                               <input type="text" class="abc form-control" name="name" id="name" placeholder="" required/>
                           </div>
                           <div class="form-group">
                               <label for="email">EMAIL ADDRESS<b>*</b></label>
-                              <input type="email" class="abc form-control" name="email" id="email" placeholder="" required/>
+                              <input type="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" title="abc@yourmail.domain(domain atleast 2 characters)" class="abc form-control" name="email" id="email" placeholder="" required/>
                           </div>
                           <div class="form-group">
                               <label for="phone">PHONE</label>

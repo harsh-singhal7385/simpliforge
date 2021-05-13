@@ -85,3 +85,9 @@ body {
   height: 46px;
   width: 156px;
 }
+@media screen and (max-width: 550px) {
+  .text-responsive{
+    font-size: 11vw;
+  
+  }
+}
