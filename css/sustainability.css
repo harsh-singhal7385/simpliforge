@@ -213,13 +213,16 @@ a{
       }
 .resiz{
   width: 268px;
-  height: 200px;
+  height: 222px;
   border-bottom-left-radius:20px ;
   border-bottom-Right-radius:20px ;
 }
 .resiz2{
   width: 226px;
   height: 146px;
+}
+.res{
+  width:87vw;
 }
 .card-title{
   font-size: 13px;
