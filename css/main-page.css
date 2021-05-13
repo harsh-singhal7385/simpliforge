@@ -231,3 +231,102 @@ margin-top: 170px;
   height: 46px;
   width: 156px;
 }
+#phone{
+  display:none;
+}
+#desk{
+  display: block;
+}
+
+/* for mobile phones */
+/*1.for footer */
+@media all and (max-width: 992px) {
+  .f1,.f2,#third{
+    font-size: 10px;
+    padding-top: 0% !important;
+  }
+  .logo{
+    padding-top: 0% !important;
+  }
+  .logo1{
+    margin-top: 0%!important;
+    padding: 0% !important;
+  }
+  .add{
+    margin-bottom: 3%!important;
+  }
+  .mobilebreak{
+    display: none;
+  }
+  .f2{
+    text-align: center !important;
+  }
+  .follow,.f3{
+    font-size: 12px !important;
+    padding: 0% !important;
+    margin: 0% !important;
+    text-align: center;
+  }
+  .social{
+    margin-right: 15% !important;
+  }.social1{
+    margin-right: 5% !important;
+  }
+}
+
+/* our clientele */
+
+@media all and (max-width: 992px) {
+ .slidesection{
+   padding: 1% !important;
+   margin: 0% !important;
+   font-size: 24px !important;
+    }
+}
+
+/* for who we are  */
+@media all and (max-width: 992px) {
+ .myFont{
+   font-size: 30px !important ;
+   padding: 0% !important;
+   margin: 0% !important;
+ }
+ .tlbr{
+  border-radius: 15px 15px 0px 0px !important;
+   font-size: 10px !important ;
+   padding: 4% !important;
+ }
+ .brbr{
+   border-radius: 0px !important;
+   font-size: 10px !important ;
+   padding: 4% !important;
+ }
+ .go{
+   border-bottom-left-radius: 15px!important;
+   border-bottom-right-radius: 15px!important;
+ }
+ body{
+   overflow-x:hidden;
+   background: #EDEDEB;
+ }
+ #desk{
+   display: none;
+ }
+ #phone{
+  display: block;
+   }
+}
+
+/* for buttons */
+@media all and (max-width: 992px) {
+  .custom-arrow > a {
+    width: 25vw !important;
+    }
+    .myFont-btn {
+    font-size: 15px;
+}
+    .btnphn{
+      padding-left: 0% !important;
+    }
+
+}
