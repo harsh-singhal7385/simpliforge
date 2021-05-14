@@ -91,3 +91,41 @@ body {
   
   }
 }
+/* for mobile phones */
+/*1.for footer */
+@media all and (max-width: 992px) {
+  .f1,.f2,#third{
+    font-size: 10px;
+    padding-top: 0% !important;
+  }
+  .top{
+    margin-top: 7%!important;
+  }
+  .logo{
+    padding-top: 6% !important;
+  }
+  .logo1{
+    margin-top: 0%!important;
+    padding: 0% !important;
+  }
+  .add{
+    margin-bottom: 3%!important;
+  }
+  .mobilebreak{
+    display: none;
+  }
+  .f2{
+    text-align: center !important;
+  }
+  .follow,.f3{
+    font-size: 12px !important;
+    padding: 0% !important;
+    margin: 0% !important;
+    text-align: center;
+  }
+  .social{
+    margin-right: 15% !important;
+  }.social1{
+    margin-right: 5% !important;
+  }
+}
