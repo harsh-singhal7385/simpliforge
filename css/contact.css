@@ -145,7 +145,28 @@ label {
     }
 
   }
+  @media only screen and (min-width: 540px){
+    .myAddress_laptop {
+      display: block;
+    }
+    
+    .myAddress_mobile {
+      display: none;
+    }
+  
+  }
 
+  @media only screen and (max-width: 539px){
+    .myAddress_laptop {
+      display: none;
+    }
+    
+    .myAddress_mobile {
+      display: block;
+    }
+  
+  }
+  
 #myHidden{
   display: none;
 }

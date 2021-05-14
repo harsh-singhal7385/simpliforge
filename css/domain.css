@@ -115,6 +115,10 @@ line-height: 20px;
   height: 46px;
   width: 156px;
 }
+
+.myWidth{
+  width: 91%;
+}
 /* for mobile phones */
 /*1.for footer */
 @media all and (max-width: 992px) {

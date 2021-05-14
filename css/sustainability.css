@@ -92,7 +92,9 @@ body {
 a{
   color: black;
 }
-
+.myGoals{
+  border-radius: 20px;
+}
 .goal{
   background: rgba(0, 0, 0, 0.47);
   border-radius: 90px 0px 0px 90px;
@@ -237,6 +239,39 @@ a{
   }
   .ourgoal2{
     padding-left: 3%  !important;
+  }
+}
+
+@media screen and (min-width: 461px) {
+  .mySizeMobile1{
+    display: block;
+    
+  }
+  .mySizeMobile2{
+    display: none;
+    
+  }
+}
+@media screen and (max-width: 460px) {
+  .mySizeMobile1{
+    display: none;
+    line-height: 22px;
+  }
+  .mySizeMobile2{
+    display: block;
+    line-height: 22px;
+  }
+}
+@media screen and (max-width: 550px) {
+  .mySustainFont{
+    line-height: 27px;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .text-responsive{
+    font-size: 11vw;
+  
   }
 }
 /* for mobile phones */

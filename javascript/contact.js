@@ -1,6 +1,6 @@
 
 
-let url = "https://formspree.io/f/mwkakrzy"
+let url = "https://formspree.io/f/xnqlpdnn"    // client api for formspree
 let name_user;
 let email;
 let phone;
@@ -19,7 +19,7 @@ let obj = {}
         event.preventDefault();
        
         var data = new FormData(event.target);
-        fetch('https://formspree.io/f/moqyjola', {
+        fetch('https://formspree.io/f/xnqlpdnn', {
           method: 'post',
           body: data,
           headers: {
@@ -41,6 +41,6 @@ let obj = {}
       
     
       }
-    //   https://formspree.io/f/moqyjola
+    //   https://formspree.io/f/xnqlpdnn
     
 
