@@ -88,7 +88,7 @@ body {
 @media screen and (max-width: 550px) {
   .text-responsive{
     font-size: 11vw;
-  
+
   }
 }
 /* for mobile phones */
@@ -127,5 +127,18 @@ body {
     margin-right: 15% !important;
   }.social1{
     margin-right: 5% !important;
+  }
+}
+
+/* for top headings and cards */
+@media all and (max-width: 992px) {
+  .note{
+    text-align: justify !important;
+  }
+  .heading{
+    font-size: 40px !important;
+  }
+  .phncard{
+    margin-top: -13px !important;
   }
 }

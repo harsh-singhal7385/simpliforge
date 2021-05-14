@@ -120,3 +120,9 @@ body {
     margin-right: 5% !important;
   }
 }
+/* for top headings and cards */
+@media all and (max-width: 992px) {
+  .note{
+    text-align: justify !important;
+  }
+}
