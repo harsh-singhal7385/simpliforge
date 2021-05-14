@@ -72,7 +72,7 @@
       </div>
     </div>
   </nav>
-
+  
   <div class="container-fluid text-left">
     <div class="container-fluid  mycontact text-left">
       <div class="row mt-5 text-left">
@@ -80,7 +80,7 @@
               <div class="col display-4">
                   <h1>We’d love to hear from you.</h1>
               </div>
-              <div class="col mt-4">
+              <div class="col mt-4 text-justify">
                 Your questions & comments are important to us. Whether you have any enqueries about our services, pricing, need a sample or want to explore career opportunities at Simpliforge, our team is always ready to answer all your questions.
               </div>
               <div class="row container">
@@ -91,8 +91,8 @@
                 <span class="myspan"> | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>  Phone: <a href="#" >+91 8369175977</a>
               </div>
               </div>
-
-              <div class="col mt-3">
+              
+              <div class="col mt-3 myAddress_laptop">
                 <h4 >We are located at:</h4>
                 <div class="row mt-3">
                   <div class="col-xl-2 col-lg-2 col-md-2 col-sm-2 col-2">
@@ -128,31 +128,47 @@
                   </div>
                 </div>
               </div>
-              <br/>
-              <br/>
-              <br/>
-              <br/>
-              <br/>
-              <br/>
-              <br/>
-
+              <div class="col mt-3 myAddress_mobile" >
+                <h4 >We are located at:</h4>
+                <div class="row mt-3">
+                  <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+                    <h6 class="font-weight-bold">Mumbai </h6>
+                    <div>623, Swastik Disa Corporate Park,<br />
+                      Opposite Shreyas Cinemas, LBS marg, Ghatkopar <br /> West, Mumbai, Maharashtra 400 086<br /><br />
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+                    <h6 class="font-weight-bold"> Pune </h6>
+                    <div>PLOT NO. 241, Sector Number 7 Rd,<br />
+                      MIDC Sector 2 Industrial Area,<br />  Bhosari, Maharashtra - 411 026<br /><br />
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+                    <h6 class="font-weight-bold"> Hyderabad</h6>
+                    <div>SBH Officers Colony, Mega Hills, Madhapur,<br />
+                      Telangana 500 081<br /><br />
+                    </div>
+                  </div>
+                </div>
+              </div>
           </div>
 
 <!--  PLEASE CREATE ACCOUNT ON FORMSPREE WEBSITE AND CHANGE ACTION FIELS OF FORM WITH YOUR VERIFIED ACCOUNT ONLY FOR SECURITY PURPOSES, CURRENT ONE IS DEMO ACCOUNT MAY NOT BE SECURE  -->
           <div class="col-xl-5 col-lg-5 col-md-12 col-sm-12 col-xs-12 col-12" id="myShown">
               <div class="container">
                   <form action="https://formspree.io/f/moqyjola" method="POST" onSubmit="handleSubmit(event)" class="bcd shadow-lg bg-white bg-white pt-2 pb-2 pl-4 pr-4" enctype="multipart/form-data">
-                      <div class="form-group "> <!--belinid823@cnxingye.com-->
-                        <div class="form-group">
-                          <input type="hidden" name="_append" value="false" />
-                        </div>
+                      <div class="form-group ">
                           <div class="form-group">
                               <label for="name">NAME <b>*</b></label>
                               <input type="text" class="abc form-control" name="name" id="name" placeholder="" required/>
                           </div>
                           <div class="form-group">
                               <label for="email">EMAIL ADDRESS<b>*</b></label>
-                              <input type="email" class="abc form-control" name="email" id="email" placeholder="" required/>
+                              <input type="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" title="abc@yourmail.domain(domain atleast 2 characters)" class="abc form-control" name="email" id="email" placeholder="" required/>
                           </div>
                           <div class="form-group">
                               <label for="phone">PHONE</label>
@@ -191,45 +207,47 @@
 <br/>
 <br/>
 <section id="first">
-  <div class="container-fluid avenir_font mt-5">
+  <div class="container-fluid avenir_font top">
     <div class="row">
       <div class="f1 col-lg-6 col-md-12 col-sm-12">
-        <a href="contact.html"><img class=" pt-5 img-fluid d-flex mx-auto" src="../images/logo.svg" alt=""></a><br>
-               <b class=" p-2 text-black d-flex align-items-center justify-content-center text-center mt-2 ">
+        <a href="contact.html"><img class=" pt-5 img-fluid d-flex mx-auto logo" src="../images/logo.svg" alt=""></a><br>
+               <b class=" p-2 text-black d-flex align-items-center justify-content-center text-center mt-2 logo1">
                  Email us at : contact@simpliforge.com <br>
-                 Phone: +91 8369175977 <br><br>
+                 Phone: +91 8369175977 <br class="mobilebreak"><br>
                </b>
-                <b class="text-black d-flex align-items-center justify-content-center text-center">
-                  <a href="contact.html" class="hyper p-1 text-decoration-none"> Mumbai  </a>
-                  <a href="contact.html" class="hyper p-1 text-decoration-none"> &nbsp;&nbsp;&nbsp;| &nbsp;Pune &nbsp;</a>
-                  <a href="contact.html" class="hyper p-1 text-decoration-none">  | &nbsp;Hyderabad</a>
-               </b>
+                <b class="text-black d-flex align-items-center justify-content-center text-center add">
+                <a href="contact.html" class="hyper p-1 text-decoration-none" > Mumbai  </a>
+                <a href="contact.html" class="hyper p-1 text-decoration-none" > &nbsp;&nbsp;&nbsp;| &nbsp;Pune &nbsp;</a>
+                <a href="contact.html" class="hyper p-1 text-decoration-none" >  | &nbsp;Hyderabad</a>
+             </b>
 
-        </div>
-        <div class="f2 col-xl-2 col-lg-2 col-md-12 col-sm-12">
-          <p class="mt-5 text-white logo1"><br>
-            <a href="main-page.html" class="text-white">HOME</a>
-            <br >
-            <a href="services.html" class="text-white">SERVICES</a>
-             <br>
-             <a href="domain.html" class="text-white">DOMAINS</a>
-             <br>
-             <a href="build.html" class="text-white">BUILD</a>
-             <br>
-             <a href="sustainability.html" class="text-white">SUSTAINABILITY</a>
-              <br>
-             <a href="contact.html" class="text-white">CONTACT US</a>
+      </div>
+      <div class="f2 col-xl-2 col-lg-2 col-md-12 col-sm-12">
+        <p class="mt-5 text-white logo1"><br>
+          <a href="main-page.html" class="text-white">HOME</a>
+          <br >
+          <a href="services.html" class="text-white">SERVICES</a>
+           <br>
+           <a href="domains.html" class="text-white">DOMAINS</a>
+           <br>
+           <a href="build.html" class="text-white">BUILD</a>
+           <br>
+           <a href="sustainability.html" class="text-white">SUSTAINABILITY</a>
+            <br>
+           <a href="contact.html" class="text-white">CONTACT US</a>
         </p>
       </div>
       <div class="f3 col-xl-4 col-lg-4 col-md-12 col-sm-12 margin-center">
-        <br>
-        <p class="pl-5 ml-4 mt-2 text-white avenir_font"><br>FOLLOW US ON</p>
+        <br  class="mobilebreak">
+        <p class="pl-5 ml-4 mt-2 text-white avenir_font follow"><br>FOLLOW US ON</p>
+      <p  class="social">
         <a href="https://www.linkedin.com/company/simpliforge" target="_blank"><img  class="img-fluid ml-5" src="../images/linkedin.svg" alt=""></a>
-        <a href="https://www.instagram.com/simpliforge/" target="_blank"><img class=" img-fluid ml-3" src="../images/insta.svg" alt=""></a>
-        <a href="https://www.crunchbase.com/organization/simpliforge-creations" target="_blank"><img  class=" img-fluid ml-3" src="../images/crunchbase.svg" alt=""></a><br><br>
-        <a href="https://www.makeinindia.com/" target="_blank"><img  class=" img-fluids ml-1" src="../images/makeinindia.svg" alt=""></a>
-        <a href="https://www.startupindia.gov.in/" target="_blank"><img  class=" img-fluid" src="../images/startupindia.svg" alt=""></a>
-        <br><br><br><br>
+        <a href="https://www.instagram.com/simpliforge/" target="_blank"><img class=" img-fluid ml-3 " src="../images/insta.svg" alt=""></a>
+        <a href="https://www.crunchbase.com/organization/simpliforge-creations" target="_blank"><img  class=" img-fluid ml-3 " src="../images/crunchbase.svg" alt=""></a><br  class="mobilebreak"><br>
+      </p><p class="social1">
+     <a href="https://www.makeinindia.com/" target="_blank"><img  class=" img-fluids ml-1" src="../images/makeinindia.svg" alt=""></a>
+        <a href="https://www.startupindia.gov.in/" target="_blank"><img  class=" img-fluid" src="../images/startupindia.svg" alt=""></a></p>
+        <br class="mobilebreak">
       </div>
     </div>
   </div>
