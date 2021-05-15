@@ -137,7 +137,9 @@ a{
 .xyz{
   padding-top: 3% !important;
 }
-
+.clipi{
+  clip-path: polygon(10% 0, 90% 0, 100% 49%, 90% 100%, 10% 100%, 0% 50%);
+}
 .container-fluid {
   padding-right: 0 !important;
   padding-left: 0 !important;
@@ -233,6 +235,7 @@ a{
   height: 46px;
   width: 156px;
 }
+
 @media all and (max-width: 992px) {
   .ourgoal1{
     padding-right: 2%  !important;
