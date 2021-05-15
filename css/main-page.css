@@ -285,6 +285,18 @@ margin-top: 170px;
    margin: 0% !important;
    font-size: 24px !important;
     }
+    .carousel-indicators li {
+    width: 8px;
+    height: 8px;
+    border-radius: 100%;
+    background-color: cadetblue;
+}
+.carousel-indicators {
+    bottom: -45px;
+    }
+.carousel-indicators .active {
+  background-color: #444;
+}
 }
 
 /* for who we are  */
@@ -296,12 +308,12 @@ margin-top: 170px;
  }
  .tlbr{
   border-radius: 15px 15px 0px 0px !important;
-   font-size: 10px !important ;
+   font-size: 12px !important ;
    padding: 4% !important;
  }
  .brbr{
    border-radius: 0px !important;
-   font-size: 10px !important ;
+   font-size: 12px !important ;
    padding: 4% !important;
  }
  .go{
@@ -331,7 +343,9 @@ margin-top: 170px;
     .btnphn{
       padding-left: 0% !important;
     }
-
+.phnimg{
+  width: 100vw;
+}
 }
 
 @media only screen and (min-width: 992px){
