@@ -315,6 +315,7 @@ a{
     margin-right: 5% !important;
   }
 }
+
 @media only screen and (min-width: 992px){
   .myService_laptop {
     display: block;
@@ -327,14 +328,14 @@ a{
   .myDomain_laptop {
     display: block;
   }
-  
+
   .myDomain_mobile {
     display: none;
   }
-
-}
-
-@media only screen and (max-width: 991px){
+  
+  }
+  
+  @media only screen and (max-width: 991px){
   .myService_laptop {
     display: none;
   }
@@ -350,10 +351,23 @@ a{
   .myDomain_mobile {
     display: block;
   }
+  }
+
+
+.myStyles1{
+  list-style-type: none;
 }
 
-@media only screen and (max-width: 991px){
- .myNav1{
-   padding-left: 10px;
- }
+.myService_Domain_Nav{
+  /* margin-left : 0.5em;
+  margin-right : 0.5em; */
+  font-family: 'Nunito', sans-serif;
+  font-weight:bold;
+  font-size:14px;
+  line-height: 25px;
+  letter-spacing: 0.125em;
+}
+
+.mySty{
+  line-height: 25px;
 }
