@@ -128,6 +128,8 @@ margin-top: 170px;
   letter-spacing: 0.125em;
 }
 
+
+
 #first{
   font-family: 'Nunito', sans-serif;
   font-size:14px;
@@ -360,14 +362,14 @@ margin-top: 170px;
   .myDomain_laptop {
     display: block;
   }
-  
+
   .myDomain_mobile {
     display: none;
   }
-
-}
-
-@media only screen and (max-width: 991px){
+  
+  }
+  
+  @media only screen and (max-width: 991px){
   .myService_laptop {
     display: none;
   }
@@ -383,10 +385,23 @@ margin-top: 170px;
   .myDomain_mobile {
     display: block;
   }
+  }
+
+
+.myStyles1{
+  list-style-type: none;
 }
 
-@media only screen and (max-width: 991px){
- .myNav1{
-   padding-left: 10px;
- }
+.myService_Domain_Nav{
+  /* margin-left : 0.5em;
+  margin-right : 0.5em; */
+  font-family: 'Nunito', sans-serif;
+  font-weight:bold;
+  font-size:14px;
+  line-height: 25px;
+  letter-spacing: 0.125em;
+}
+
+.mySty{
+  line-height: 25px;
 }

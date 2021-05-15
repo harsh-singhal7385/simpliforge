@@ -31,8 +31,13 @@ document.addEventListener("DOMContentLoaded", function(){
     }
     // end if innerWidth
     }); 
-
+    
     function myFunction() {
         var element = document.getElementById("myBox");
         element.classList.toggle("mystyle");
+     }
+
+     function func() {
+        var element = document.getElementById("myNavHide");
+        element.classList.toggle("myStyleNav");
      }
