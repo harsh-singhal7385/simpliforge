@@ -384,3 +384,9 @@ margin-top: 170px;
     display: block;
   }
 }
+
+@media only screen and (max-width: 991px){
+ .myNav1{
+   padding-left: 10px;
+ }
+}
