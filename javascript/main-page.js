@@ -36,3 +36,7 @@ document.addEventListener("DOMContentLoaded", function(){
         var element = document.getElementById("myBox");
         element.classList.toggle("mystyle");
      }
+
+$(window).scroll(function(){
+    $('nav').toggleClass('scrolled', $(this).scrollTop() > 60);    
+});

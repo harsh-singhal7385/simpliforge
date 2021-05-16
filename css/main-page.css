@@ -36,6 +36,16 @@ margin-top: 170px;
   box-shadow: none;
 }
 
+.navbar-default{
+  transition:250ms ease;
+  /*background:transparent*/
+  background-image: url("../images/navimg.svg");
+}
+.navbar-default.scrolled{
+  background:rgb(255, 255, 255);
+  color: #ffffd7;
+}
+
 @font-face {
   font-family: myFirstFont;
   src: url('../fonts/FontAvenirNextLTPro.ttf');
