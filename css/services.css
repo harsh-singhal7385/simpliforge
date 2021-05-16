@@ -153,17 +153,29 @@ line-height: 20px;
   }.social1{
     margin-right: 5% !important;
   }
+  #desk{
+    display: none;
+  }
+  #phone{
+   display: block;
+    }
+}
+#phone{
+  display:none;
+}
+#desk{
+  display: block;
 }
 
 @media only screen and (min-width: 992px){
   .myService_laptop {
     display: block;
   }
-  
+
   .myService_mobile {
     display: none;
   }
-  
+
   .myDomain_laptop {
     display: block;
   }
@@ -178,15 +190,15 @@ line-height: 20px;
   .myService_laptop {
     display: none;
   }
-  
+
   .myService_mobile {
     display: block;
   }
-  
+
   .myDomain_laptop {
     display: none;
   }
-  
+
   .myDomain_mobile {
     display: block;
   }
