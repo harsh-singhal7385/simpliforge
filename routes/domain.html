@@ -15,10 +15,15 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet">
     <link rel="icon" href="../images/icon.svg">
+    <script
+    src="https://code.jquery.com/jquery-3.6.0.js"
+    integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+    crossorigin="anonymous"></script>
+    <script src="../javascript/prototyping.js"></script>
   </head>
   <body>
     <!--NAVBAR-->
-    <nav class="navbar navbar-expand-lg navbar-light avenir_font bg-light sticky-top text-black">
+    <nav class="navbar navbar-expand-lg navbar-default navbar-light avenir_font sticky-top text-black">
       <div class="container">
         <a href="main-page.html"><img class="img-fluid plz-1" src="../images/logo.svg" /></a>
         <button
@@ -71,7 +76,7 @@
                 <li><a class="dropdown-item font-weight-bold" href="med_health.html">Medical and HealthCare</a></li>
                 <li><a class="dropdown-item font-weight-bold" href="automobile.html">Automobile</a></li>
                 <li><a class="dropdown-item font-weight-bold " href="construction.html">Construction</a></li>
-                <li><a class="dropdown-item font-weight-bold" href="arts_restore.html">Arts and Restoration</a></li>
+                <!--<li><a class="dropdown-item font-weight-bold" href="arts_restore.html">Arts and Restoration</a></li>-->
                 <li><a class="dropdown-item font-weight-bold" href="consumer_goods.html">Consumer Goods</a></li>
                 <li><a class="dropdown-item font-weight-bold" href="manufacturing.html">Manufacturing</a></li>
                 <li><a class="dropdown-item font-weight-bold" href="package_design.html">Package Design</a></li>
@@ -194,16 +199,16 @@
               <div class="row">
                 <div class=" col-sm-12 col-md-12 removePadding">
                   <div class="card mb-2">
-                    <img src="../images/domain4.svg" class="card-img-top p-3"/>
+                    <img src="../images/domain5.svg" class="card-img-top p-3"/>
                     <div class="card-title text-left ml-3">
-                      <h6 class="font-weight-bold">ARTS AND RESTORATION
+                      <h6 class="font-weight-bold">CONSUMER GOODS
                       </h6>
                     </div>
                     <div class="card-body pt-0">
-                      t labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+                      With fast product cycles in the FMCG, consumer electronics and consumer goods domains, rapid prototyping and quick production support is provided by Simpliforge to its clients.
 
                     </div>
-                    <button class="btn1 btn-light card-button mt-2 mb-3 text-center ml-3 " onclick="javascript:window.location.href='arts_restore.html'">
+                    <button class="btn1 btn-light card-button mt-2 mb-3 text-center ml-3 " onclick="javascript:window.location.href='consumer_goods.html'">
                       <img src="../images/right-arr.svg" alt="">
                     </button>
                   </div>
@@ -215,39 +220,19 @@
       </div>
       <div class="container mt-3 mb-5">
         <div class="row abt justify-content-center">
-          <div class="col-lg-3 col-sm-12 col-md-12 myWidth" data-aos="fade-right" data-aos-duration="2000">
+          
+          <div class="col-lg-3 col-sm-12 col-md-12 myWidth">
             <div class="container">
               <div class="row">
                 <div class=" col-sm-12 col-md-12 removePadding">
-                  <div class="card abd mb-4">
-                    <img src="../images/domain5.svg" class="card-img-top p-3"/>
-                    <div class="card-title text-left ml-3">
-                      <h6 class="font-weight-bold">CONSUMER GOODS
-                      </h6>
-                    </div>
-                    <div class="card-body pt-0">
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-                    </div>
-                    <button class="btn1 btn-light card-button mt-2 mb-3 text-center ml-3 " onclick="javascript:window.location.href='consumer_goods.html'">
-                      <img src="../images/right-arr.svg" alt="">
-                    </button>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-3 col-sm-12 col-md-12 myWidth" data-aos="fade-up" data-aos-duration="2000">
-            <div class="container">
-              <div class="row">
-                <div class=" col-sm-12 col-md-12 removePadding">
-                  <div class="card abd mb-4">
+                  <div class="card abd mb-4 newwidth">
                     <img src="../images/domain6.svg" class="card-img-top p-3"/>
                     <div class="card-title text-left ml-3">
                       <h6 class="font-weight-bold">MANUFACTURING
                       </h6>
                     </div>
                     <div class="card-body pt-0">
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+                      With end to end product development services, Simpliforge caters to manufacturing requirements ranging from Injection molding to machining.
                     </div>
                     <button class="btn1 btn-light card-button mt-2 mb-3 text-center ml-3 " onclick="javascript:window.location.href='manufacturing.html'">
                       <img src="../images/right-arr.svg" alt="">
@@ -261,14 +246,14 @@
             <div class="container">
               <div class="row">
                 <div class=" col-sm-12 col-md-12 removePadding">
-                  <div class="card abd mb-4">
+                  <div class="card abd mb-4 newwidth2">
                     <img src="../images/domain7.svg" class="card-img-top p-3"/>
                     <div class="card-title text-left ml-3">
                       <h6 class="font-weight-bold">PACKAGE DESIGN
                       </h6>
                     </div>
                     <div class="card-body pt-0">
-                    Simpliforge also caters to the packaging industry right from cologne bottles, jewelry packaging to sterile packaging.
+                      Simpliforge caters to the packaging industry right from cologne bottles, jewelry packaging to sterile packaging.
                    </div>
                     <button class="btn1 btn-light card-button mt-2 mb-3 text-center ml-3 " onclick="javascript:window.location.href='package_design.html'">
                       <img src="../images/right-arr.svg" alt="">

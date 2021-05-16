@@ -94,6 +94,14 @@ transform: translate(-50%, -50%);
     height: 46px;
     width: 156px;
   }
+  .navbar-default{
+    transition:250ms ease;
+    background:transparent
+  }
+  .navbar-default.scrolled{
+    background:rgb(255, 255, 255);
+    color: #ffffd7;
+  }
   /* for mobile phones */
   /*1.for footer */
   @media all and (max-width: 992px) {
