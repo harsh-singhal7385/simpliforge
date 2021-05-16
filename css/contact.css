@@ -127,7 +127,7 @@ label {
       background-repeat: no-repeat;
     }
   }
-
+  
   @media only screen and (max-width: 600px){
     body {
       background-image: url('../images/contactPhone.svg');
@@ -135,22 +135,22 @@ label {
       background-position: top, bottom;
       background-repeat: no-repeat;
       opacity: 1.5;
-
+    
     }
-
+  
   }
-
+  
   @media only screen and (max-width: 800px){
     .myspan{
       display: none;
     }
-
+  
   }
   @media only screen and (min-width: 1200px){
     .mycontact {
       width:78%
     }
-
+  
   }
   @media only screen and (min-width: 540px){
     .myAddress_laptop {
@@ -162,7 +162,7 @@ label {
     }
   
   }
-
+  
   @media only screen and (max-width: 539px){
     .myAddress_laptop {
       display: none;
@@ -221,4 +221,60 @@ label {
   }.social1{
     margin-right: 5% !important;
   }
+}
+
+@media only screen and (min-width: 992px){
+  .myService_laptop {
+    display: block;
+  }
+  
+  .myService_mobile {
+    display: none;
+  }
+  
+  .myDomain_laptop {
+    display: block;
+  }
+
+  .myDomain_mobile {
+    display: none;
+  }
+  
+  }
+  
+  @media only screen and (max-width: 991px){
+  .myService_laptop {
+    display: none;
+  }
+  
+  .myService_mobile {
+    display: block;
+  }
+  
+  .myDomain_laptop {
+    display: none;
+  }
+  
+  .myDomain_mobile {
+    display: block;
+  }
+  }
+
+
+.myStyles1{
+  list-style-type: none;
+}
+
+.myService_Domain_Nav{
+  /* margin-left : 0.5em;
+  margin-right : 0.5em; */
+  font-family: 'Nunito', sans-serif;
+  font-weight:bold;
+  font-size:14px;
+  line-height: 25px;
+  letter-spacing: 0.125em;
+}
+
+.mySty{
+  line-height: 25px;
 }

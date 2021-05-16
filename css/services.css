@@ -154,3 +154,59 @@ line-height: 20px;
     margin-right: 5% !important;
   }
 }
+
+@media only screen and (min-width: 992px){
+  .myService_laptop {
+    display: block;
+  }
+  
+  .myService_mobile {
+    display: none;
+  }
+  
+  .myDomain_laptop {
+    display: block;
+  }
+
+  .myDomain_mobile {
+    display: none;
+  }
+  
+  }
+  
+  @media only screen and (max-width: 991px){
+  .myService_laptop {
+    display: none;
+  }
+  
+  .myService_mobile {
+    display: block;
+  }
+  
+  .myDomain_laptop {
+    display: none;
+  }
+  
+  .myDomain_mobile {
+    display: block;
+  }
+  }
+
+
+.myStyles1{
+  list-style-type: none;
+}
+
+.myService_Domain_Nav{
+  /* margin-left : 0.5em;
+  margin-right : 0.5em; */
+  font-family: 'Nunito', sans-serif;
+  font-weight:bold;
+  font-size:14px;
+  line-height: 25px;
+  letter-spacing: 0.125em;
+}
+
+.mySty{
+  line-height: 25px;
+}

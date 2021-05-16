@@ -138,6 +138,8 @@ margin-top: 170px;
   letter-spacing: 0.125em;
 }
 
+
+
 #first{
   font-family: 'Nunito', sans-serif;
   font-size:14px;
@@ -295,6 +297,18 @@ margin-top: 170px;
    margin: 0% !important;
    font-size: 24px !important;
     }
+    .carousel-indicators li {
+    width: 8px;
+    height: 8px;
+    border-radius: 100%;
+    background-color: cadetblue;
+}
+.carousel-indicators {
+    bottom: -45px;
+    }
+.carousel-indicators .active {
+  background-color: #444;
+}
 }
 
 /* for who we are  */
@@ -306,12 +320,12 @@ margin-top: 170px;
  }
  .tlbr{
   border-radius: 15px 15px 0px 0px !important;
-   font-size: 10px !important ;
+   font-size: 12px !important ;
    padding: 4% !important;
  }
  .brbr{
    border-radius: 0px !important;
-   font-size: 10px !important ;
+   font-size: 12px !important ;
    padding: 4% !important;
  }
  .go{
@@ -341,5 +355,63 @@ margin-top: 170px;
     .btnphn{
       padding-left: 0% !important;
     }
+.phnimg{
+  width: 100vw;
+}
+}
 
+@media only screen and (min-width: 992px){
+  .myService_laptop {
+    display: block;
+  }
+  
+  .myService_mobile {
+    display: none;
+  }
+  
+  .myDomain_laptop {
+    display: block;
+  }
+
+  .myDomain_mobile {
+    display: none;
+  }
+  
+  }
+  
+  @media only screen and (max-width: 991px){
+  .myService_laptop {
+    display: none;
+  }
+  
+  .myService_mobile {
+    display: block;
+  }
+  
+  .myDomain_laptop {
+    display: none;
+  }
+  
+  .myDomain_mobile {
+    display: block;
+  }
+  }
+
+
+.myStyles1{
+  list-style-type: none;
+}
+
+.myService_Domain_Nav{
+  /* margin-left : 0.5em;
+  margin-right : 0.5em; */
+  font-family: 'Nunito', sans-serif;
+  font-weight:bold;
+  font-size:14px;
+  line-height: 25px;
+  letter-spacing: 0.125em;
+}
+
+.mySty{
+  line-height: 25px;
 }
