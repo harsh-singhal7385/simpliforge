@@ -10,6 +10,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     <title>Contact</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="../css/contact.css" />
     <link rel="icon" href="../images/icon.svg">
     <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -21,7 +22,7 @@
     <script src="../javascript/contact.js"> </script>
   </head>
 <body>
-  
+
   <nav class="navbar navbar-expand-lg navbar-light avenir_font bg-light sticky-top text-black">
     <div class="container">
       <a href="main-page.html"><img class="img-fluid plz-1" src="../images/logo.svg" /></a>
@@ -39,7 +40,7 @@
           <li class="nav-item active myNav1" >
             <a class="nav-link" href="main-page.html">HOME <span class="sr-only">(current)</span></a>
           </li>
-          
+
           <li class="nav-item dropdown myService_laptop">
             <a class="nav-link text-dark dropdown-toggle"  href="services.html" data-bs-toggle="dropdown"> <span class="">SERVICES</span> <span class="sr-only">(current)</span> </a>
              <ul class="dropdown-menu">
@@ -49,7 +50,7 @@
               <li><a class="dropdown-item font-weight-bold" href="reverse_engg.html">Reverse Engineering</a></li>
              </ul>
           </li>
-          
+
           <li class="nav-item dropdown myService_mobile myService_Domain_Nav mySty mt-2">
             <div class="panel-group">
                 <div class="panel panel-default">
@@ -67,8 +68,8 @@
                     </div>
                 </div>
             </div>
-          </li>  
-          
+          </li>
+
           <li class="nav-item dropdown myDomain_laptop ">
             <a class="nav-link text-dark dropdown-toggle" href="domain.html" data-bs-toggle="dropdown"><span class="">DOMAINS</span>  <span class="sr-only">(current)</span></a>
              <ul class="dropdown-menu">
@@ -81,7 +82,7 @@
               <li><a class="dropdown-item font-weight-bold" href="package_design.html">Package Design</a></li>
              </ul>
          </li>
-        
+
         <li class="nav-item dropdown myDomain_mobile myService_Domain_Nav mySty mt-3 mb-2" >
           <div class="panel-group">
               <div class="panel panel-default">
@@ -102,9 +103,9 @@
                   </div>
               </div>
           </div>
-        </li>  
-      
-          
+        </li>
+
+
           <li class="nav-item active myNav1">
             <a class="nav-link" href="build.html">BUILD <span class="sr-only">(current)</span></a>
           </li>
@@ -118,7 +119,7 @@
       </div>
     </div>
   </nav>
-  
+
   <div class="container-fluid text-left">
     <div class="container-fluid  mycontact text-left">
       <div class="row mt-5 text-left">
@@ -137,7 +138,7 @@
                 <span class="myspan"> | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>  Phone: <a href="#" >+91 8369175977</a>
               </div>
               </div>
-              
+
               <div class="col mt-3 myAddress_laptop">
                 <h4 >We are located at:</h4>
                 <div class="row mt-3">
@@ -204,10 +205,10 @@
           </div>
 
 <!--  PLEASE CREATE ACCOUNT ON FORMSPREE WEBSITE AND CHANGE ACTION FIELS OF FORM WITH YOUR VERIFIED ACCOUNT ONLY FOR SECURITY PURPOSES, CURRENT ONE IS DEMO ACCOUNT MAY NOT BE SECURE  -->
-          <div class="col-xl-5 col-lg-5 col-md-12 col-sm-12 col-xs-12 col-12" id="myShown">
+          <div class="col-xl-5 col-lg-5 col-md-12 col-sm-12 col-xs-12 col-12" id="myShown" data-aos="fade-left" data-aos-duration="2500">
               <div class="container">
                   <form action="https://formspree.io/f/moqyjola" method="POST" onSubmit="handleSubmit(event)" class="bcd shadow-lg bg-white bg-white pt-2 pb-2 pl-4 pr-4" enctype="multipart/form-data">
-                      <div class="form-group ">
+                      <div class="form-group">
                           <div class="form-group">
                               <label for="name">NAME <b>*</b></label>
                               <input type="text" class="abc form-control" name="name" id="name" placeholder="" required/>
@@ -308,5 +309,10 @@
   </div>
   </div>
 </section>
+
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+AOS.init();
+</script>
 </body>
 </html>
