@@ -220,6 +220,14 @@ a{
   border-bottom-left-radius: 20px;
   font-size: 22px;
 }
+.navbar-default{
+  transition:250ms ease;
+  background:transparent
+}
+.navbar-default.scrolled{
+  background:rgb(255, 255, 255);
+  color: #ffffd7;
+}
 .head{
   background-color: black;
   opacity: 70%;

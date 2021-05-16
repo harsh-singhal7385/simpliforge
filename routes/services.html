@@ -16,11 +16,16 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet">
     <link rel="icon" href="../images/icon.svg">
+    <script
+    src="https://code.jquery.com/jquery-3.6.0.js"
+    integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+    crossorigin="anonymous"></script>
+    <script src="../javascript/prototyping.js"></script>
     <script src="../javascript/loader.js"></script>
 </head>
 
 <!--NAVBAR-->
-<nav class="navbar navbar-expand-lg navbar-light avenir_font bg-light sticky-top text-black">
+<nav class="navbar navbar-expand-lg navbar-default navbar-light sticky-top avenir_font text-black">
   <div class="container cf">
     <a href="main-page.html"><img class="img-fluid plz-1" src="../images/logo.svg" /></a>
     <button
@@ -39,15 +44,7 @@
                 <a class="nav-link text-dark" href="main-page.html">HOME <span class="sr-only">(current)</span></a>
               </li>
           
-              <!-- <li class="nav-item dropdown myService_laptop">
-                <a class="nav-link text-dark dropdown-toggle"  href="services.html" data-bs-toggle="dropdown"> <span class="">SERVICES</span> <span class="sr-only">(current)</span> </a>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item font-weight-bold" href="prototyping.html">Prototyping</a></li>
-                  <li><a class="dropdown-item font-weight-bold" href="3dscanning.html">3D Scanning</a></li>
-                  <li><a class="dropdown-item font-weight-bold" href="design.html">Design</a></li>
-                  <li><a class="dropdown-item font-weight-bold" href="reverse_engg.html">Reverse Engineering</a></li>
-                </ul>
-              </li> -->
+          
         
               <li class="nav-item  myService_laptop">
                 <a class="nav-link text-dark dropdown" href="services.html">SERVICES</a>
@@ -57,7 +54,7 @@
                     <li><a class="nav-link text-dark font-weight-bold" href="design.html">Design</a></li>
                     <li><a class="nav-link text-dark font-weight-bold" href="reverse_engg.html">Reverse Engineering</a></li>
                 </ul>
-            </li>
+              </li>
               
               <li class="nav-item dropdown myService_mobile myService_Domain_Nav mySty mt-2">
                 <div class="panel-group">
@@ -88,22 +85,9 @@
                     <li><a class=" nav-link font-weight-bold text-dark" href="package_design.html">Package Design</a></li>
                 </ul>
               </li>
-          
-              <!-- <li class="nav-item dropdown myDomain_laptop ">
-                <a class="nav-link text-dark dropdown-toggle" href="domain.html" data-bs-toggle="dropdown"><span class="">DOMAINS</span>  <span class="sr-only">(current)</span></a>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item font-weight-bold" href="med_health.html">Medical and HealthCare</a></li>
-                  <li><a class="dropdown-item font-weight-bold" href="automobile.html">Automobile</a></li>
-                  <li><a class="dropdown-item font-weight-bold " href="construction.html">Construction</a></li>
-                  <li><a class="dropdown-item font-weight-bold" href="arts_restore.html">Arts and Restoration</a></li>
-                  <li><a class="dropdown-item font-weight-bold" href="consumer_goods.html">Consumer Goods</a></li>
-                  <li><a class="dropdown-item font-weight-bold" href="manufacturing.html">Manufacturing</a></li>
-                  <li><a class="dropdown-item font-weight-bold" href="package_design.html">Package Design</a></li>
-                </ul>
-            < /li> -->
-        
+         
             <li class="nav-item dropdown myDomain_mobile myService_Domain_Nav mySty mt-3 mb-2" >
-              <div class="panel-group">
+                <div class="panel-group">
                   <div class="panel panel-default">
                       <div class="panel-title ">
                           <a data-toggle="collapse" class="dropdown-toggle myService_Domain_Nav text-dark text-decoration-none"  href="#collapse2">DOMAINS</a>
@@ -119,11 +103,11 @@
                             <li><a class="list-group-item font-weight-bold text-dark text-decoration-none ml-5"  href="package_design.html">Package Design &nbsp;&nbsp;&nbsp;</a></li>
                         </ul>
                       </div>
+                    </div>
                   </div>
-              </div>
-            </li>
-
-
+               
+             </li>
+        
             <li class="nav-item ">
                 <a class="nav-link text-dark" href="build.html">BUILD</a>
             </li>
@@ -155,17 +139,17 @@
   <!--LOADERS    END -->
   <div class="container-fluid" >
     <div class="container ">
-      <div class="col mt-5 display-4 mb-5">
+      <div class="mt-5 display-4 mb-5">
       SERVICES
       </div>
-      <div class="note col ">
+      <div class="note">
         Domain Paragraph Powered by partnerships with manufacturing domain experts, localized production facilities and international design experts, Simpliforge delivers services to the best-of-the-market quality within the domain. Employing principles of concurrent engineering, Simpliforge works with the client in real-time to ensure accuracy and transparency in the production.
       </div>
     </div>
   </div>
   <section id="desk">
         <div class="container">
-        <div class="row increasePadding">
+        <div class="row ">
             <div class="col-xl-3 col-lg-2 col-md-6 col-sm-6 col-xs-12 col-12 mt-5 mb-5 removePadding" data-aos="fade-right" data-aos-duration="2000">
                 <div class="container">
                     <div class="card shadow-lg">
@@ -263,7 +247,7 @@
                 <br >
                 <a href="services.html" class="text-white">SERVICES</a>
                  <br>
-                 <a href="domains.html" class="text-white">DOMAINS</a>
+                 <a href="domain.html" class="text-white">DOMAINS</a>
                  <br>
                  <a href="build.html" class="text-white">BUILD</a>
                  <br>

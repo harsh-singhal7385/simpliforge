@@ -147,6 +147,16 @@ margin-top: 170px;
   box-shadow: none;
 }
 
+.navbar-default{
+  transition:250ms ease;
+  /*background:transparent*/
+  background-image: url("../images/navimg.svg");
+}
+.navbar-default.scrolled{
+  background:rgb(255, 255, 255);
+  color: #ffffd7;
+}
+
 @font-face {
   font-family: myFirstFont;
   src: url('../fonts/FontAvenirNextLTPro.ttf');
@@ -238,7 +248,18 @@ margin-top: 170px;
   line-height: 25px;
   letter-spacing: 0.125em;
 }
-
+#fbtn:hover{
+  background-color:#338CAD !important;
+  color:white !important;
+}
+#tbtn:hover{
+  background-color:#9B8257 !important;
+  color:white !important;
+}
+#tebtn:hover{
+  background-color:#373737 !important;
+  color:white !important;
+}
 
 
 #first{
@@ -263,7 +284,6 @@ margin-top: 170px;
   line-height: 17px;
   background: #4D4D4D;
 }
-
 .text-align-center {
   position: absolute;
   top: 50%;
@@ -464,11 +484,11 @@ margin-top: 170px;
   .myService_laptop {
     display: block;
   }
-  
+
   .myService_mobile {
     display: none;
   }
-  
+
   .myDomain_laptop {
     display: block;
   }
@@ -476,22 +496,22 @@ margin-top: 170px;
   .myDomain_mobile {
     display: none;
   }
-  
+
   }
-  
+
   @media only screen and (max-width: 991px){
   .myService_laptop {
     display: none;
   }
-  
+
   .myService_mobile {
     display: block;
   }
-  
+
   .myDomain_laptop {
     display: none;
   }
-  
+
   .myDomain_mobile {
     display: block;
   }

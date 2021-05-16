@@ -211,7 +211,14 @@ body {
   border-radius: 28px;
   height: 32px;
 }
-
+.navbar-default{
+  transition:250ms ease;
+  background:transparent
+}
+.navbar-default.scrolled{
+  background:rgb(255, 255, 255);
+  color: #ffffd7;
+}
 label {
   font-size: 14px;
 }
