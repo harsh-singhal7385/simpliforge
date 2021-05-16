@@ -1,0 +1,571 @@
+body{
+    overflow-x:hidden;
+    background: #EDEDEB;
+  }
+
+.myScreen{
+    opacity: 0;
+}  
+  @font-face {
+    font-family: myFirstFont;
+    src: url('../fonts/Font\ Avenir\ Next\ LT\ Pro\ \(1\).ttf');
+  }
+  @media all and (min-width: 992px) {
+    * {
+        outline: none;
+        padding: 0;
+        margin: 0;
+    }
+    a {
+        outline: none !important;
+    }
+    body {
+        background-color: #F5F5F5;
+        color: #555;
+        font-size: 1.1em;
+        font-family: Arial, Helvetica, sans-serif;
+        outline: none;
+        padding: 0;
+        margin: 0;
+    }
+    
+    .header{
+        background:#FFF;
+    }
+    
+    nav ul {
+        -webkit-font-smoothing: antialiased;
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        width: 100%;
+    }
+   .navbar-nav{
+       margin-left:auto ;
+   }
+    nav li {
+        float: right;
+        margin: 0;
+        padding: 0;
+        position: relative;
+        font-family: 'Nunito', sans-serif;
+        font-weight:bold;
+        font-size:14px;
+        line-height: 25px;
+        letter-spacing: 0.125em;
+    }
+    /* .nav li{
+        margin-left : 0.5em;
+        margin-right : 0.5em;
+        font-family: 'Nunito', sans-serif;
+        font-weight:bold;
+        font-size:14px;
+        line-height: 25px;
+        letter-spacing: 0.125em;
+      } */
+    nav a {
+        color: #444;
+        display: block;
+        /* font: normal 13px/50px Arial, Helvetica, sans-serif; */
+        padding: 0 15px;
+        text-align: center;
+        text-decoration: none;
+        -webkit-transition: all .95s ease;
+        -moz-transition: all .95s ease;
+        -ms-transition: all .95s ease;
+        -o-transition: all .95s ease;
+        transition: all .95s ease;
+    }
+    nav .dropdown {
+        background:url('../images/arrow.jpg') no-repeat right center;
+    }
+    nav li:hover a {
+        background: white;
+        /* color:#FFF; */
+    }
+    nav li ul {
+        float: left;
+        left: 0;
+        width:235%;
+        opacity: 0;
+        position: absolute;
+        top: 35px;
+        visibility: hidden;
+        z-index: 1;
+        -webkit-transition: all .95s ease;
+        -moz-transition: all .95s ease;
+        -ms-transition: all .95s ease;
+        -o-transition: all .95s ease;
+        transition: all .95s ease;
+    }
+    nav li:hover ul {
+        opacity: 1;
+        top: 50px;
+        visibility: visible;
+    }
+    nav li ul li {
+        float: none;
+        width: 100%;
+    }
+    nav li ul a:hover {
+        background: #bbb;
+    }
+    /* Clearfix */
+    .cf:after, .cf:before {
+        content: "";
+        display: table;
+    }
+    .cf:after {
+        clear: both;
+    }
+  }
+  
+  .avenir_font{
+    font-family: myFirstFont;
+  }
+  #myNav1{
+    color: white;
+  }
+  .myShadow{
+    color: white;
+  }
+  
+  .myFont{
+    font-size: 64px;
+  }
+  .myFont-btn{
+    font-size: 20px;
+  }
+  .mystyle {
+  margin-top: 170px;
+  }
+  .btn:focus,.btn:active {
+    outline: none !important;
+    box-shadow: none;
+  }
+  
+  @font-face {
+    font-family: myFirstFont;
+    src: url('../fonts/FontAvenirNextLTPro.ttf');
+  }
+  
+  .avenir_font{
+    font-family: myFirstFont;
+  }
+  
+  .btn:focus,.btn:active {
+    outline: none !important;
+    box-shadow: none;
+  }
+  
+  .carousel-control-next-icon,
+  .carousel-control-prev-icon {
+    filter: invert(1);
+  }
+  
+  .fcfcfc {
+    background: #FCFCFC !important;
+    font-size: 48px !important;
+  }
+  
+  .bgimg {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+  
+  .container-fluid {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    /* margin: 0 !important; */
+  }
+  .bg-blue-color {
+    background: #45619F;
+  }
+  
+  .mainpageimg{
+    padding: 0 !important;
+  }
+  
+  .row {
+    padding: 0 !important;
+    margin: 0;
+  }
+  
+  .custom-btn{
+    font-family: 'Nunito', sans-serif;
+    font-weight:bold;
+    font-size:16px;
+    letter-spacing: 0.125em;
+    background: #45619F;
+    border-radius: 20px;
+  }
+  
+  .card-img-overlay {
+    height: 50vh !important;
+    top: 30vh !important;
+  }
+  
+  .shadow {
+    box-shadow: 10px 10px 10px #ccc !important;
+  }
+  
+  .color1 {
+    color: #338CAD !important;
+  }
+  
+  .color2 {
+    color: #9B8257 !important;
+  }
+  
+  .color3 {
+    color: #373737 !important;
+  }
+  
+  .custom-arrow > a{
+    width: 15vw !important;
+    color:  #9B8257;
+  }
+  
+  .navbar li{
+    margin-left : 0.5em;
+    margin-right : 0.5em;
+    font-family: 'Nunito', sans-serif;
+    font-weight:bold;
+    font-size:14px;
+    line-height: 25px;
+    letter-spacing: 0.125em;
+  }
+  
+  
+  
+  #first{
+    font-family: 'Nunito', sans-serif;
+    font-size:14px;
+    line-height: 25px;
+    letter-spacing: 0.125em;
+    background-color: #EDEDEB;
+  }
+  #second{
+    font-family:'Nunito', sans-serif;
+    font-size:18px;
+    line-height: 25px;
+    letter-spacing: 0.125em;
+    background-color: white;
+  }
+  #third{
+    background-color:#4D4D4D;
+    font-family:'Nunito', sans-serif;
+    font-weight:normal;
+    font-size:14px;
+    line-height: 17px;
+    background: #4D4D4D;
+  }
+  
+  .text-align-center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .tlbr {
+    border-radius: 30px 0px 0px 0px;
+  }
+  
+  .brbr {
+    border-radius: 0px 0px 30px 0px;
+  }
+  
+  .f1{
+    background-color:#EDEDEB;
+      font-size:18px;
+  }
+  .hyper{
+    color: black;
+  }
+  .f2{
+    background-color:#4D4D4D ;
+    line-height: 29px;
+  }
+  .f3{
+    background-color:#4D4D4D;
+    line-height: 29px;
+  }
+  
+  @media only screen and (max-width: 500px){
+    .md-none {
+      display: none !important;
+    }
+  
+    .custom-btn{
+      position: absolute;
+      top: 32vh;
+      left: 11vw;
+      font-size: 7px;
+    }
+  
+    .custom-arrow > button{
+      width: 25vw !important;
+      color:  #9B8257;
+    }
+  }
+  @media only screen and (max-width: 400px){
+    .custom-btn{
+      position: absolute;
+      top: 36vh;
+      left: 8vw;
+      font-size: 7px;
+    }
+  
+    .custom-arrow > button{
+      width: 25vw !important;
+      color:  #9B8257;
+    }
+  }
+  @media only screen and (max-width: 365px){
+    .header {
+      font-size: 30px;
+    }
+  }
+  
+  @media only screen and (max-width: 300px){
+    .custom-btn{
+    position: absolute;
+    top:34vh;
+    left:1vw;
+    font-size: 7px;
+    }
+  }
+  .plz-1{
+    height: 46px;
+    width: 156px;
+  }
+  #phone{
+    display:none;
+  }
+  #desk{
+    display: block;
+  }
+  
+  /* for mobile phones */
+  /*1.for footer */
+  @media all and (max-width: 992px) {
+    .f1,.f2,#third{
+      font-size: 10px;
+      padding-top: 0% !important;
+    }
+    .top{
+      margin-top: 7%!important;
+    }
+    .logo{
+      padding-top: 0% !important;
+    }
+    .logo1{
+      margin-top: 0%!important;
+      padding: 0% !important;
+    }
+    .add{
+      margin-bottom: 3%!important;
+    }
+    .mobilebreak{
+      display: none;
+    }
+    .f2{
+      text-align: center !important;
+    }
+    .follow,.f3{
+      font-size: 12px !important;
+      padding: 0% !important;
+      margin: 0% !important;
+      text-align: center;
+    }
+    .social{
+      margin-right: 15% !important;
+    }.social1{
+      margin-right: 5% !important;
+    }
+  }
+  
+  /* our clientele */
+  
+  @media all and (max-width: 992px) {
+   .slidesection{
+     padding: 1% !important;
+     margin: 0% !important;
+     font-size: 24px !important;
+      }
+      .carousel-indicators li {
+      width: 8px;
+      height: 8px;
+      border-radius: 100%;
+      background-color: cadetblue;
+  }
+  .carousel-indicators {
+      bottom: -45px;
+      }
+  .carousel-indicators .active {
+    background-color: #444;
+  }
+  }
+  
+  /* for who we are  */
+  @media all and (max-width: 992px) {
+   .myFont{
+     font-size: 30px !important ;
+     padding: 0% !important;
+     margin: 0% !important;
+   }
+   .tlbr{
+    border-radius: 15px 15px 0px 0px !important;
+     font-size: 12px !important ;
+     padding: 4% !important;
+   }
+   .brbr{
+     border-radius: 0px !important;
+     font-size: 12px !important ;
+     padding: 4% !important;
+   }
+   .go{
+     border-bottom-left-radius: 15px!important;
+     border-bottom-right-radius: 15px!important;
+   }
+   body{
+     overflow-x:hidden;
+     background: #EDEDEB;
+   }
+   #desk{
+     display: none;
+   }
+   #phone{
+    display: block;
+     }
+  }
+  
+  /* for buttons */
+  @media all and (max-width: 992px) {
+    .custom-arrow > a {
+      width: 25vw !important;
+      }
+      .myFont-btn {
+      font-size: 15px;
+  }
+      .btnphn{
+        padding-left: 0% !important;
+      }
+  .phnimg{
+    width: 100vw;
+  }
+  }
+  
+  @media only screen and (min-width: 992px){
+    .myService_laptop {
+      display: block;
+    }
+    
+    .myService_mobile {
+      display: none;
+    }
+    
+    .myDomain_laptop {
+      display: block;
+    }
+  
+    .myDomain_mobile {
+      display: none;
+    }
+    
+    }
+    
+    @media only screen and (max-width: 991px){
+    .myService_laptop {
+      display: none;
+    }
+    
+    .myService_mobile {
+      display: block;
+    }
+    
+    .myDomain_laptop {
+      display: none;
+    }
+    
+    .myDomain_mobile {
+      display: block;
+    }
+    }
+  
+  
+  .myStyles1{
+    list-style-type: none;
+  }
+  
+  .myService_Domain_Nav{
+    /* margin-left : 0.5em;
+    margin-right : 0.5em; */
+    font-family: 'Nunito', sans-serif;
+    font-weight:bold;
+    font-size:14px;
+    line-height: 25px;
+    letter-spacing: 0.125em;
+  }
+  
+  .mySty{
+    line-height: 25px;
+  }
+  
+  body {
+    margin: 0;
+    padding: 0;
+    width:100vw;
+    height: 100vh;
+    background-color: #eee;
+  }
+  .content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:100%;
+    height:100%;
+  }
+  .loader-wrapper {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: white;   
+    display:flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .loader {
+    display: inline-block;
+    /* width: 30px; */
+    /* height: 30px; */
+    position: relative;
+    /* border: 4px solid #Fff; */
+    animation: loader 2s infinite ease;
+  }
+  .loader-inner {
+    vertical-align: top;
+    display: inline-block;
+    width: 100%;
+    /* background-color: #fff; */
+    animation: loader-inner 2s infinite ease-in;
+  }
+  
+  @keyframes loader {
+    0% { transform: rotate(0deg);}
+    25% { transform: rotate(180deg);}
+    50% { transform: rotate(180deg);}
+    75% { transform: rotate(360deg);}
+    100% { transform: rotate(360deg);}
+  }
+  
+  @keyframes loader-inner {
+    0% { height: 0%;}
+    25% { height: 0%;}
+    50% { height: 100%;}
+    75% { height: 100%;}
+    100% { height: 0%;}
+  }
