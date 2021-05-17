@@ -2,6 +2,7 @@ body {
   background-image: url('../images/service0.svg');
   background-size: cover;
   background-repeat: no-repeat;
+  overflow-x: hidden;
 }
 @media only screen and (max-width: 992px) {
 	.myImg{

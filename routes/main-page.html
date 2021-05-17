@@ -18,8 +18,20 @@
     <script src="../javascript/main-page.js"></script>
     <script src="https://use.fontawesome.com/7d75dbd6f4.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link  href="../css/loader.css" rel="stylesheet"  />
+    <script>
+      $(window).on("load", function() {
+        $(".loader-wrapper").fadeOut();
+        $(".myLoaders").css({ "opacity": 1 });
+      });
+    </script>
   </head>
   <body>
+    <div class="loader-wrapper">
+      <img src="../images/loader.gif">
+    </div>
+    <!--NAVBAR-->
+    <div class="myLoaders">
     <!--NAVBAR-->
     <nav class="navbar navbar-default navbar-expand-lg navbar-light avenir_font sticky-top text-black">
       <div class="container">
@@ -438,7 +450,7 @@
       </div>
       </div>
     </section>
-
+  </div>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
         AOS.init();

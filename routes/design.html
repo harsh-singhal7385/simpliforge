@@ -20,9 +20,20 @@
     integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
     crossorigin="anonymous"></script>
     <script src="../javascript/prototyping.js"></script>
+    <link  href="../css/loader.css" rel="stylesheet"  />
+    <script>
+      $(window).on("load", function() {
+        $(".loader-wrapper").fadeOut();
+        $(".myLoaders").css({ "opacity": 1 });
+      });
+    </script>
   </head>
   <body>
+    <div class="loader-wrapper">
+      <img src="../images/loader.gif">
+    </div>
     <!--NAVBAR-->
+    <div class="myLoaders">
     <nav class="navbar navbar-expand-lg navbar-light navbar-default sticky-top avenir_font text-black">
       <div class="container">
         <a href="main-page.html"><img class="img-fluid plz-1" src="../images/logo.svg" /></a>
@@ -259,6 +270,7 @@
       </div>
       </div>
     </section>
+  </div>
 
       	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
       	<script>
