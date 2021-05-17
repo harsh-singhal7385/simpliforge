@@ -12,6 +12,7 @@
     <title>Contact</title>
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="../css/contact.css" />
+    <link  href="../css/loader.css" rel="stylesheet"  />
     <link rel="icon" href="../images/icon.svg">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet">
@@ -25,8 +26,18 @@
     integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
     crossorigin="anonymous"></script>
     <script src="../javascript/prototyping.js"></script>
+    <script>
+      $(window).on("load", function() {
+        $(".loader-wrapper").fadeOut();
+        $(".myLoaders").css({ "opacity": 1 });
+      });
+    </script>
   </head>
 <body>
+  <div class="loader-wrapper">
+    <img src="../images/loader.gif">
+  </div>
+  <div class="myLoaders">
   <nav class="navbar navbar-expand-lg navbar-light navbar-default avenir_font sticky-top text-black">
     <div class="container">
       <a href="main-page.html"><img class="img-fluid plz-1" src="../images/logo.svg" /></a>
@@ -313,10 +324,11 @@
   </div>
   </div>
 </section>
+</div>
+</body>
 
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 <script>
 AOS.init();
 </script>
-</body>
 </html>
