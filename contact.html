@@ -11,21 +11,21 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     <title>Contact</title>
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-    <link rel="stylesheet" href="../css/contact.css" />
-    <link  href="../css/loader.css" rel="stylesheet"  />
-    <link rel="icon" href="../images/icon.svg">
+    <link rel="stylesheet" href="css/contact.css" />
+    <link  href="css/loader.css" rel="stylesheet"  />
+    <link rel="icon" href="images/icon.svg">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.21.1/axios.min.js" integrity="sha512-bZS47S7sPOxkjU/4Bt0zrhEtWx0y0CRkhEp8IckzK+ltifIIE9EMIMTuT/mEzoIMewUINruDBIR/jJnbguonqQ==" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.21.1/axios.js" integrity="sha512-otOZr2EcknK9a5aa3BbMR9XOjYKtxxscwyRHN6zmdXuRfJ5uApkHB7cz1laWk2g8RKLzV9qv/fl3RPwfCuoxHQ==" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/fetch/3.6.2/fetch.min.js" integrity="sha512-1Gn7//DzfuF67BGkg97Oc6jPN6hqxuZXnaTpC9P5uw8C6W4yUNj5hoS/APga4g1nO2X6USBb/rXtGzADdaVDeA==" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/fetch/3.6.2/fetch.js" integrity="sha512-20FZL4lG1jTZXPeMkblgj4b/fsXASK5aW87Tm7Z5QK9QmmYleVGM0NlS9swfb6XT8yrFTAWkq3QfnMe7MKIX8A==" crossorigin="anonymous"></script>
-    <script src="../javascript/contact.js"> </script>
+    <script src="javascript/contact.js"> </script>
     <script
     src="https://code.jquery.com/jquery-3.6.0.js"
     integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
     crossorigin="anonymous"></script>
-    <script src="../javascript/prototyping.js"></script>
+    <script src="javascript/prototyping.js"></script>
     <script>
       $(window).on("load", function() {
         $(".loader-wrapper").fadeOut();
@@ -35,106 +35,141 @@
   </head>
 <body>
   <div class="loader-wrapper">
-    <img src="../images/loader.gif">
+    <img src="images/loader.gif">
   </div>
   <div class="myLoaders">
-  <nav class="navbar navbar-expand-lg navbar-light navbar-default avenir_font sticky-top text-black">
-    <div class="container">
-      <a href="main-page.html"><img class="img-fluid plz-1" src="../images/logo.svg" /></a>
-      <button
-        class="navbar-toggler"
-        type="button"
-        data-toggle="collapse"
-        data-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent"
-        aria-expanded="false"
-        aria-label="Toggle navigation"
-        onclick="myFunction()"><span class="navbar-toggler-icon"></span></button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent" >
-        <ul class="navbar-nav ml-auto  myStyles1 mySty">
-          <li class="nav-item active myNav1" >
-            <a class="nav-link" href="main-page.html">HOME <span class="sr-only">(current)</span></a>
-          </li>
+    <nav class="navbar navbar-default navbar-expand-lg navbar-light avenir_font sticky-top text-black">
+      <div class="container">
+        <a href="main-page.html"><img class="img-fluid plz-1" src="images/logo.svg" /></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+          nclick="myFunction()"><span class="navbar-toggler-icon"></span></button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent" >
+          <ul class="navbar-nav ml-auto  myStyles1 mySty">
+            <li class="nav-item active myNav1 home_mobile" >
+                <a class="nav-link" href="main-page.html">HOME <span class="sr-only">(current)</span></a>
+              </li>
+            <li class="nav-item active mainmenu myNav1 home_laptop" >
+                <ul id="navigation">
+                    <li class="active">
+                        <a class="nav-link" href="main-page.html">HOME <span class="sr-only">(current)</span></a>
+                    </li>
+                </ul>
+            </li>
+            
+            
+            <li class="nav-item mainmenu myService_laptop">
+                <ul id="navigation">
+                    <li ><a class=""  href="services.html"> <span class="">SERVICES &nbsp;&nbsp;<i class="fa fa-long-arrow-down"></i></span> <span class="sr-only">(current)</span> </a>
+                        <ul class="">
+                            <li><a class=" font-weight-bold" href="prototyping.html">Prototyping</a></li>
+                            <li><a class=" font-weight-bold" href="3dscanning.html">3D Scanning</a></li>
+                            <li><a class=" font-weight-bold" href="design.html">Design</a></li>
+                            <li><a class=" font-weight-bold" href="reverse_engg.html">Reverse Engineering</a></li>
+                            </ul>
+                    </li>  
+                </ul>
+            </li>
+            
 
-          <li class="nav-item dropdown myService_laptop">
-            <a class="nav-link text-dark dropdown-toggle"  href="services.html" data-bs-toggle="dropdown"> <span class="">SERVICES</span> <span class="sr-only">(current)</span> </a>
-             <ul class="dropdown-menu">
-              <li><a class="dropdown-item font-weight-bold" href="prototyping.html">Prototyping</a></li>
-              <li><a class="dropdown-item font-weight-bold" href="3dscanning.html">3D Scanning</a></li>
-              <li><a class="dropdown-item font-weight-bold" href="design.html">Design</a></li>
-              <li><a class="dropdown-item font-weight-bold" href="reverse_engg.html">Reverse Engineering</a></li>
-             </ul>
-          </li>
+            <li class="nav-item dropdown myService_mobile myService_Domain_Nav mySty mt-2">
+              <div class="panel-group">
+                  <div class="panel panel-default">
+                      <div class="panel-title ">
+                          <a data-toggle="collapse" class="dropdown-toggle myService_Domain_Nav text-dark text-decoration-none"  href="#collapse1">SERVICES</a>
+                      </div>
+                      <div id="collapse1" class="panel-collapse collapse">
+                        <ul class="list-group text-decoration-none myStyles1">
+                            <li><a class="list-group-item font-weight-bold text-dark text-decoration-none" href="services.html">All SERVICES &nbsp;&nbsp;&nbsp;<img src="https://img.icons8.com/small/16/000000/external-link.png"/></a></li>
+                            <li><a class="list-group-item font-weight-bold text-dark text-decoration-none ml-5" href="prototyping.html">Prototyping &nbsp;&nbsp;&nbsp;</a></li>
+                            <li><a class="list-group-item font-weight-bold text-dark text-decoration-none ml-5" href="3dscanning.html">3D Scanning &nbsp;&nbsp;&nbsp;</a></li>
+                            <li><a class="list-group-item font-weight-bold text-dark text-decoration-none ml-5" href="design.html">Design &nbsp;&nbsp;&nbsp;</a></li>
+                            <li><a class="list-group-item font-weight-bold text-dark text-decoration-none ml-5" href="reverse_engg.html">Reverse Engineering &nbsp;&nbsp;&nbsp;</a></li>
+                        </ul>
+                      </div>
+                  </div>
+              </div>
+            </li>
+            
+            <li class="nav-item mainmenu myDomain_laptop">
+                <ul id="navigation">
+                    <li><a class=""  href="domain.html"> <span class="">DOMAINS &nbsp;<i class="fa fa-long-arrow-down"></i></span> <span class="sr-only">(current)</span> </a>
+                        <ul class="">
+                            <li><a class=" font-weight-bold" href="med_health.html">Medical and Healthcare</a></li>
+                            <li><a class=" font-weight-bold" href="automobile.html">Automobile</a></li>
+                            <li><a class=" font-weight-bold " href="construction.html">Construction</a></li>
+                            <li><a class=" font-weight-bold" href="consumer_goods.html">Consumer Goods</a></li>
+                            <li><a class=" font-weight-bold" href="manufacturing.html">Manufacturing</a></li>
+                            <li><a class=" font-weight-bold" href="package_design.html">Package Design</a></li>
+                            </ul>
+                    </li>  
+                </ul>
+            </li>
+            
 
-          <li class="nav-item dropdown myService_mobile myService_Domain_Nav mySty mt-2">
+          <li class="nav-item dropdown myDomain_mobile myService_Domain_Nav mySty mt-3 mb-2" >
             <div class="panel-group">
                 <div class="panel panel-default">
                     <div class="panel-title ">
-                        <a data-toggle="collapse" class="dropdown-toggle myService_Domain_Nav text-dark text-decoration-none"  href="#collapse1">SERVICES</a>
+                        <a data-toggle="collapse" class="dropdown-toggle myService_Domain_Nav text-dark text-decoration-none"  href="#collapse2">DOMAINS</a>
                     </div>
-                    <div id="collapse1" class="panel-collapse collapse">
+                    <div id="collapse2" class="panel-collapse collapse">
                       <ul class="list-group text-decoration-none myStyles1">
-                          <li><a class="list-group-item font-weight-bold text-dark text-decoration-none" href="services.html">All SERVICES &nbsp;&nbsp;&nbsp;<img src="https://img.icons8.com/small/16/000000/external-link.png"/></a></li>
-                          <li><a class="list-group-item font-weight-bold text-dark text-decoration-none ml-5" href="prototyping.html">Prototyping &nbsp;&nbsp;&nbsp;</a></li>
-                          <li><a class="list-group-item font-weight-bold text-dark text-decoration-none ml-5" href="3dscanning.html">3D Scanning &nbsp;&nbsp;&nbsp;</a></li>
-                          <li><a class="list-group-item font-weight-bold text-dark text-decoration-none ml-5" href="design.html">Design &nbsp;&nbsp;&nbsp;</a></li>
-                          <li><a class="list-group-item font-weight-bold text-dark text-decoration-none ml-5" href="reverse_engg.html">Reverse Engineering &nbsp;&nbsp;&nbsp;</a></li>
+                          <li><a class="list-group-item font-weight-bold text-dark text-decoration-none"  href="domain.html">All DOMAINS &nbsp;&nbsp;&nbsp;<img src="https://img.icons8.com/small/16/000000/external-link.png"/></a></li>
+                          <li><a class="list-group-item font-weight-bold text-dark text-decoration-none ml-5"  href="med_health.html">Medical and Healthcare &nbsp;&nbsp;</a></li>
+                          <li><a class="list-group-item font-weight-bold text-dark text-decoration-none ml-5"  href="automobile.html">Automobile &nbsp;&nbsp;&nbsp;</a></li>
+                          <li><a class="list-group-item font-weight-bold text-dark text-decoration-none ml-5"  href="construction.html">Construction &nbsp;&nbsp;&nbsp;</a></li>
+                          <li><a class="list-group-item font-weight-bold text-dark text-decoration-none ml-5"  href="consumer_goods.html">Consumer Goods &nbsp;&nbsp;&nbsp;</a></li>
+                          <li><a class="list-group-item font-weight-bold text-dark text-decoration-none ml-5"  href="manufacturing.html">Manufacturing &nbsp;&nbsp;&nbsp;</a></li>
+                          <li><a class="list-group-item font-weight-bold text-dark text-decoration-none ml-5"  href="package_design.html">Package Design &nbsp;&nbsp;&nbsp;</a></li>
                       </ul>
                     </div>
                 </div>
             </div>
           </li>
-
-          <li class="nav-item dropdown myDomain_laptop ">
-            <a class="nav-link text-dark dropdown-toggle" href="domain.html" data-bs-toggle="dropdown"><span class="">DOMAINS</span>  <span class="sr-only">(current)</span></a>
-             <ul class="dropdown-menu">
-              <li><a class="dropdown-item font-weight-bold" href="med_health.html">Medical and HealthCare</a></li>
-              <li><a class="dropdown-item font-weight-bold" href="automobile.html">Automobile</a></li>
-              <li><a class="dropdown-item font-weight-bold " href="construction.html">Construction</a></li>
-              <!--<li><a class="dropdown-item font-weight-bold" href="arts_restore.html">Arts and Restoration</a></li>-->
-              <li><a class="dropdown-item font-weight-bold" href="consumer_goods.html">Consumer Goods</a></li>
-              <li><a class="dropdown-item font-weight-bold" href="manufacturing.html">Manufacturing</a></li>
-              <li><a class="dropdown-item font-weight-bold" href="package_design.html">Package Design</a></li>
-             </ul>
-         </li>
-
-        <li class="nav-item dropdown myDomain_mobile myService_Domain_Nav mySty mt-3 mb-2" >
-          <div class="panel-group">
-              <div class="panel panel-default">
-                  <div class="panel-title ">
-                      <a data-toggle="collapse" class="dropdown-toggle myService_Domain_Nav text-dark text-decoration-none"  href="#collapse2">DOMAINS</a>
-                  </div>
-                  <div id="collapse2" class="panel-collapse collapse">
-                    <ul class="list-group text-decoration-none myStyles1">
-                        <li><a class="list-group-item font-weight-bold text-dark text-decoration-none"  href="domain.html">All DOMAINS &nbsp;&nbsp;&nbsp;<img src="https://img.icons8.com/small/16/000000/external-link.png"/></a></li>
-                        <li><a class="list-group-item font-weight-bold text-dark text-decoration-none ml-5"  href="med_health.html">Medical and HealthCare &nbsp;&nbsp;</a></li>
-                        <li><a class="list-group-item font-weight-bold text-dark text-decoration-none ml-5"  href="automobile.html">Automobile &nbsp;&nbsp;&nbsp;</a></li>
-                        <li><a class="list-group-item font-weight-bold text-dark text-decoration-none ml-5"  href="construction.html">Construction &nbsp;&nbsp;&nbsp;</a></li>
-                        <!--<li><a class="list-group-item font-weight-bold text-dark text-decoration-none ml-5"  href="arts_restore.html">Arts and Restoration &nbsp;&nbsp;&nbsp;</a></li>-->
-                        <li><a class="list-group-item font-weight-bold text-dark text-decoration-none ml-5"  href="consumer_goods.html">Consumer Goods &nbsp;&nbsp;&nbsp;</a></li>
-                        <li><a class="list-group-item font-weight-bold text-dark text-decoration-none ml-5"  href="manufacturing.html">Manufacturing &nbsp;&nbsp;&nbsp;</a></li>
-                        <li><a class="list-group-item font-weight-bold text-dark text-decoration-none ml-5"  href="package_design.html">Package Design &nbsp;&nbsp;&nbsp;</a></li>
-                    </ul>
-                  </div>
-              </div>
-          </div>
-        </li>
-
-
-          <li class="nav-item active myNav1">
-            <a class="nav-link" href="build.html">BUILD <span class="sr-only">(current)</span></a>
-          </li>
-          <li class="nav-item active myNav1">
-            <a class="nav-link" href="sustainability.html">SUSTAINABILITY <span class="sr-only">(current)</span></a>
-          </li>
-          <li class="nav-item active myNav1">
-            <a class="nav-link" href="contact.html">CONTACT <span class="sr-only">(current)</span></a>
-          </li>
-        </ul>
+            
+            
+            <li class="nav-item active mainmenu myNav1 build_laptop " >
+                <ul id="navigation">
+                    <li>
+                        <a class="nav-link  text-dark" href="build.html">BUILD <span class="sr-only">(current)</span></a>
+                    </li>
+                </ul>
+            </li>
+            <li class="nav-item active mainmenu myNav1 sustain_laptop" >
+                <ul id="navigation">
+                    <li>
+                        <a class="nav-link  text-dark" href="sustainability.html">SUSTAINABILITY <span class="sr-only">(current)</span></a>
+                    </li>
+                </ul>
+            </li>
+            <li class="nav-item active mainmenu myNav1 contact_laptop" >
+                <ul id="navigation">
+                    <li>
+                        <a class="nav-link  text-dark" href="contact.html">CONTACT <span class="sr-only">(current)</span></a>
+                    </li>
+                </ul>
+            </li>
+            <li class="nav-item active myNav1 build_mobile">
+                <a class="nav-link" href="build.html">BUILD <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item active myNav1 sustain_mobile">
+                <a class="nav-link" href="sustainability.html">SUSTAINABILITY <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item active myNav1 contact_mobile">
+                <a class="nav-link" href="contact.html">CONTACT <span class="sr-only">(current)</span></a>
+              </li>
+          </ul>
+        </div>
       </div>
-    </div>
-  </nav>
-
+    </nav>
+  
   <div class="container-fluid text-left">
     <div class="container-fluid  mycontact text-left">
       <div class="row mt-5 text-left">
@@ -158,7 +193,7 @@
                 <h4 >We are located at:</h4>
                 <div class="row mt-3">
                   <div class="col-xl-2 col-lg-2 col-md-2 col-sm-2 col-2">
-                    <img src="../images/mumbai.svg" class="img-fluid" />
+                    <img src="images/mumbai.svg" class="img-fluid" />
                   </div>
                   <div class="col-xl-10 col-lg-10 col-md-10 col-sm-10 col-10">
                     <h6 class="font-weight-bold">Mumbai </h6>
@@ -169,7 +204,7 @@
                 </div>
                 <div class="row">
                   <div class="col-xl-2 col-lg-2 col-md-2 col-sm-2 col-2">
-                    <img src="../images/pune.svg" class="img-fluid" />
+                    <img src="images/pune.svg" class="img-fluid" />
                   </div>
                   <div class="col-xl-10 col-lg-10 col-md-10 col-sm-10 col-10">
                     <h6 class="font-weight-bold"> Pune </h6>
@@ -180,7 +215,7 @@
                 </div>
                 <div class="row">
                   <div class="col-xl-2 col-lg-2 col-md-2 col-sm-2 col-2">
-                    <img src="../images/hyderabad.svg" class="img-fluid" />
+                    <img src="images/hyderabad.svg" class="img-fluid" />
                   </div>
                   <div class="col-xl-10 col-lg-10 col-md-10 col-sm-10 col-10">
                     <h6 class="font-weight-bold"> Hyderabad</h6>
@@ -258,7 +293,7 @@
           <div class="col-xl-5 col-lg-5 col-md-12 col-sm-12 col-xs-12 col-12" id="myHidden" >
             <div class="container mb-5 text-center">
               <div class="container text-center mt-5 "></div>
-                <img src="../images/contact-page.svg"  class="img-fluid "  />
+                <img src="images/contact-page.svg"  class="img-fluid "  />
 
                 </div>
             </div>
@@ -272,7 +307,7 @@
   <div class="container-fluid avenir_font top">
     <div class="row">
       <div class="f1 col-lg-6 col-md-12 col-sm-12">
-        <a href="contact.html"><img class=" pt-5 img-fluid d-flex mx-auto logo" src="../images/logo.svg" alt=""></a><br>
+        <a href="contact.html"><img class=" pt-5 img-fluid d-flex mx-auto logo" src="images/logo.svg" alt=""></a><br>
                <b class=" p-2 text-black d-flex align-items-center justify-content-center text-center mt-2 logo1">
                  Email us at : contact@simpliforge.com <br>
                  Phone: +91 8369175977 <br class="mobilebreak"><br>
@@ -303,12 +338,12 @@
         <br  class="mobilebreak">
         <p class="pl-5 ml-4 mt-2 text-white avenir_font follow"><br>FOLLOW US ON</p>
       <p  class="social">
-        <a href="https://www.linkedin.com/company/simpliforge" target="_blank"><img  class="img-fluid ml-5" src="../images/linkedin.svg" alt=""></a>
-        <a href="https://www.instagram.com/simpliforge/" target="_blank"><img class=" img-fluid ml-3 " src="../images/insta.svg" alt=""></a>
-        <a href="https://www.crunchbase.com/organization/simpliforge-creations" target="_blank"><img  class=" img-fluid ml-3 " src="../images/crunchbase.svg" alt=""></a><br  class="mobilebreak"><br>
+        <a href="https://www.linkedin.com/company/simpliforge" target="_blank"><img  class="img-fluid ml-5" src="images/linkedin.svg" alt=""></a>
+        <a href="https://www.instagram.com/simpliforge/" target="_blank"><img class=" img-fluid ml-3 " src="images/insta.svg" alt=""></a>
+        <a href="https://www.crunchbase.com/organization/simpliforge-creations" target="_blank"><img  class=" img-fluid ml-3 " src="images/crunchbase.svg" alt=""></a><br  class="mobilebreak"><br>
       </p><p class="social1">
-     <a href="https://www.makeinindia.com/" target="_blank"><img  class=" img-fluids ml-1" src="../images/makeinindia.svg" alt=""></a>
-        <a href="https://www.startupindia.gov.in/" target="_blank"><img  class=" img-fluid" src="../images/startupindia.svg" alt=""></a></p>
+     <a href="https://www.makeinindia.com/" target="_blank"><img  class=" img-fluids ml-1" src="images/makeinindia.svg" alt=""></a>
+        <a href="https://www.startupindia.gov.in/" target="_blank"><img  class=" img-fluid" src="images/startupindia.svg" alt=""></a></p>
         <br class="mobilebreak">
       </div>
     </div>
