@@ -2,12 +2,28 @@ body{
   overflow-x:hidden;
   background: #EDEDEB;
 }
+
+
 @font-face {
   font-family: myFirstFont;
   src: url('../fonts/Font\ Avenir\ Next\ LT\ Pro\ \(1\).ttf');
 }
 
-
+/* @media all and (min-width: 992px) {
+  .myimg1{
+   background:url("images/mainback.svg"); 
+  }
+}
+@media all and (max-width: 991px) {
+  .myimg2{
+    background:url("images/contactPhone.svg"); 
+   }
+} */
+@media all and (max-width: 991px) {
+  *{
+    overflow-x: hidden;
+  }
+}
 @media all and (min-width: 992px) {
  
 
@@ -65,12 +81,12 @@ body{
         opacity: 0;
         -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
         position: absolute;
-        text-align: left;
+        text-align: center;
         /* top: 108px; */
         -webkit-transition: all 0.7s ease 0s;
         transition: all 0.7s ease 0s;
         visibility: hidden;
-        width: 300%;
+        width: 170%;
         z-index: -1;
     }
     .mainmenu li ul li {
@@ -125,6 +141,11 @@ margin-top: 170px;
 .navbar-default.scrolled{
   background:rgb(255, 255, 255);
   color: #ffffd7;
+}
+@media only screen and (width:768px){
+  .phnimg{
+    display: none;
+  }
 }
 
 @font-face {
@@ -185,7 +206,7 @@ margin-top: 170px;
 
 .card-img-overlay {
   height: 50vh !important;
-  top: 30vh !important;
+  top: 14vh !important;
 }
 
 .shadow {
@@ -438,7 +459,11 @@ margin-top: 170px;
   display: block;
    }
 }
-
+@media all and (width:1024px){
+  .my123{
+    top: -200px;;
+  }
+}
 /* for buttons */
 @media all and (max-width: 992px) {
   .custom-arrow > a {
@@ -451,7 +476,7 @@ margin-top: 170px;
       padding-left: 0% !important;
     }
 .phnimg{
-  width: 100vw;
+  width: 150vw;
 }
 }
 

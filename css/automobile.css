@@ -13,6 +13,11 @@ body {
   box-shadow: none;
 }
 
+@media all and (max-width: 991px) {
+  *{
+    overflow-x: hidden;
+  }
+}
 @media all and (min-width: 992px) {
  
 
@@ -70,12 +75,12 @@ body {
         opacity: 0;
         -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
         position: absolute;
-        text-align: left;
+        text-align: center;
         /* top: 108px; */
         -webkit-transition: all 0.7s ease 0s;
         transition: all 0.7s ease 0s;
         visibility: hidden;
-        width: 300%;
+        width: 170%;
         z-index: -1;
     }
     .mainmenu li ul li {
@@ -96,6 +101,7 @@ body {
     }
     
 }
+
 .btn:focus,.btn:active {
   outline: none !important;
   box-shadow: none;
@@ -210,6 +216,10 @@ body {
     margin-right: 15% !important;
   }.social1{
     margin-right: 5% !important;
+  }
+}@media all and (max-width: 991px) {
+  *{
+    overflow-x: hidden;
   }
 }
 /* for top headings and cards */
