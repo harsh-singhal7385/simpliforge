@@ -7,7 +7,11 @@ body {
   font-family: myFirstFont;
   src: url('../fonts/Font\ Avenir\ Next\ LT\ Pro\ \(1\).ttf');
 }
-
+@media all and (max-width: 991px) {
+  *{
+    overflow-x: hidden;
+  }
+}
 *{
   font-family: myFirstFont;
 }
@@ -20,6 +24,11 @@ body {
   color: #ffffd7;
 }
 
+@media all and (max-width: 991px) {
+  *{
+    overflow-x: hidden;
+  }
+}
 @media all and (min-width: 992px) {
  
 
@@ -77,12 +86,12 @@ body {
         opacity: 0;
         -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
         position: absolute;
-        text-align: left;
+        text-align: center;
         /* top: 108px; */
         -webkit-transition: all 0.7s ease 0s;
         transition: all 0.7s ease 0s;
         visibility: hidden;
-        width: 300%;
+        width: 170%;
         z-index: -1;
     }
     .mainmenu li ul li {
@@ -103,6 +112,7 @@ body {
     }
     
 }
+
 
 .btn:focus,.btn:active {
   outline: none !important;
