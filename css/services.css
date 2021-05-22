@@ -25,7 +25,7 @@ body {
   }
 }
 @media all and (min-width: 992px) {
- 
+
 
     .mainmenu ul {
       list-style: none;
@@ -105,7 +105,7 @@ body {
         z-index: 99;
         /* top: 88px; */
     }
-    
+
 }
 
 
@@ -155,9 +155,9 @@ body {
     width: 87px;
 }
 .card{
-/* text-align: justify; */
 text-align: left;
 height: 400px;
+width: 260px;
 line-height: 20px;
 }
 #first{
@@ -261,15 +261,15 @@ line-height: 20px;
   .myService_laptop {
     display: block;
   }
-  
+
   .myService_mobile {
     display: none;
   }
-  
+
   .myDomain_laptop {
     display: block;
   }
-  
+
   .myDomain_mobile {
     display: none;
   }
@@ -277,36 +277,36 @@ line-height: 20px;
   .home_laptop {
     display: block;
   }
-  
+
   .home_mobile {
     display: none;
   }
-  
+
   .build_laptop {
     display: block;
   }
-  
+
   .build_mobile {
     display: none;
   }
   .sustain_laptop {
     display: block;
   }
-  
+
   .sustain_mobile {
     display: none;
   }
-  
+
   .contact_laptop {
     display: block;
   }
-  
+
   .contact_mobile {
     display: none;
   }
-  
+
   }
-  
+
   @media only screen and (max-width: 991px){
   .myService_laptop {
     display: none;
@@ -326,30 +326,30 @@ line-height: 20px;
   .home_laptop {
     display: none;
   }
-  
+
   .home_mobile {
     display: block;
   }
-  
+
   .build_laptop {
     display: none;
   }
-  
+
   .build_mobile {
     display: block;
   }
   .sustain_laptop {
     display: none;
   }
-  
+
   .sustain_mobile {
     display: block;
   }
-  
+
   .contact_laptop {
     display: none;
   }
-  
+
   .contact_mobile {
     display: block;
   }
@@ -373,4 +373,18 @@ line-height: 20px;
 
 .mySty{
   line-height: 25px;
+}
+@media all and (max-width: 992px) {
+  .head{
+    margin-left: 20px !important;
+  }
+  .ajk{
+    margin-left: 1px !important;
+  }
+.card{
+text-align: left !important;
+height: 430px !important;
+width: 295px !important;
+line-height: 20px !important;
+}
 }

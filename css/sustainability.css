@@ -14,8 +14,8 @@ body {
   border-radius: 20px;
   font-size: 20px;
   margin: 0 auto;
-  height: 340px;
-  width: 248px;
+  height: 380px;
+  width: 280px;
   /* float: none;  */
   /* margin-bottom: 10px;  */
 }
@@ -35,7 +35,7 @@ body {
   }
 }
 @media all and (min-width: 992px) {
- 
+
 
     .mainmenu ul {
       list-style: none;
@@ -115,7 +115,7 @@ body {
         z-index: 99;
         /* top: 88px; */
     }
-    
+
 }
 
 .work{
@@ -340,11 +340,11 @@ a{
 @media screen and (min-width: 461px) {
   .mySizeMobile1{
     display: block;
-    
+
   }
   .mySizeMobile2{
     display: none;
-    
+
   }
 }
 @media screen and (max-width: 460px) {
@@ -366,7 +366,7 @@ a{
 @media screen and (max-width: 550px) {
   .text-responsive{
     font-size: 11vw;
-  
+
   }
 }@media all and (max-width: 991px) {
   *{
@@ -415,15 +415,15 @@ a{
   .myService_laptop {
     display: block;
   }
-  
+
   .myService_mobile {
     display: none;
   }
-  
+
   .myDomain_laptop {
     display: block;
   }
-  
+
   .myDomain_mobile {
     display: none;
   }
@@ -431,36 +431,36 @@ a{
   .home_laptop {
     display: block;
   }
-  
+
   .home_mobile {
     display: none;
   }
-  
+
   .build_laptop {
     display: block;
   }
-  
+
   .build_mobile {
     display: none;
   }
   .sustain_laptop {
     display: block;
   }
-  
+
   .sustain_mobile {
     display: none;
   }
-  
+
   .contact_laptop {
     display: block;
   }
-  
+
   .contact_mobile {
     display: none;
   }
-  
+
   }
-  
+
   @media only screen and (max-width: 991px){
   .myService_laptop {
     display: none;
@@ -480,30 +480,30 @@ a{
   .home_laptop {
     display: none;
   }
-  
+
   .home_mobile {
     display: block;
   }
-  
+
   .build_laptop {
     display: none;
   }
-  
+
   .build_mobile {
     display: block;
   }
   .sustain_laptop {
     display: none;
   }
-  
+
   .sustain_mobile {
     display: block;
   }
-  
+
   .contact_laptop {
     display: none;
   }
-  
+
   .contact_mobile {
     display: block;
   }
@@ -525,4 +525,8 @@ a{
 
 .mySty{
   line-height: 25px;
+}
+
+@media all and (max-width: 992px) {
+
 }
