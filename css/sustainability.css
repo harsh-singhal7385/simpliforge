@@ -10,6 +10,10 @@ body {
 .card{
   border: none;
 }
+.ow2{
+  padding-right: 0px;
+  padding-left: 0px;
+}
 .myCard{
   border-radius: 20px;
   font-size: 20px;
@@ -334,6 +338,10 @@ a{
   }
   .ourgoal2{
     padding-left: 3%  !important;
+  }
+  .ow2{
+    padding-right: 22px  !important;
+    padding-left: 22px  !important;
   }
 }
 
