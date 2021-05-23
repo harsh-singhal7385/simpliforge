@@ -205,14 +205,16 @@ margin-top: 170px;
 }
 
 .card-img-overlay {
-  height: 50vh !important;
+  height: 80vh !important;
   top: 14vh !important;
 }
 
 .shadow {
   box-shadow: 10px 10px 10px #ccc !important;
 }
-
+.my123{
+  overflow: visible;
+}
 .color1 {
   color: #338CAD !important;
 }
@@ -413,7 +415,7 @@ margin-top: 170px;
    margin: 0% !important;
    font-size: 24px !important;
     }
-    .carousel-indicators li {
+        .carousel-indicators li {
     width: 8px;
     height: 8px;
     border-radius: 100%;
