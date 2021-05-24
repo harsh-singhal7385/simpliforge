@@ -610,3 +610,12 @@ margin-top: 170px;
 .mySty{
   line-height: 25px;
 }
+/* for ipad */
+@media only screen and (width: 768px) and (height: 1024px) and (orientation:portrait) {
+  .navbar-default{
+    transition:250ms ease;
+    /*background:transparent*/
+    background-image: none !important;
+    background-color: white!important;
+  }
+   }
