@@ -23,7 +23,7 @@ body {
   }
 }
 @media all and (min-width: 992px) {
- 
+
 
     .mainmenu ul {
       list-style: none;
@@ -52,7 +52,7 @@ body {
         content: "";
         width: 100%;
         height: 3px;
-        background: #ffc527;
+        background: #000000;
         left: 0;
         opacity: 0;
         transition: .3s;
@@ -103,7 +103,7 @@ body {
         z-index: 99;
         /* top: 88px; */
     }
-    
+
 }
 
 .mapouter{
@@ -215,7 +215,7 @@ label {
       background-repeat: no-repeat;
     }
   }
-  
+
   @media only screen and (max-width: 600px){
     body {
       background-image: url('../images/contactPhone.svg');
@@ -223,45 +223,45 @@ label {
       background-position: top, bottom;
       background-repeat: no-repeat;
       opacity: 1.5;
-    
+
     }
-  
+
   }
-  
+
   @media only screen and (max-width: 800px){
     .myspan{
       display: none;
     }
-  
+
   }
   @media only screen and (min-width: 1200px){
     .mycontact {
       width:78%
     }
-  
+
   }
   @media only screen and (min-width: 540px){
     .myAddress_laptop {
       display: block;
     }
-    
+
     .myAddress_mobile {
       display: none;
     }
-  
+
   }
-  
+
   @media only screen and (max-width: 539px){
     .myAddress_laptop {
       display: none;
     }
-    
+
     .myAddress_mobile {
       display: block;
     }
-  
+
   }
-  
+
 #myHidden{
   display: none;
 }
@@ -315,15 +315,15 @@ label {
   .myService_laptop {
     display: block;
   }
-  
+
   .myService_mobile {
     display: none;
   }
-  
+
   .myDomain_laptop {
     display: block;
   }
-  
+
   .myDomain_mobile {
     display: none;
   }
@@ -331,36 +331,36 @@ label {
   .home_laptop {
     display: block;
   }
-  
+
   .home_mobile {
     display: none;
   }
-  
+
   .build_laptop {
     display: block;
   }
-  
+
   .build_mobile {
     display: none;
   }
   .sustain_laptop {
     display: block;
   }
-  
+
   .sustain_mobile {
     display: none;
   }
-  
+
   .contact_laptop {
     display: block;
   }
-  
+
   .contact_mobile {
     display: none;
   }
-  
+
   }
-  
+
   @media only screen and (max-width: 991px){
   .myService_laptop {
     display: none;
@@ -380,30 +380,30 @@ label {
   .home_laptop {
     display: none;
   }
-  
+
   .home_mobile {
     display: block;
   }
-  
+
   .build_laptop {
     display: none;
   }
-  
+
   .build_mobile {
     display: block;
   }
   .sustain_laptop {
     display: none;
   }
-  
+
   .sustain_mobile {
     display: block;
   }
-  
+
   .contact_laptop {
     display: none;
   }
-  
+
   .contact_mobile {
     display: block;
   }
@@ -426,4 +426,15 @@ label {
 
 .mySty{
   line-height: 25px;
+}
+@media only screen and (width: 768px) and (height: 1024px) and (orientation:portrait) {
+  .logo {
+    padding-top: 0% !important;
+}
+.social1 {
+    margin-right: 0% !important;
+}
+.social {
+    margin-right: 7% !important;
+}
 }
