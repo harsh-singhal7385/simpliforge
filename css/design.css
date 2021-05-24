@@ -19,7 +19,7 @@ body {
   }
 }
 @media all and (min-width: 992px) {
- 
+
 
     .mainmenu ul {
       list-style: none;
@@ -99,7 +99,7 @@ body {
         z-index: 99;
         /* top: 88px; */
     }
-    
+
 }
 
 
@@ -226,15 +226,15 @@ body {
   .myService_laptop {
     display: block;
   }
-  
+
   .myService_mobile {
     display: none;
   }
-  
+
   .myDomain_laptop {
     display: block;
   }
-  
+
   .myDomain_mobile {
     display: none;
   }
@@ -242,26 +242,26 @@ body {
   .home_laptop {
     display: block;
   }
-  
+
   .home_mobile {
     display: none;
   }
-  
+
   .build_laptop {
     display: block;
   }
-  
+
   .build_mobile {
     display: none;
   }
   .sustain_laptop {
     display: block;
   }
-  
+
   .sustain_mobile {
     display: none;
   }
-  
+
   .contact_laptop {
     display: block;
   }
@@ -273,9 +273,9 @@ body {
   .contact_mobile {
     display: none;
   }
-  
+
   }
-  
+
   @media only screen and (max-width: 991px){
   .myService_laptop {
     display: none;
@@ -295,30 +295,30 @@ body {
   .home_laptop {
     display: none;
   }
-  
+
   .home_mobile {
     display: block;
   }
-  
+
   .build_laptop {
     display: none;
   }
-  
+
   .build_mobile {
     display: block;
   }
   .sustain_laptop {
     display: none;
   }
-  
+
   .sustain_mobile {
     display: block;
   }
-  
+
   .contact_laptop {
     display: none;
   }
-  
+
   .contact_mobile {
     display: block;
   }
@@ -342,3 +342,9 @@ body {
 .mySty{
   line-height: 25px;
 }
+/* for ipad */
+@media only screen and (width: 768px) and (height: 1024px) and (orientation:portrait) {
+     .ipad{
+       padding-left: 160px!important;
+     }
+   }

@@ -39,8 +39,6 @@ body {
   }
 }
 @media all and (min-width: 992px) {
-
-
     .mainmenu ul {
       list-style: none;
       padding: 0;
@@ -332,7 +330,7 @@ a{
   width: 156px;
 }
 
-@media all and (max-width: 992px) {
+@media  only screen and (max-width: 992px) {
   .ourgoal1{
     padding-right: 2%  !important;
   }
@@ -535,6 +533,30 @@ a{
   line-height: 25px;
 }
 
-@media all and (max-width: 992px) {
-
-}
+/* for ipad */
+@media only screen and (width: 768px) and (height: 1024px) and (orientation:portrait) {
+  .opd{
+  width: 96% !important;
+  }
+  .mySizeMobile1{
+    margin-right: 28px!important;
+  }
+  .stf{
+    margin-top: 6px!important;
+      }
+      .stb{
+        margin-top: 19px!important;
+          }
+  .sf{
+    margin-top: 1px!important;
+    margin-bottom:0px!important;
+  }
+  .sc{
+    margin-top: 20px!important;
+    margin-bottom:0px!important;
+  }
+  .addi{
+    margin-left: 177px !important;
+    margin-top: 7px !important;
+  }
+   }

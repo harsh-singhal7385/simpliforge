@@ -359,3 +359,9 @@ body {
 .mySty{
   line-height: 25px;
 }
+/* for ipad */
+@media only screen and (width: 768px) and (height: 1024px) and (orientation:portrait) {
+     .ipad{
+       padding-left: 160px!important;
+     }
+   }
