@@ -438,3 +438,18 @@ label {
     margin-right: 7% !important;
 }
 }
+
+.ipad_pro{
+  display: none;
+}
+
+@media only screen and (width: 1024px) {
+  .ipad_pro{
+    display: block;
+  }
+
+  *{
+    overflow-y: hidden;
+  }
+
+}

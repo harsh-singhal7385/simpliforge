@@ -354,3 +354,30 @@ transform: translate(-50%, -50%);
       margin-right: 7% !important;
   }
    }
+
+   
+.desk1{
+  display: block;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+.ipad_pro{
+  display: none;
+}
+@media only screen and (width: 1024px) {
+.desk1{
+  display: none;
+}
+.ipad_pro{
+  display: block;
+  margin-top: auto;
+  margin-bottom: auto;
+  /* align-content: center; */
+}
+
+;
+} 
+
+
+
+       
