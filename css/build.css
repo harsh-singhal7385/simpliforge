@@ -346,16 +346,18 @@ transform: translate(-50%, -50%);
 .mySty{
   line-height: 25px;
 }
+
 @media only screen and (width: 768px) and (height: 1024px) and (orientation:portrait) {
-  .social1 {
-      margin-right: 0% !important;
+.social1 {
+    margin-right: 0% !important;
   }
-  .social {
-      margin-right: 7% !important;
+.social {
+    margin-right: 7% !important;
   }
-   }
+}
 
-   
+
+
 .desk1{
   display: block;
   margin-top: auto;
@@ -364,20 +366,46 @@ transform: translate(-50%, -50%);
 .ipad_pro{
   display: none;
 }
+
+#ipad_pro{
+  display: none;
+}
+ 
+
+ /* ipad pro*/  
 @media only screen and (width: 1024px) {
-.desk1{
-  display: none;
-}
-.ipad_pro{
-  display: block;
-  margin-top: auto;
-  margin-bottom: auto;
-  /* align-content: center; */
-}
+  
+  .desk1{
+    display: none ;
+  }
 
-;
-} 
+  #ipad_pro{
+    display: block ;
+  }
+  .ipad_pro{
+    display: block;
+    margin-top: auto;
+    margin-bottom: auto;
+    /* align-content: center; */
+  }
+  .myService_mobile{
+    display: none;
+  }
+  .myService_laptop{
+    display: none;
+  
+  }
+  .myDomain_laptop{
+    display: none;
+  }
+  .myDomain_mobile{
+    display: none;
+  }
+  .myhome{
+    align-items: left;
+  }
 
+  }   
 
 
        

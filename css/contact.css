@@ -439,17 +439,48 @@ label {
 }
 }
 
-.ipad_pro{
+
+   
+.desk1{
+  display: block;
+}
+#ipad_pro{
   display: none;
 }
-
+ .ipad_pro{
+   display: none;
+ }
+ 
+ /* ipad pro*/  
 @media only screen and (width: 1024px) {
-  .ipad_pro{
-    display: block;
+  
+  .desk1{
+    display: none ;
   }
-
   *{
     overflow-y: hidden;
   }
+  #ipad_pro{
+    display: block ;
+  }
+  .ipad_pro{
+    display: block ;
+  }
+  .myService_mobile{
+    display: none;
+  }
+  .myService_laptop{
+    display: none;
+  
+  }
+  .myDomain_laptop{
+    display: none;
+  }
+  .myDomain_mobile{
+    display: none;
+  }
+  .myhome{
+    align-items: left;
+  }
 
-}
+  }   

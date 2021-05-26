@@ -577,9 +577,15 @@ a{
 .desk1{
   display: block;
 }
+
 .ipad_pro{
   display: none;
 }
+
+#ipad_pro{
+  display: none;
+}
+
 .myclass{
   display: none;
 }
@@ -622,4 +628,28 @@ a{
 
   }
 
+  
+  #ipad_pro{
+    display: block ;
+  }
+ 
+  .myService_mobile{
+    display: none;
+  }
+  .myService_laptop{
+    display: none;
+  
+  }
+  .myDomain_laptop{
+    display: none;
+  }
+  .myDomain_mobile{
+    display: none;
+  }
+  .myhome{
+    align-items: left;
+  }
+
+
 }
+
