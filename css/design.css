@@ -356,9 +356,9 @@ body {
    }
 
       
-.desk1{
+/* .desk1{
   display: block;
-}
+} */
 #ipad_pro{
   display: none;
 }
@@ -368,6 +368,9 @@ body {
  
  /* ipad pro*/  
 @media only screen and (width: 1024px) {
+  .myborder{
+    border: 1px solid #4D4D4D;
+  }
   
   .desk1{
     display: none ;

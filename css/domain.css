@@ -400,9 +400,9 @@ line-height: 20px;
   }
 }
    
-.desk1{
+/* .desk1{
   display: block;
-}
+} */
 .ipad_pro{
   display: none;
 }
@@ -416,6 +416,9 @@ line-height: 20px;
   }
   .ipad_pro{
     display: block;
+  }
+  .myborder{
+    border: 1px solid #4D4D4D;
   }
   
   #ipad_pro{

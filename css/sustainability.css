@@ -319,9 +319,9 @@ a{
   width: 226px;
   height: 146px;
 }
-.res{
+/* .res{
   width:87vw;
-}
+} */
 .card-title{
   font-size: 13px;
 }
@@ -574,9 +574,9 @@ a{
 
 /* for ipad pro*/
 
-.desk1{
+/* .desk1{
   display: block;
-}
+} */
 
 .ipad_pro{
   display: none;
@@ -590,6 +590,11 @@ a{
   display: none;
 }
 @media only screen and (width: 1024px) {
+  .myborder{
+    border: 1px solid #4D4D4D;
+  }
+  
+ 
   .desk1{
     display: none;
   }
@@ -599,32 +604,32 @@ a{
   .ipad_pro{
     display: block;
   }
-
+  
   .res{
     width:100%
   }
  
   .stf{
-    margin-top: 6.5px !important
-    ;margin-bottom: 6.5px !important;
+    margin-top: 10.5px !important
+    /* ;margin-bottom: 6.5px !important; */
   }
-
-  .stb{
+  
+  /* .stb{
     margin-top: 28px !important;
    
     padding-right: 2px;
     
-  }
+  } */
   
   .myipad_pro{
     margin-top: 15px;
-    margin-bottom: 15px;
-
+    /* margin-bottom: 15px; */
+  
   }
-
+  
   .myipad_pro1{
     margin-top: 15px;
-    margin-bottom: 15px;
+    /* margin-bottom: 15px; */
 
   }
 

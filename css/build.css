@@ -5,6 +5,21 @@
     overflow: hidden;
     padding-bottom: 56.25%;
   }
+  @media all and (max-width:991px) {
+    .mobile_mode{
+      display: block;
+    }
+    
+
+
+
+  }
+  body {
+    background-image: url('../images/build0.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 1;
+  }
   @font-face {
     font-family: myFirstFont;
     src: url('../fonts/Font\ Avenir\ Next\ LT\ Pro\ \(1\).ttf');
@@ -20,7 +35,11 @@
     }
   }
   @media all and (min-width: 992px) {
+    .mobile_mode{
+      display: none;
+    }
 
+    
 
       .mainmenu ul {
         list-style: none;
@@ -233,7 +252,9 @@ transform: translate(-50%, -50%);
   .myService_laptop {
     display: block;
   }
-
+  .desk12{
+    display: none;
+  }
   .myService_mobile {
     display: none;
   }
@@ -283,7 +304,12 @@ transform: translate(-50%, -50%);
   .myService_laptop {
     display: none;
   }
-
+  .desk12{
+    display: block;
+  }
+  .desk1{
+    display: none;
+  }
   .myService_mobile {
     display: block;
   }
@@ -324,8 +350,8 @@ transform: translate(-50%, -50%);
 
   .contact_mobile {
     display: block;
-  }
-  }
+    }
+}
 
 
 
@@ -357,12 +383,12 @@ transform: translate(-50%, -50%);
 }
 
 
-
-.desk1{
+/* .desk1{
   display: block;
   margin-top: auto;
   margin-bottom: auto;
-}
+} */
+
 .ipad_pro{
   display: none;
 }
@@ -371,14 +397,20 @@ transform: translate(-50%, -50%);
   display: none;
 }
  
-
+ 
  /* ipad pro*/  
 @media only screen and (width: 1024px) {
+ 
+  .myborder{
+    border: 1px solid #4D4D4D;
+  }
   
   .desk1{
     display: none ;
   }
-
+  .desk12{
+    display: none;
+  }
   #ipad_pro{
     display: block ;
   }
@@ -388,6 +420,7 @@ transform: translate(-50%, -50%);
     margin-bottom: auto;
     /* align-content: center; */
   }
+
   .myService_mobile{
     display: none;
   }
@@ -405,7 +438,7 @@ transform: translate(-50%, -50%);
     align-items: left;
   }
 
-  }   
+}   
 
 
        
