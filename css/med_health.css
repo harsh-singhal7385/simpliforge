@@ -355,3 +355,49 @@ body {
            margin-right: 7% !important;
        }
            }
+
+/*               
+.desk1{
+  display: block;
+} */
+#ipad_pro{
+  display: none;
+}
+ .ipad_pro{
+   display: none;
+ }
+ 
+ /* ipad pro*/  
+@media only screen and (width: 1024px) {
+  .myborder{
+    border: 1px solid #4D4D4D;
+  }
+  
+  .desk1{
+    display: none ;
+  }
+
+  #ipad_pro{
+    display: block ;
+  }
+  .ipad_pro{
+    display: block ;
+  }
+  .myService_mobile{
+    display: none;
+  }
+  .myService_laptop{
+    display: none;
+  
+  }
+  .myDomain_laptop{
+    display: none;
+  }
+  .myDomain_mobile{
+    display: none;
+  }
+  .myhome{
+    align-items: left;
+  }
+
+  }   

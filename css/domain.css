@@ -194,12 +194,13 @@ line-height: 20px;
   font-size:14px;
   line-height: 17px;
 }
+
+.hyper{
+  color: black;
+}
 .f1{
   background-color:#EDEDEB;
     font-size:18px;
-}
-.hyper{
-  color: black;
 }
 .f2{
   background-color:#4D4D4D ;
@@ -397,4 +398,54 @@ line-height: 20px;
   .social {
       margin-right: 7% !important;
   }
-   }
+}
+   
+/* .desk1{
+  display: block;
+} */
+.ipad_pro{
+  display: none;
+}
+#ipad_pro{
+  display: none;
+}
+
+@media only screen and (width: 1024px) {
+  .desk1{
+    display: none;
+  }
+  .ipad_pro{
+    display: block;
+  }
+  .myborder{
+    border: 1px solid #4D4D4D;
+  }
+  
+  #ipad_pro{
+    display: block ;
+  }
+ 
+  .myService_mobile{
+    display: none;
+  }
+  .myService_laptop{
+    display: none;
+  
+  }
+  .myDomain_laptop{
+    display: none;
+  }
+  .myDomain_mobile{
+    display: none;
+  }
+  .myhome{
+    align-items: left;
+  }
+
+
+ 
+}
+ 
+
+
+  

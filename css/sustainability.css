@@ -319,9 +319,9 @@ a{
   width: 226px;
   height: 146px;
 }
-.res{
+/* .res{
   width:87vw;
-}
+} */
 .card-title{
   font-size: 13px;
 }
@@ -569,3 +569,92 @@ a{
     margin-right: 7% !important;
 }
    }
+
+ 
+
+/* for ipad pro*/
+
+/* .desk1{
+  display: block;
+} */
+
+.ipad_pro{
+  display: none;
+}
+
+#ipad_pro{
+  display: none;
+}
+
+.myclass{
+  display: none;
+}
+@media only screen and (width: 1024px) {
+  .myborder{
+    border: 1px solid #4D4D4D;
+  }
+  
+ 
+  .desk1{
+    display: none;
+  }
+  .myclass{
+    display: block;
+  }
+  .ipad_pro{
+    display: block;
+  }
+  
+  .res{
+    width:100%
+  }
+ 
+  .stf{
+    margin-top: 10.5px !important
+    /* ;margin-bottom: 6.5px !important; */
+  }
+  
+  /* .stb{
+    margin-top: 28px !important;
+   
+    padding-right: 2px;
+    
+  } */
+  
+  .myipad_pro{
+    margin-top: 15px;
+    /* margin-bottom: 15px; */
+  
+  }
+  
+  .myipad_pro1{
+    margin-top: 15px;
+    /* margin-bottom: 15px; */
+
+  }
+
+  
+  #ipad_pro{
+    display: block ;
+  }
+ 
+  .myService_mobile{
+    display: none;
+  }
+  .myService_laptop{
+    display: none;
+  
+  }
+  .myDomain_laptop{
+    display: none;
+  }
+  .myDomain_mobile{
+    display: none;
+  }
+  .myhome{
+    align-items: left;
+  }
+
+
+}
+

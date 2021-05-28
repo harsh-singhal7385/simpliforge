@@ -25,7 +25,7 @@ body {
   }
 }
 @media all and (min-width: 992px) {
-
+    
 
     .mainmenu ul {
       list-style: none;
@@ -375,24 +375,71 @@ line-height: 20px;
   line-height: 25px;
 }
 @media all and (max-width: 992px) {
-  .head{
-    margin-left: 20px !important;
+.head{
+  margin-left: 20px !important;
   }
-  .ajk{
-    margin-left: 1px !important;
+.ajk{
+  margin-left: 1px !important;
   }
 .card{
-text-align: left !important;
-height: 430px !important;
-width: 295px !important;
-line-height: 20px !important;
+  text-align: left !important;
+  height: 430px !important;
+  width: 295px !important;
+  line-height: 20px !important;
+  }
 }
-}
+
+
 @media only screen and (width: 768px) and (height: 1024px) and (orientation:portrait) {
-  .social1 {
-      margin-right: 0% !important;
+.social1 {
+    margin-right: 0% !important;
   }
-  .social {
-      margin-right: 7% !important;
+.social {
+    margin-right: 7% !important;
   }
-   }
+}
+   
+/* .desk1{
+  display: block;
+} */
+#ipad_pro{
+  display: none;
+}
+ .ipad_pro{
+   display: none;
+ }
+ 
+ /* ipad pro*/  
+@media only screen and (width: 1024px) {
+  .myborder{
+    border: 1px solid #4D4D4D;
+  }
+  
+  .desk1{
+    display: none ;
+  }
+
+  #ipad_pro{
+    display: block ;
+  }
+  .ipad_pro{
+    display: block ;
+  }
+  .myService_mobile{
+    display: none;
+  }
+  .myService_laptop{
+    display: none;
+  
+  }
+  .myDomain_laptop{
+    display: none;
+  }
+  .myDomain_mobile{
+    display: none;
+  }
+  .myhome{
+    align-items: left;
+  }
+
+  }   
