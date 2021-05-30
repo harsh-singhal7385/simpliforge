@@ -502,7 +502,7 @@ margin-top: 170px;
   .myService_mobile {
     display: none;
   }
-  
+
   .myDomain_laptop {
     display: block;
   }
@@ -613,10 +613,9 @@ margin-top: 170px;
 /* for ipad */
 @media only screen and (width: 768px) and (height: 1024px) and (orientation:portrait) {
   .navbar-default{
-    transition:250ms ease;
-    /*background:transparent*/
     background-image: none !important;
     background-color: white!important;
+
   }
   .social1 {
       margin-right: 0% !important;
@@ -624,9 +623,16 @@ margin-top: 170px;
   .social {
       margin-right: 7% !important;
   }
+  .card-img-overlay {
+    height: 80vh !important;
+    top: 10vh !important;
+}
+.navbar{
+
+}
    }
 
-      
+
 /* .desk1{
   display: block;
 } */
@@ -636,16 +642,16 @@ margin-top: 170px;
  .ipad_pro{
    display: none;
  }
- 
- /* ipad pro*/  
+
+ /* ipad pro*/
 @media only screen and (width: 1024px) {
   /* .navbar-default{
     background-color: white;
   }*/
-  .myborder{ 
+  .myborder{
     border: 1px solid #4D4D4D;
   }
-  
+
   .desk1{
     display: none ;
   }
@@ -661,7 +667,7 @@ margin-top: 170px;
   }
   .myService_laptop{
     display: none;
-  
+
   }
   .myDomain_laptop{
     display: none;
@@ -673,4 +679,4 @@ margin-top: 170px;
     align-items: left;
   }
 
-  }   
+  }
