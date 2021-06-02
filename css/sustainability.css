@@ -657,6 +657,13 @@ a{
   .myhome{
     align-items: left;
   }
-
+  .pro{
+    margin-top: 36px!important;
+    margin-bottom:25px!important;
+  }
+  .pro1{
+    margin-top: 15px!important;
+    margin-bottom:0px!important;
+  }
 
 }
