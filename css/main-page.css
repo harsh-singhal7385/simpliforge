@@ -126,7 +126,7 @@ body{
 }
 
 .mystyle {
-margin-top: 170px;
+margin-top: 190px;
 }
 .btn:focus,.btn:active {
   outline: none !important;
@@ -627,8 +627,9 @@ margin-top: 170px;
     height: 80vh !important;
     top: 10vh !important;
 }
-.navbar{
-
+body{
+  overflow-x:hidden!important;
+  background: #EDEDEB;
 }
    }
 
