@@ -81,7 +81,7 @@ body{
         opacity: 0;
         -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
         position: absolute;
-        text-align: center;
+        text-align: left;
         /* top: 108px; */
         -webkit-transition: all 0.7s ease 0s;
         transition: all 0.7s ease 0s;
@@ -627,6 +627,9 @@ margin-top: 190px;
     height: 80vh !important;
     top: 10vh !important;
 }
+#myBox{
+  margin-top: -34px !important;
+}
 body{
   overflow-x:hidden!important;
   background: #EDEDEB;
@@ -652,7 +655,15 @@ body{
   .myborder{
     border: 1px solid #4D4D4D;
   }
+  .navbar-default{
+    background-image: none !important;
+    background-color: white!important;
 
+  }
+  body{
+    overflow-x:hidden !important;
+    background: #EDEDEB;
+  }
   .desk1{
     display: none ;
   }

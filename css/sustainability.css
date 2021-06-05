@@ -93,7 +93,7 @@ body {
         opacity: 0;
         -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
         position: absolute;
-        text-align: center;
+        text-align: left;
         /* top: 108px; */
         -webkit-transition: all 0.7s ease 0s;
         transition: all 0.7s ease 0s;
@@ -338,8 +338,8 @@ a{
     padding-left: 3%  !important;
   }
   .ow2{
-    padding-right: 22px  !important;
-    padding-left: 22px  !important;
+    padding-right: 0px  !important;
+    padding-left: 0px  !important;
   }
 }
 
@@ -570,6 +570,9 @@ a{
 }
 .top {
     margin-top: 0%!important;
+}
+.ip2{
+  font-size: 34px !important;
 }
    }
 
