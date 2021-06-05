@@ -77,7 +77,7 @@ body {
         opacity: 0;
         -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
         position: absolute;
-        text-align: center;
+        text-align: left;
         /* top: 108px; */
         -webkit-transition: all 0.7s ease 0s;
         transition: all 0.7s ease 0s;
@@ -369,8 +369,8 @@ body {
          margin-right: 7% !important;
      }
    }
-   
-   
+
+
    /* .desk1{
     display: block;
   } */
@@ -380,17 +380,17 @@ body {
    .ipad_pro{
      display: none;
    }
-   
-   /* ipad pro*/  
+
+   /* ipad pro*/
   @media only screen and (width: 1024px) {
     .myborder{
       border: 1px solid #4D4D4D;
     }
-    
+
     .desk1{
       display: none ;
     }
-  
+
     #ipad_pro{
       display: block ;
     }
@@ -402,7 +402,7 @@ body {
     }
     .myService_laptop{
       display: none;
-    
+
     }
     .myDomain_laptop{
       display: none;
@@ -413,6 +413,5 @@ body {
     .myhome{
       align-items: left;
     }
-  
-    }   
-  
+
+    }
