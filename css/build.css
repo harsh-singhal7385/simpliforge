@@ -209,6 +209,9 @@ transform: translate(-50%, -50%);
     background:rgb(255, 255, 255);
     color: #ffffd7;
   }
+  .t12{
+    margin-top: 6rem !important;
+  }
   /* for mobile phones */
   /*1.for footer */
   @media all and (max-width: 992px) {
@@ -245,6 +248,10 @@ transform: translate(-50%, -50%);
       margin-right: 15% !important;
     }.social1{
       margin-right: 5% !important;
+    }
+    .navbar-default {
+      transition: 250ms ease;
+      background: white !important;
     }
   }
 
@@ -380,6 +387,10 @@ transform: translate(-50%, -50%);
 .social {
     margin-right: 7% !important;
   }
+  .navbar-default {
+    transition: 250ms ease;
+    background: white !important;
+  }
 }
 
 
@@ -404,7 +415,10 @@ transform: translate(-50%, -50%);
   .myborder{
     border: 1px solid #4D4D4D;
   }
-
+  .navbar-default {
+    transition: 250ms ease;
+    background: white !important;
+  }
   .desk1{
     display: none ;
   }

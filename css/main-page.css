@@ -634,6 +634,9 @@ body{
   overflow-x:hidden!important;
   background: #EDEDEB;
 }
+.navbar-default{
+  position: fixed !important;
+}
    }
 
 
@@ -652,14 +655,15 @@ body{
   /* .navbar-default{
     background-color: white;
   }*/
-  .myborder{
-    border: 1px solid #4D4D4D;
-  }
   .navbar-default{
     background-image: none !important;
     background-color: white!important;
 
   }
+  .myborder{
+    border: 1px solid #4D4D4D;
+  }
+
   body{
     overflow-x:hidden !important;
     background: #EDEDEB;
@@ -688,7 +692,7 @@ body{
     display: none;
   }
   .myhome{
-    align-items: left;
+    align-items: right;
   }
 
   }

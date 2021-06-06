@@ -212,6 +212,10 @@ body {
   }.social1{
     margin-right: 5% !important;
   }
+  .navbar-default {
+    transition: 250ms ease;
+    background: white !important;
+}
 }@media all and (max-width: 991px) {
   *{
     overflow-x: hidden;
@@ -354,6 +358,13 @@ body {
        .social {
            margin-right: 7% !important;
        }
+       .navbar-default {
+    transition: 250ms ease;
+    background: white !important;
+}
+           }
+           .t12{
+             margin-top: 7rem !important;
            }
 
 /*
@@ -371,6 +382,10 @@ body {
 @media only screen and (width: 1024px) {
   .myborder{
     border: 1px solid #4D4D4D;
+  }
+  .navbar-default {
+      transition: 250ms ease;
+      background: white !important;
   }
 
   .desk1{

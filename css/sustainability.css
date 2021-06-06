@@ -118,6 +118,7 @@ body {
         /* top: 88px; */
     }
 
+
 }
 
 .work{
@@ -341,6 +342,10 @@ a{
     padding-right: 0px  !important;
     padding-left: 0px  !important;
   }
+  .navbar-default {
+    transition: 250ms ease;
+    background: white !important;
+  }
 }
 
 @media screen and (min-width: 461px) {
@@ -416,6 +421,7 @@ a{
   }.social1{
     margin-right: 5% !important;
   }
+
 }
 @media only screen and (min-width: 992px){
   .myService_laptop {
@@ -574,6 +580,7 @@ a{
 .ip2{
   font-size: 34px !important;
 }
+
    }
 
 
@@ -600,7 +607,10 @@ a{
     border: 1px solid #4D4D4D;
   }
 
-
+  .navbar-default {
+      transition: 250ms ease;
+      background: white !important;
+  }
   .desk1{
     display: none;
   }

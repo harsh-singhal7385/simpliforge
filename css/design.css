@@ -101,7 +101,9 @@ body {
     }
 
 }
-
+.t12{
+  margin-top: 7rem !important;
+}
 
 
 #myNav1{
@@ -214,6 +216,10 @@ body {
   }.social1{
     margin-right: 5% !important;
   }
+  .navbar-default {
+    transition: 250ms ease;
+    background: white !important;
+}
 }
 /* for top headings and cards */
 @media all and (max-width: 992px) {
@@ -353,6 +359,10 @@ body {
      .social {
          margin-right: 7% !important;
      }
+     .navbar-default {
+    transition: 250ms ease;
+    background: white !important;
+}
    }
 
 
@@ -371,7 +381,10 @@ body {
   .myborder{
     border: 1px solid #4D4D4D;
   }
-
+  .navbar-default {
+      transition: 250ms ease;
+      background: white !important;
+  }
   .desk1{
     display: none ;
   }

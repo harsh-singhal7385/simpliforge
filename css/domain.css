@@ -194,7 +194,9 @@ line-height: 20px;
   font-size:14px;
   line-height: 17px;
 }
-
+.t12{
+  margin-top: 7rem !important;
+}
 .hyper{
   color: black;
 }
@@ -253,6 +255,13 @@ line-height: 20px;
     margin: 0% !important;
     text-align: center;
   }
+  .navbar-default {
+    transition: 250ms ease;
+    background: white !important;
+}
+.t12{
+  margin-top: 7rem !important;
+}
   .social{
     margin-right: 15% !important;
   }.social1{
@@ -398,6 +407,13 @@ line-height: 20px;
   .social {
       margin-right: 7% !important;
   }
+  .navbar-default {
+    transition: 250ms ease;
+    background: white !important;
+}
+.t12{
+  margin-top: 7rem !important;
+}
 }
 
 /* .desk1{
@@ -420,7 +436,10 @@ line-height: 20px;
   .myborder{
     border: 1px solid #4D4D4D;
   }
-
+  .navbar-default {
+    transition: 250ms ease;
+    background: white !important;
+  }
   #ipad_pro{
     display: block ;
   }

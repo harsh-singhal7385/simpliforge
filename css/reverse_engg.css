@@ -217,6 +217,10 @@ body {
   }.social1{
     margin-right: 5% !important;
   }
+  .navbar-default {
+    transition: 250ms ease;
+    background: white !important;
+}
 }
 /* for top headings and cards */
 @media all and (max-width: 992px) {
@@ -358,6 +362,10 @@ body {
      .social {
          margin-right: 7% !important;
      }
+     .navbar-default {
+    transition: 250ms ease;
+    background: white !important;
+}
    }
 
 
@@ -371,7 +379,9 @@ body {
  .ipad_pro{
    display: none;
  }
-
+ .t12{
+   margin-top: 7rem !important;
+ }
  /* ipad pro*/
 @media only screen and (width: 1024px) {
   .myborder{
@@ -381,7 +391,10 @@ body {
   .desk1{
     display: none ;
   }
-
+  .navbar-default {
+      transition: 250ms ease;
+      background: white !important;
+  }
   #ipad_pro{
     display: block ;
   }

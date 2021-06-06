@@ -4,6 +4,9 @@ body {
   background-repeat: no-repeat;
   overflow-x: hidden;
 }
+.nset{
+  margin-top: 6rem !important;
+}
 @media only screen and (max-width: 992px) {
 	.myImg{
     height: 100vh;
@@ -243,6 +246,10 @@ line-height: 20px;
   }.social1{
     margin-right: 5% !important;
   }
+  .navbar-default {
+    transition: 250ms ease;
+    background: white !important;
+  }
   #desk{
     display: none;
   }
@@ -414,7 +421,10 @@ line-height: 20px;
   .myborder{
     border: 1px solid #4D4D4D;
   }
-
+  .navbar-default {
+    transition: 250ms ease;
+    background: white !important;
+  }
   .desk1{
     display: none ;
   }

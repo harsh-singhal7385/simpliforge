@@ -110,7 +110,9 @@ body {
 *{
   font-family: myFirstFont;
 }
-
+.heading{
+  margin-top: 7rem !important;
+}
 #myNav1{
   color: white;
 }
@@ -217,7 +219,12 @@ body {
   }.social1{
     margin-right: 5% !important;
   }
-}@media all and (max-width: 991px) {
+  .navbar-default {
+    transition: 250ms ease;
+    background: white !important;
+  }
+}
+@media all and (max-width: 991px) {
   *{
     overflow-x: hidden;
   }
@@ -229,6 +236,7 @@ body {
   }
   .heading{
     font-size: 40px !important;
+    margin-top: 5rem !important;
   }
   .phncard{
     margin-top: -13px !important;
@@ -363,6 +371,10 @@ body {
      .social {
          margin-right: 7% !important;
      }
+     .navbar-default {
+       transition: 250ms ease;
+       background: white !important;
+     }
    }
 
 /*
@@ -385,7 +397,10 @@ body {
   .desk1{
     display: none ;
   }
-
+  .navbar-default {
+    transition: 250ms ease;
+    background: white !important;
+  }
   #ipad_pro{
     display: block ;
   }
