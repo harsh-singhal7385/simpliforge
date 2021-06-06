@@ -213,6 +213,10 @@ body {
   .f2{
     text-align: center !important;
   }
+  .navbar-default {
+    transition: 250ms ease;
+    background: white !important;
+}
   .follow,.f3{
     font-size: 12px !important;
     padding: 0% !important;
@@ -370,6 +374,10 @@ body {
      .social {
          margin-right: 7% !important;
      }
+     .navbar-default {
+    transition: 250ms ease;
+    background: white !important;
+}
    }
 
 
@@ -383,13 +391,18 @@ body {
  .ipad_pro{
    display: none;
  }
-
+ .t12{
+   margin-top: 7rem !important;
+ }
  /* ipad pro*/
 @media only screen and (width: 1024px) {
   .myborder{
     border: 1px solid #4D4D4D;
   }
-
+  .navbar-default {
+      transition: 250ms ease;
+      background: white !important;
+  }
   .desk1{
     display: none ;
   }
