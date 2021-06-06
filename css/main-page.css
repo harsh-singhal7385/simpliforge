@@ -24,6 +24,9 @@ body{
     overflow-x: hidden;
   }
 }
+.ont{
+  margin-top:128px!important;
+}
 @media all and (min-width: 992px) {
 
 
@@ -405,6 +408,9 @@ margin-top: 190px;
   }.social1{
     margin-right: 5% !important;
   }
+  .ont{
+    margin-top:53px!important;
+  }
 }
 
 /* our clientele */
@@ -617,6 +623,9 @@ margin-top: 190px;
     background-color: white!important;
 
   }
+  .ont{
+    margin-top:1px!important;
+  }
   .social1 {
       margin-right: 0% !important;
   }
@@ -694,5 +703,7 @@ body{
   .myhome{
     align-items: right;
   }
-
+  .ont{
+    margin-top:1px!important;
+  }
   }
