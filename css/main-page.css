@@ -9,16 +9,6 @@ body{
   src: url('../fonts/Font\ Avenir\ Next\ LT\ Pro\ \(1\).ttf');
 }
 
-/* @media all and (min-width: 992px) {
-  .myimg1{
-   background:url("images/mainback.svg");
-  }
-}
-@media all and (max-width: 991px) {
-  .myimg2{
-    background:url("images/contactPhone.svg");
-   }
-} */
 @media all and (max-width: 991px) {
   *{
     overflow-x: hidden;
@@ -367,6 +357,9 @@ margin-top: 190px;
 #phone{
   display:none;
 }
+#ipad{
+  display: none;
+}
 #desk{
   display: block;
 }
@@ -461,6 +454,9 @@ margin-top: 190px;
    background: #EDEDEB;
  }
  #desk{
+   display: none;
+ }
+ #ipad{
    display: none;
  }
  #phone{
@@ -624,7 +620,7 @@ margin-top: 190px;
 
   }
   .ont{
-    margin-top:1px!important;
+    margin-top:25px!important;
   }
   .social1 {
       margin-right: 0% !important;
@@ -646,6 +642,15 @@ body{
 .navbar-default{
   position: fixed !important;
 }
+#desk{
+  display: none;
+}
+#ipad{
+  display:block;
+}
+#phone{
+ display:none;
+  }
    }
 
 
