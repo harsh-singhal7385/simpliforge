@@ -7,6 +7,7 @@
     <meta name="description" content="Simpliforge is a proud supporter of United Nations’ Sustainable Development Goals and Swachh Bharat Abhiyan
     ">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
@@ -28,7 +29,7 @@
         $(".myLoaders").css({ "opacity": 1 });
       });
     </script>
-  </head>
+    </head>
   <body>
     <div class="loader-wrapper">
       <img src="images/loader.gif">
@@ -36,7 +37,7 @@
     <!--NAVBAR-->
     <div class="myLoaders">
     <!--NAVBAR-->
-    <nav class="navbar navbar-default navbar-expand-lg navbar-light avenir_font sticky-top text-black">
+    <nav class="navbar navbar-default navbar-expand-xl navbar-light avenir_font fixed-top text-black">
       <div class="container">
         <a href="main-page.html"><img class="img-fluid plz-1" src="images/logo.svg" /></a>
         <button
@@ -52,31 +53,60 @@
           <ul class="navbar-nav ml-auto  myStyles1 mySty">
             <li class="nav-item  myNav1 home_mobile" >
                 <a class="nav-link text-dark" href="main-page.html">HOME <span class="sr-only">(current)</span></a>
-              </li>
-            <li class="nav-item  mainmenu myNav1 home_laptop" >
+            </li>
+            <li class="nav-item  mainmenu myNav1 home_laptop  desk1 myhome" >
                 <ul id="navigation">
-                    <li>
+                    <li >
                         <a class="nav-link text-dark" href="main-page.html">HOME <span class="sr-only">(current)</span></a>
                     </li>
                 </ul>
             </li>
 
+            <li class="nav-item dropdown ipad_pro  mySty mt-3 mb-2" >
+              <div class="panel-group">
+                  <div class="panel panel-default">
+                      <div class="panel-title ">
+                          <a class="  text-dark text-decoration-none"  href="main-page.html">HOME</a>
+                      </div>
+                  </div>
+              </div>
+            </li>
 
             <li class="nav-item mainmenu myService_laptop">
                 <ul id="navigation">
-                    <li ><a class="text-dark"  href="services.html"> <span class="">SERVICES &nbsp;<i class="fa fa-caret-down"></i></i></span> <span class="sr-only">(current)</span> </a>
+                    <li   ><a class="text-dark"  href="services.html"> <span class="">SERVICES &nbsp;<i class="fa fa-caret-down"></i></i></span> <span class="sr-only">(current)</span> </a>
                         <ul class="">
                             <li><a class="text-dark font-weight-bold" href="prototyping.html">Prototyping</a></li>
                             <li><a class="text-dark font-weight-bold" href="3dscanning.html">3D Scanning</a></li>
                             <li><a class="text-dark font-weight-bold" href="design.html">Design</a></li>
                             <li><a class="text-dark font-weight-bold" href="reverse_engg.html">Reverse Engineering</a></li>
-                            </ul>
+                        </ul>
                     </li>
                 </ul>
             </li>
 
 
             <li class="nav-item dropdown myService_mobile myService_Domain_Nav mySty mt-2">
+              <div class="panel-group">
+                  <div class="panel panel-default">
+                      <div class="panel-title ">
+                          <a data-toggle="collapse" class="dropdown-toggle myService_Domain_Nav text-dark text-decoration-none"  href="#collapse1">SERVICES</a>
+                      </div>
+                      <div id="collapse1" class="panel-collapse collapse">
+                        <ul class="list-group text-decoration-none myStyles1">
+                            <li><a class="list-group-item font-weight-bold text-dark text-decoration-none" href="services.html">All SERVICES &nbsp;&nbsp;&nbsp;<img src="https://img.icons8.com/small/16/000000/external-link.png"/></a></li>
+                            <li><a class="list-group-item font-weight-bold text-dark text-decoration-none ml-5" href="prototyping.html">Prototyping &nbsp;&nbsp;&nbsp;</a></li>
+                            <li><a class="list-group-item font-weight-bold text-dark text-decoration-none ml-5" href="3dscanning.html">3D Scanning &nbsp;&nbsp;&nbsp;</a></li>
+                            <li><a class="list-group-item font-weight-bold text-dark text-decoration-none ml-5" href="design.html">Design &nbsp;&nbsp;&nbsp;</a></li>
+                            <li><a class="list-group-item font-weight-bold text-dark text-decoration-none ml-5" href="reverse_engg.html">Reverse Engineering &nbsp;&nbsp;&nbsp;</a></li>
+                        </ul>
+                      </div>
+                  </div>
+              </div>
+            </li>
+
+
+            <li class="nav-item dropdown ipad_pro myService_Domain_Nav mySty mt-2">
               <div class="panel-group">
                   <div class="panel panel-default">
                       <div class="panel-title ">
@@ -132,22 +162,77 @@
             </div>
           </li>
 
+          <li class="nav-item dropdown ipad_pro myService_Domain_Nav mySty mt-3 mb-2" >
+            <div class="panel-group">
+                <div class="panel panel-default">
+                    <div class="panel-title ">
+                        <a data-toggle="collapse" class="dropdown-toggle myService_Domain_Nav text-dark text-decoration-none"  href="#collapse2">DOMAINS</a>
+                    </div>
+                    <div id="collapse2" class="panel-collapse collapse">
+                      <ul class="list-group text-decoration-none myStyles1">
+                          <li><a class="list-group-item font-weight-bold text-dark text-decoration-none"  href="domain.html">All DOMAINS &nbsp;&nbsp;&nbsp;<img src="https://img.icons8.com/small/16/000000/external-link.png"/></a></li>
+                          <li><a class="list-group-item font-weight-bold text-dark text-decoration-none ml-5"  href="med_health.html">Medical and Healthcare &nbsp;&nbsp;</a></li>
+                          <li><a class="list-group-item font-weight-bold text-dark text-decoration-none ml-5"  href="automobile.html">Automobile &nbsp;&nbsp;&nbsp;</a></li>
+                          <li><a class="list-group-item font-weight-bold text-dark text-decoration-none ml-5"  href="construction.html">Construction &nbsp;&nbsp;&nbsp;</a></li>
+                          <li><a class="list-group-item font-weight-bold text-dark text-decoration-none ml-5"  href="consumer_goods.html">Consumer Goods &nbsp;&nbsp;&nbsp;</a></li>
+                          <li><a class="list-group-item font-weight-bold text-dark text-decoration-none ml-5"  href="manufacturing.html">Manufacturing &nbsp;&nbsp;&nbsp;</a></li>
+                          <li><a class="list-group-item font-weight-bold text-dark text-decoration-none ml-5"  href="package_design.html">Package Design &nbsp;&nbsp;&nbsp;</a></li>
+                      </ul>
+                    </div>
+                </div>
+            </div>
+          </li>
 
-            <li class="nav-item  mainmenu myNav1 build_laptop " >
+
+          <li class="nav-item dropdown ipad_pro  mySty mt-3 mb-2" >
+            <div class="panel-group">
+                <div class="panel panel-default">
+                    <div class="panel-title ">
+                        <a class="  text-dark text-decoration-none"  href="build.html">BUILD</a>
+                    </div>
+                </div>
+            </div>
+          </li>
+
+          <li class="nav-item dropdown ipad_pro  mySty mt-3 mb-2" >
+            <div class="panel-group">
+                <div class="panel panel-default">
+                    <div class="panel-title ">
+                        <a class="  text-dark text-decoration-none"  href="sustainability.html">SUSTAINABILITY</a>
+                    </div>
+                </div>
+            </div>
+          </li>
+
+
+          <li class="nav-item dropdown ipad_pro  mySty mt-3 mb-2" >
+            <div class="panel-group">
+                <div class="panel panel-default">
+                    <div class="panel-title ">
+                        <a class="  text-dark text-decoration-none"  href="contact.html">CONTACT</a>
+                    </div>
+                </div>
+            </div>
+          </li>
+
+
+
+
+            <li class="nav-item  mainmenu myNav1 build_laptop desk1 " >
                 <ul id="navigation">
                     <li>
                         <a class="nav-link  text-dark" href="build.html">BUILD <span class="sr-only">(current)</span></a>
                     </li>
                 </ul>
             </li>
-            <li class="nav-item  mainmenu myNav1 sustain_laptop" >
+            <li class="nav-item  mainmenu myNav1 sustain_laptop desk1" >
                 <ul id="navigation">
                     <li class="active">
                         <a class="nav-link  text-dark" href="sustainability.html">SUSTAINABILITY <span class="sr-only">(current)</span></a>
                     </li>
                 </ul>
             </li>
-            <li class="nav-item  mainmenu myNav1 contact_laptop" >
+            <li class="nav-item  mainmenu myNav1 contact_laptop desk1" >
                 <ul id="navigation">
                     <li>
                         <a class="nav-link  text-dark" href="contact.html">CONTACT <span class="sr-only">(current)</span></a>
@@ -170,12 +255,15 @@
 
     <div class="container-fluid mt-5">
         <div class="container">
-            <div class="text-success mb-5 display-4 text-responsive">
+            <div class="text-success mb-5 display-4 text-responsive mt-5">
               SUSTAINABILITY
             </div>
-            <div class="mt-5 font-weight-bold font-weight-normal mb-4 opd text-justify mySustainFont">
+            <div class="mt-5 font-weight-bold font-weight-normal mb-4 desk1 opd text-justify mySustainFont">
                 “Sustainable development is development that meets the needs of the present without compromising the ability of future generations to meet their own needs.”
             </div>
+            <div class="mt-5 font-weight-bold font-weight-normal mb-4 ipad_pro text-justify mySustainFont">
+              “Sustainable development is development that meets the needs of the present without compromising the ability of future generations to meet their own needs.”
+          </div>
             <div class="mt-4 text-right ml-auto font-weight-bold mySizeMobile1" >
                 - UN World Commission on Environment and Development
             </div>
@@ -205,37 +293,54 @@
         </div>
   </div>
 
-      <div class="container trp mt-5 p-3 shadow two res myGoals">
+      <div class="container trp mt-5 p-3 shadow two res myipad_pro myGoals ">
           <!-- <div class="mt-5 mb-5 ml-5"> -->
               <div class="row ">
-                  <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12 img-fluid ">
+                  <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12 img-fluid stf">
                       <img src="images/sustainability_group.svg"  class="img-fluid trp"/>
                   </div>
                   <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12 text-center">
-                      <h5 class="mb-4 mt-5">“Sustainable Faith”</h5>
-                      <div class="mt-5 mb-5">
+                      <h5 class="mb-4 mt-5 sf pro">“Sustainable Faith”</h5>
+                      <div class="mt-5 mb-5 sc pro1">
                           Here is an example of an elaborate art piece depicting the 23rd Tirthankar in Shwetambar Jain and first of his 108 Avatar ‘Shri Shankeshwar Parshwanath Bhagwan’
                       </div>
                   </div>
               </div>
         </div>
-        <div class="container trp mt-5 p-3 shadow three res myGoals">
-        <div class="row ">
+
+
+        <div class="container trp mt-5 p-3 shadow three res desk1  myGoals">
+          <div class="row ">
             <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12 text-center">
-                <h5 class="mb-4 mt-5">“Bleedfire”</h5>
-                <div class="mt-5 mb-5">
+                <h5 class="mb-4 mt-5 sf">“Bleedfire”</h5>
+                <div class="mt-5 mb-5 sc">
                     A depiction of the burning bushfires in Australia that scarred the flora and fauna of the little continent, accentuated by the silent bleeding of the embers, showing just how catastrophically nature is impacted by us unassuming humans.
                 </div>
             </div>
-            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12 img-fluid">
+            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12 img-fluid stb">
                 <img src="images/sustain2.svg"  class="img-fluid trp "/>
             </div>
-        </div>
+          </div>
       </div>
+
+      <div class="container trp mt-5 p-3 shadow three res myipad_pro1 myclass myGoals">
+        <div class="row ">
+          <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12 text-center">
+              <h5 class="mb-4 mt-5 pro">“Bleedfire”</h5>
+              <div class="mt-5 pro1">
+                  A depiction of the burning bushfires in Australia that scarred the flora and fauna of the little continent, accentuated by the silent bleeding of the embers, showing just how catastrophically nature is impacted by us unassuming humans.
+              </div>
+          </div>
+          <div class="col-xl-6 col-lg-6  col-md-6 col-sm-12 col-12 img-fluid stb111 ">
+              <img src="images/sustain2.svg"  class="img-fluid trp "/>
+          </div>
+
+        </div>
+    </div>
 
         <div class="container-fluid removePadding removeborder ">
                 <div class="mt-5">
-                    <div class=" shadow text-center text-black  p-1 line1">
+                    <div class=" shadow text-center text-black  p-1 line1 ip2">
                         ADDITIVE MANUFACTURING AS A SUSTAINABLE TECHNOLOGY
                     </div>
                 </div>
@@ -265,7 +370,7 @@
                             </div>
                         </div>
                         </div>
-                        <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12 mt-5 mb-5 d-flex" data-aos="fade-left" data-aos-duration="2000">
+                        <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12 mt-5 mb-5 d-flex addi" data-aos="fade-left" data-aos-duration="2000">
                             <div class="card four shadow">
                                 <div class="card-header text-center text-white head ">
                                     ENABLES UNCONSTRAINED
@@ -343,7 +448,7 @@
                  </b>
 
           </div>
-          <div class="f2 col-xl-2 col-lg-2 col-md-12 col-sm-12">
+          <div class="f2 col-xl-2 col-lg-2 col-md-12 col-sm-12 myborder">
             <p class="mt-5 text-white logo1"><br>
               <a href="main-page.html" class="text-white">HOME</a>
               <br >
@@ -358,7 +463,7 @@
                <a href="contact.html" class="text-white">CONTACT US</a>
             </p>
           </div>
-          <div class="f3 col-xl-4 col-lg-4 col-md-12 col-sm-12 margin-center">
+          <div class="f3 col-xl-4 col-lg-4 col-md-12 col-sm-12 margin-center myborder">
             <br  class="mobilebreak">
             <p class="pl-5 ml-4 mt-2 text-white avenir_font follow"><br>FOLLOW US ON</p>
           <p  class="social">

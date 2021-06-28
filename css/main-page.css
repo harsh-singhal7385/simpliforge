@@ -1,28 +1,33 @@
 body{
   overflow-x:hidden;
   background: #EDEDEB;
+  /* background-image: url('../images/Main_page_org.jpg');
+  background-size: cover;
+  background-repeat: no-repeat; */
 }
+.myimg1{
+margin:0 auto;
+/* position: fixed; */
+/* position: fixed;
+top: 50%;
+left: 50%;
 
+transform: translate(-50%, -50%); */
+
+}
 
 @font-face {
   font-family: myFirstFont;
   src: url('../fonts/Font\ Avenir\ Next\ LT\ Pro\ \(1\).ttf');
 }
 
-/* @media all and (min-width: 992px) {
-  .myimg1{
-   background:url("images/mainback.svg");
-  }
-}
-@media all and (max-width: 991px) {
-  .myimg2{
-    background:url("images/contactPhone.svg");
-   }
-} */
 @media all and (max-width: 991px) {
   *{
     overflow-x: hidden;
   }
+}
+.ont{
+  margin-top:128px!important;
 }
 @media all and (min-width: 992px) {
 
@@ -54,7 +59,7 @@ body{
         content: "";
         width: 100%;
         height: 3px;
-        background: #ffc527;
+        background: #000000;
         left: 0;
         opacity: 0;
         transition: .3s;
@@ -81,7 +86,7 @@ body{
         opacity: 0;
         -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
         position: absolute;
-        text-align: center;
+        text-align: left;
         /* top: 108px; */
         -webkit-transition: all 0.7s ease 0s;
         transition: all 0.7s ease 0s;
@@ -126,7 +131,7 @@ body{
 }
 
 .mystyle {
-margin-top: 170px;
+margin-top: 190px;
 }
 .btn:focus,.btn:active {
   outline: none !important;
@@ -364,6 +369,9 @@ margin-top: 170px;
 #phone{
   display:none;
 }
+#ipad{
+  display: none;
+}
 #desk{
   display: block;
 }
@@ -404,6 +412,9 @@ margin-top: 170px;
     margin-right: 15% !important;
   }.social1{
     margin-right: 5% !important;
+  }
+  .ont{
+    margin-top:53px!important;
   }
 }
 
@@ -455,6 +466,9 @@ margin-top: 170px;
    background: #EDEDEB;
  }
  #desk{
+   display: none;
+ }
+ #ipad{
    display: none;
  }
  #phone{
@@ -610,3 +624,103 @@ margin-top: 170px;
 .mySty{
   line-height: 25px;
 }
+/* for ipad */
+@media only screen and (width: 768px) and (height: 1024px) and (orientation:portrait) {
+  .navbar-default{
+    background-image: none !important;
+    background-color: white!important;
+
+  }
+  .ont{
+    margin-top:25px!important;
+  }
+  .social1 {
+      margin-right: 0% !important;
+  }
+  .social {
+      margin-right: 7% !important;
+  }
+  .card-img-overlay {
+    height: 80vh !important;
+    top: 10vh !important;
+}
+#myBox{
+  margin-top: -34px !important;
+}
+body{
+  overflow-x:hidden!important;
+  background: #EDEDEB;
+}
+.navbar-default{
+  position: fixed !important;
+}
+#desk{
+  display: none;
+}
+#ipad{
+  display:block;
+}
+#phone{
+ display:none;
+  }
+   }
+
+
+/* .desk1{
+  display: block;
+} */
+#ipad_pro{
+  display: none;
+}
+ .ipad_pro{
+   display: none;
+ }
+
+ /* ipad pro*/
+@media only screen and (width: 1024px) {
+  /* .navbar-default{
+    background-color: white;
+  }*/
+  .navbar-default{
+    background-image: none !important;
+    background-color: white!important;
+
+  }
+  .myborder{
+    border: 1px solid #4D4D4D;
+  }
+
+  body{
+    overflow-x:hidden !important;
+    background: #EDEDEB;
+  }
+  .desk1{
+    display: none ;
+  }
+
+  #ipad_pro{
+    display: block ;
+  }
+  .ipad_pro{
+    display: block ;
+  }
+  .myService_mobile{
+    display: none;
+  }
+  .myService_laptop{
+    display: none;
+
+  }
+  .myDomain_laptop{
+    display: none;
+  }
+  .myDomain_mobile{
+    display: none;
+  }
+  .myhome{
+    align-items: right;
+  }
+  .ont{
+    margin-top:1px!important;
+  }
+  }

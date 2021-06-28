@@ -5,6 +5,21 @@
     overflow: hidden;
     padding-bottom: 56.25%;
   }
+  @media all and (max-width:991px) {
+    .mobile_mode{
+      display: block;
+    }
+
+
+
+
+  }
+  body {
+    background-image: url('../images/build0.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 1;
+  }
   @font-face {
     font-family: myFirstFont;
     src: url('../fonts/Font\ Avenir\ Next\ LT\ Pro\ \(1\).ttf');
@@ -20,8 +35,12 @@
     }
   }
   @media all and (min-width: 992px) {
-   
-  
+    .mobile_mode{
+      display: none;
+    }
+
+
+
       .mainmenu ul {
         list-style: none;
         padding: 0;
@@ -49,7 +68,7 @@
           content: "";
           width: 100%;
           height: 3px;
-          background: #ffc527;
+          background: #000000;
           left: 0;
           opacity: 0;
           transition: .3s;
@@ -76,7 +95,7 @@
           opacity: 0;
           -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
           position: absolute;
-          text-align: center;
+          text-align: left;
           /* top: 108px; */
           -webkit-transition: all 0.7s ease 0s;
           transition: all 0.7s ease 0s;
@@ -100,9 +119,9 @@
           z-index: 99;
           /* top: 88px; */
       }
-      
+
   }
-  
+
 .centered {
 text-align: center;
 position: absolute;
@@ -190,6 +209,9 @@ transform: translate(-50%, -50%);
     background:rgb(255, 255, 255);
     color: #ffffd7;
   }
+  .t12{
+    margin-top: 6rem !important;
+  }
   /* for mobile phones */
   /*1.for footer */
   @media all and (max-width: 992px) {
@@ -227,21 +249,27 @@ transform: translate(-50%, -50%);
     }.social1{
       margin-right: 5% !important;
     }
+    .navbar-default {
+      transition: 250ms ease;
+      background: white !important;
+    }
   }
- 
+
 @media only screen and (min-width: 992px){
   .myService_laptop {
     display: block;
   }
-  
+  .desk12{
+    display: none;
+  }
   .myService_mobile {
     display: none;
   }
-  
+
   .myDomain_laptop {
     display: block;
   }
-  
+
   .myDomain_mobile {
     display: none;
   }
@@ -249,41 +277,46 @@ transform: translate(-50%, -50%);
   .home_laptop {
     display: block;
   }
-  
+
   .home_mobile {
     display: none;
   }
-  
+
   .build_laptop {
     display: block;
   }
-  
+
   .build_mobile {
     display: none;
   }
   .sustain_laptop {
     display: block;
   }
-  
+
   .sustain_mobile {
     display: none;
   }
-  
+
   .contact_laptop {
     display: block;
   }
-  
+
   .contact_mobile {
     display: none;
   }
-  
+
   }
-  
+
   @media only screen and (max-width: 991px){
   .myService_laptop {
     display: none;
   }
-
+  .desk12{
+    display: block;
+  }
+  .desk1{
+    display: none;
+  }
   .myService_mobile {
     display: block;
   }
@@ -298,34 +331,34 @@ transform: translate(-50%, -50%);
   .home_laptop {
     display: none;
   }
-  
+
   .home_mobile {
     display: block;
   }
-  
+
   .build_laptop {
     display: none;
   }
-  
+
   .build_mobile {
     display: block;
   }
   .sustain_laptop {
     display: none;
   }
-  
+
   .sustain_mobile {
     display: block;
   }
-  
+
   .contact_laptop {
     display: none;
   }
-  
+
   .contact_mobile {
     display: block;
-  }
-  }
+    }
+}
 
 
 
@@ -346,4 +379,77 @@ transform: translate(-50%, -50%);
 .mySty{
   line-height: 25px;
 }
-  
+
+@media only screen and (width: 768px) and (height: 1024px) and (orientation:portrait) {
+.social1 {
+    margin-right: 0% !important;
+  }
+.social {
+    margin-right: 7% !important;
+  }
+  .navbar-default {
+    transition: 250ms ease;
+    background: white !important;
+  }
+}
+
+
+/* .desk1{
+  display: block;
+  margin-top: auto;
+  margin-bottom: auto;
+} */
+
+.ipad_pro{
+  display: none;
+}
+
+#ipad_pro{
+  display: none;
+}
+
+
+ /* ipad pro*/
+@media only screen and (width: 1024px) {
+
+  .myborder{
+    border: 1px solid #4D4D4D;
+  }
+  .navbar-default {
+    transition: 250ms ease;
+    background: white !important;
+  }
+  .desk1{
+    display: none ;
+  }
+  .desk12{
+    display: none;
+  }
+  #ipad_pro{
+    display: block ;
+  }
+  .ipad_pro{
+    display: block;
+    margin-top: auto;
+    margin-bottom: auto;
+    /* align-content: center; */
+  }
+
+  .myService_mobile{
+    display: none;
+  }
+  .myService_laptop{
+    display: none;
+
+  }
+  .myDomain_laptop{
+    display: none;
+  }
+  .myDomain_mobile{
+    display: none;
+  }
+  .myhome{
+    align-items: left;
+  }
+
+}

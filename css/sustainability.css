@@ -1,5 +1,5 @@
 body {
-  background-image: url('../images/sustain.svg');
+  background-image: url('../images/sustainability-page.svg');
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -39,8 +39,6 @@ body {
   }
 }
 @media all and (min-width: 992px) {
-
-
     .mainmenu ul {
       list-style: none;
       padding: 0;
@@ -68,7 +66,7 @@ body {
         content: "";
         width: 100%;
         height: 3px;
-        background: #ffc527;
+        background: #000000;
         left: 0;
         opacity: 0;
         transition: .3s;
@@ -95,7 +93,7 @@ body {
         opacity: 0;
         -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
         position: absolute;
-        text-align: center;
+        text-align: left;
         /* top: 108px; */
         -webkit-transition: all 0.7s ease 0s;
         transition: all 0.7s ease 0s;
@@ -119,6 +117,7 @@ body {
         z-index: 99;
         /* top: 88px; */
     }
+
 
 }
 
@@ -321,9 +320,9 @@ a{
   width: 226px;
   height: 146px;
 }
-.res{
+/* .res{
   width:87vw;
-}
+} */
 .card-title{
   font-size: 13px;
 }
@@ -332,7 +331,7 @@ a{
   width: 156px;
 }
 
-@media all and (max-width: 992px) {
+@media  only screen and (max-width: 992px) {
   .ourgoal1{
     padding-right: 2%  !important;
   }
@@ -340,8 +339,12 @@ a{
     padding-left: 3%  !important;
   }
   .ow2{
-    padding-right: 22px  !important;
-    padding-left: 22px  !important;
+    padding-right: 0px  !important;
+    padding-left: 0px  !important;
+  }
+  .navbar-default {
+    transition: 250ms ease;
+    background: white !important;
   }
 }
 
@@ -418,6 +421,7 @@ a{
   }.social1{
     margin-right: 5% !important;
   }
+
 }
 @media only screen and (min-width: 992px){
   .myService_laptop {
@@ -535,6 +539,144 @@ a{
   line-height: 25px;
 }
 
-@media all and (max-width: 992px) {
+/* for ipad */
+@media only screen and (width: 768px) and (height: 1024px) and (orientation:portrait) {
+  .opd{
+  width: 96% !important;
+  }
+  .mySizeMobile1{
+    margin-right: 28px!important;
+  }
+  .stf{
+    margin-top: 6px!important;
+      }
+      .stb{
+        margin-top: 19px!important;
+          }
+  .sf{
+    margin-top: 1px!important;
+    margin-bottom:0px!important;
+  }
+  .sc{
+    margin-top: 15px!important;
+    margin-bottom:0px!important;
+  }
+  .addi{
+    margin-left: 177px !important;
+    margin-top: 7px !important;
+  }
+  .logo {
+    padding-top: 5% !important;
+}
+.social1 {
+    margin-right: 0% !important;
+}
+.social {
+    margin-right: 7% !important;
+}
+.top {
+    margin-top: 0%!important;
+}
+.ip2{
+  font-size: 34px !important;
+}
+
+   }
+
+
+
+/* for ipad pro*/
+
+/* .desk1{
+  display: block;
+} */
+
+.ipad_pro{
+  display: none;
+}
+
+#ipad_pro{
+  display: none;
+}
+
+.myclass{
+  display: none;
+}
+@media only screen and (width: 1024px) {
+  .myborder{
+    border: 1px solid #4D4D4D;
+  }
+
+  .navbar-default {
+      transition: 250ms ease;
+      background: white !important;
+  }
+  .desk1{
+    display: none;
+  }
+  .myclass{
+    display: block;
+  }
+  .ipad_pro{
+    display: block;
+  }
+
+  .res{
+    width:100%
+  }
+
+  .stf{
+    margin-top: 10.5px !important
+    /* ;margin-bottom: 6.5px !important; */
+  }
+
+  /* .stb{
+    margin-top: 28px !important;
+
+    padding-right: 2px;
+
+  } */
+
+  .myipad_pro{
+    margin-top: 15px;
+    /* margin-bottom: 15px; */
+
+  }
+
+  .myipad_pro1{
+    margin-top: 15px;
+    /* margin-bottom: 15px; */
+
+  }
+
+
+  #ipad_pro{
+    display: block ;
+  }
+
+  .myService_mobile{
+    display: none;
+  }
+  .myService_laptop{
+    display: none;
+
+  }
+  .myDomain_laptop{
+    display: none;
+  }
+  .myDomain_mobile{
+    display: none;
+  }
+  .myhome{
+    align-items: left;
+  }
+  .pro{
+    margin-top: 36px!important;
+    margin-bottom:25px!important;
+  }
+  .pro1{
+    margin-top: 15px!important;
+    margin-bottom:0px!important;
+  }
 
 }
