@@ -1,9 +1,13 @@
 body {
-  background-image: url('../images/contact.svg');
+  background-image: url('../images/contactPage.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+
 }
 .myImg{
   opacity: 0.1;
-}@media all and (max-width: 991px) {
+}
+@media all and (max-width: 991px) {
   *{
     overflow-x: hidden;
   }
